@@ -9,10 +9,10 @@ zone *
 zone H95-H102
 fit
 zone *
-zone H5-L30
+zone H5-H30
 zone H36-H49
 zone H66-H94
-zone H103-L104
+zone H103-H104
 fit
 rzone H31-H35
 rzone *

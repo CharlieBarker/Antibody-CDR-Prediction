@@ -2,7 +2,7 @@
 use strict;
 use Carp::Assert;
 
-open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
@@ -72,9 +72,10 @@ sub TestModel
 
  #   print $result;
 
-    my @values = (); #create array @values 
+
     my @errors = (); #create array @errors (for errors)
     my @lines = split(/\n/, $result); #split on returns to produce lines 
+    @lines = @lines[15..38]\n; #remove irrelevant part of profit output
     for my $line (@lines) #for every line in the array @lines
     {
 		#if Profit is unable to find relevant file, exit subroutine and print relevant missing file.
