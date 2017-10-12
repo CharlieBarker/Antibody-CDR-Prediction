@@ -2,7 +2,7 @@
 use strict;
 use Carp::Assert;
 
-open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
@@ -73,31 +73,41 @@ sub TestModel
  #   print $result;
 
     my @values = (); #create array @values 
+    my @errors = (); #create array @errors (for errors)
     my @lines = split(/\n/, $result); #split on returns to produce lines 
     for my $line (@lines) #for every line in the array @lines
     {
-        if($line =~ /RMS:\s+(.+)/) #search for lines that start with RMS (these are the things we are interested in). 
+		#if Profit is unable to find relevant file, exit subroutine and print relevant missing file.
+		if($line =~ /Unable to open file\s+(.+)/)
+		{
+			return($line);
+		}
+        elsif($line =~ /RMS:\s+(.+)/) #search for lines that start with RMS (these are the things we are interested in). 
         {
             push @values, $1;
             #print "$1\n";
             #print "@values\n";
         }
-        elsif ($line =~ /Unable to open file\s+(.+)/) 
+        elsif($line =~ /Error==>\s+(.+)/) #search for lines that start with error. 
         {
-			push @values, $1;
-			print "$line";
-		}
-		elsif ($line =~ /Error==> Failed to open: '$pftfile'\s+(.+)/) 
-        {	
-			push @values, $1;
-			print "Error==> Unable to open the ProFit instruction file ($pftfile)";
-		}
+            push @errors, $1; #store in error array
+        }       
     }
     my $valueCount = @values; 
-    assert($valueCount == 9, "Incorrect ProFit output. Number of RMSD values does not equal 9.");
-    
-    return($values[0], $values[1], $values[2],
-           $values[4], $values[6], $values[8]);
+
+	
+		
+    #assert($valueCount == 9, "Incorrect ProFit output. Number of RMSD values does not equal 9.");
+    if($valueCount == 9)
+    {
+		return($values[0], $values[1], $values[2],
+               $values[4], $values[6], $values[8]);
+    }
+    else
+    {
+		return($errors[0], $errors[1], $errors[2],
+               $errors[4], $errors[6], $errors[8]);
+	}
 }
 sub ProcessLine
 {
@@ -123,4 +133,3 @@ sub ProcessLine
     # Now deal with getting the list of PDB files
     return($ACTUALpdb, $MODELpdb);
 }
-
