@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use Carp::Assert;
+use List::MoreUtils;
 
 open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 
@@ -11,11 +12,18 @@ while(my $line = <DATA>){
 	my $MODELpath= "/home/charlie/Documents/pdb"; #specify path for the model pdb structure 
 	#LIGHT CHAIN RMSD
 
-	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag) = 
+	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); #testmodel subroutine calculates RSMD of ca local
-	#lines 8-9 pulls the scalars specified in return (lines 48-49) 
-
+	#lines 8-9 pulls the scalars specified in return from subroutine testmodel
+	
 	print "$ACTUALpdb\n\n";
+	#if the RMSD value count is not 9 then we've encountered an error
+	#so print the error messages found in the preamble of the profit readout. 
+	if($valueCount != 9)
+	{
+		print "ERROR\n";
+		print "@preambleErrors\n\n";
+	}
 	print "L1(CA)(local)  = $l1cal\n";
 	print "L2(CA)(local)  = $l2cal\n";
 	print "L3(CA)(local)  = $l3cal\n";
@@ -23,9 +31,14 @@ while(my $line = <DATA>){
 	print "L2(CA)(global) = $l2cag\n";
 	print "L3(CA)(global) = $l3cag\n";
 	#print on console with discription
-	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag) = 
+	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	#calculate RMSD for all atoms
+	if($valueCount != 9)
+	{
+		print "ERROR\n";
+		print "@preambleErrors\n\n";
+	}	
 
 	print "L1(all)(local) = $l1cal\n";
 	print "L2(all)(local) = $l2cal\n";
@@ -37,16 +50,26 @@ while(my $line = <DATA>){
 
 	#HEAVY CHAIN RMSD 
 
-	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag) = 
-		TestModel('H_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");  
+	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
+		TestModel('H_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	if($valueCount != 9)
+	{
+		print "ERROR\n";
+		print "@preambleErrors\n\n";
+	}  
 	print "H1(CA)(local)  = $H1cal\n";
 	print "H2(CA)(local)  = $H2cal\n";
 	print "H3(CA)(local)  = $H3cal\n";
 	print "H1(CA)(global) = $H1cag\n";
 	print "H2(CA)(global) = $H2cag\n";
 	print "H3(CA)(global) = $H3cag\n";
-	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag) = 
+	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
 		TestModel('H_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	if($valueCount != 9)
+	{
+		print "ERROR\n";
+		print "@preambleErrors\n\n";
+	}
 	#calculate RMSD for all atoms
 
 	print "H1(all)(local) = $H1cal\n";
@@ -73,16 +96,52 @@ sub TestModel
  #   print $result;
 
     my @values = (); #create array @values 
-    my @errors = (); #create array @errors (for errors)
-    my @lines = split(/\n/, $result); #split on returns to produce lines 
-    for my $line (@lines) #for every line in the array @lines
+    my @errors = (); #create array @errors (for errors in main body of readout)
+    my @preambleErrors = (); #create array @preambleErrors (for errors in preamble)
+    my @lines = split(/\n/, $result); #split on returns to produce lines.
+    #defines scope of variable $index.
+    my $index; 
+    #find the index of the line starting with "Starting script:".. its the bit 
+    #following this that is the interesting bit.
+    #BEWARE this is going to remove the bit that says unable to read file.
+    #this needs to be sorted out later. 
+    for my $line1 (@lines) 
     {
+		if($line1 =~ /Starting\s+(.+)/)
+		{
+			my $search = $line1;
+			$index = List::MoreUtils::first_index {$_ eq $search} @lines;
+			
+		}		
+	}
+	#count the number of lines in profit readout
+	my $lineCount = @lines; 
+	#splice out the mostly irrelvant part of the profit readout to leave relevant readings
+	#(@relevantOutput)
+	my @relevantOutput = splice(@lines, $index, $lineCount);
+	#splice out the profit preamble (entirely useless) so we have the part of the preamble
+	#that contains all the initial error messages that we may want to record. 
+	
+	my @UselessPreamble = splice(@lines, 0, 15);
+	for my $line (@lines)
+	{
 		#if Profit is unable to find relevant file, exit subroutine and print relevant missing file.
 		if($line =~ /Unable to open file\s+(.+)/)
 		{
-			return($line);
+			push @preambleErrors, $1;
 		}
-        elsif($line =~ /RMS:\s+(.+)/) #search for lines that start with RMS (these are the things we are interested in). 
+		elsif($line =~ /Error==>\s+(.+)/) #search for lines that start with error. 
+        {
+            push @preambleErrors, $1; #store in error array
+        }
+    }
+
+
+    #next bit finds RMSDs and errors of the profit readout. 
+    
+    for my $line (@relevantOutput) #for every line in the array @lines
+    {
+        if($line =~ /RMS:\s+(.+)/) #search for lines that start with RMS (these are the things we are interested in). 
         {
             push @values, $1;
             #print "$1\n";
@@ -91,8 +150,15 @@ sub TestModel
         elsif($line =~ /Error==>\s+(.+)/) #search for lines that start with error. 
         {
             push @errors, $1; #store in error array
-        }       
+        }
+               
     }
+   
+    #count number of RMSD values
+    #this is a test to see if the RSMD calculations have gone well
+    #if this is equal to 9 then they have gone flawlessly (correct assumption?)
+    #if not then the @error and @preambleError arrays are returned rather than 
+    #the rmsds
     my $valueCount = @values; 
 
 	
@@ -101,12 +167,14 @@ sub TestModel
     if($valueCount == 9)
     {
 		return($values[0], $values[1], $values[2],
-               $values[4], $values[6], $values[8]);
+               $values[4], $values[6], $values[8],
+               $valueCount);
     }
     else
     {
 		return($errors[0], $errors[1], $errors[2],
-               $errors[4], $errors[6], $errors[8]);
+               $errors[3], $errors[4], $errors[5],
+               $valueCount, @preambleErrors);
 	}
 }
 sub ProcessLine
