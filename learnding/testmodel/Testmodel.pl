@@ -3,7 +3,7 @@ use strict;
 use Carp::Assert;
 use List::MoreUtils;
 
-open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -31,7 +31,8 @@ while(my $line = <DATA>){
 			print "$_\n";
 		}
 	}
-	#if $valueCount does = 9 increment count
+		#if value count does equal 9 increment count
+
 	else
 	{
 		$count++;
@@ -55,7 +56,8 @@ while(my $line = <DATA>){
 			print "$_\n";
 		}
 	}
-		#if $valueCount does = 9 increment count
+		#if value count does equal 9 increment count
+
 	else
 	{
 		$count++;
@@ -82,7 +84,8 @@ while(my $line = <DATA>){
 			print "$_\n";
 		}
 	}
-		#if $valueCount does = 9 increment count
+		#if value count does equal 9 increment count
+
 	else
 	{
 		$count++;
@@ -104,15 +107,16 @@ while(my $line = <DATA>){
 			print "$_\n";
 		}
 	}
-		#if $valueCount does = 9 increment count
-	else
+	#if value count does equal 9 increment count
+    else
 	{
 		$count++;
 	}
+	print $count; 
 	#always increment the total count on ever cycle. 
 	$totalCount++;
-	#if all the individual files have worked, increment success count
-	if($count = 4)
+	#if all the individual files have worked (or count = 4), increment success count
+	if($count == 4)
 	{
 		$successCount++;
 	}
