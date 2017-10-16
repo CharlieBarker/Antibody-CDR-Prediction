@@ -9,7 +9,7 @@ zone *
 zone H95-H102
 fit
 zone *
-zone H5-H30
+zone H7-H30
 zone H36-H49
 zone H66-H94
 zone H103-H104
@@ -18,7 +18,7 @@ rzone H31-H35
 rzone *
 rzone H50-H65
 rzone *
-rzone H95-H102
+rzone H95-H109
 
 #taken from Sequences of Proteins of Immunological Interest
 #By Elvin A. Kabat, Tai Te Wu, Carl Foeller, Harold M. Perry, Kay S. Gottesman
