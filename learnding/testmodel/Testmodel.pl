@@ -4,7 +4,9 @@ use Carp::Assert;
 use List::MoreUtils;
 
 open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
-
+#start counting succesful rmsd calculations for means and stats
+my $successCount = 0;
+my $totalCount = 0; 
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
@@ -14,16 +16,27 @@ while(my $line = <DATA>){
 
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); #testmodel subroutine calculates RSMD of ca local
-	#lines 8-9 pulls the scalars specified in return from subroutine testmodel
-	
+	#create count to incrememnt every time RMSD is correctly calculated for every profit instruction file
+	#if this count is the correct number (4) we can increment successcount.
+	#this makes the success count only count proteins where every file has worked rather than just one.
+	my $count = 0;
 	print "$ACTUALpdb\n\n";
 	#if the RMSD value count is not 9 then we've encountered an error
 	#so print the error messages found in the preamble of the profit readout. 
 	if($valueCount != 9)
 	{
 		print "ERROR\n";
-		print "@preambleErrors\n\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
 	}
+	#if $valueCount does = 9 increment count
+	else
+	{
+		$count++;
+	}
+	print "\n";
 	print "L1(CA)(local)  = $l1cal\n";
 	print "L2(CA)(local)  = $l2cal\n";
 	print "L3(CA)(local)  = $l3cal\n";
@@ -37,8 +50,17 @@ while(my $line = <DATA>){
 	if($valueCount != 9)
 	{
 		print "ERROR\n";
-		print "@preambleErrors\n\n";
-	}	
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
+	}
+		#if $valueCount does = 9 increment count
+	else
+	{
+		$count++;
+	}
+	print "\n";
 
 	print "L1(all)(local) = $l1cal\n";
 	print "L2(all)(local) = $l2cal\n";
@@ -55,8 +77,17 @@ while(my $line = <DATA>){
 	if($valueCount != 9)
 	{
 		print "ERROR\n";
-		print "@preambleErrors\n\n";
-	}  
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
+	}
+		#if $valueCount does = 9 increment count
+	else
+	{
+		$count++;
+	}
+	print "\n";
 	print "H1(CA)(local)  = $H1cal\n";
 	print "H2(CA)(local)  = $H2cal\n";
 	print "H3(CA)(local)  = $H3cal\n";
@@ -68,8 +99,24 @@ while(my $line = <DATA>){
 	if($valueCount != 9)
 	{
 		print "ERROR\n";
-		print "@preambleErrors\n\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
 	}
+		#if $valueCount does = 9 increment count
+	else
+	{
+		$count++;
+	}
+	#always increment the total count on ever cycle. 
+	$totalCount++;
+	#if all the individual files have worked, increment success count
+	if($count = 4)
+	{
+		$successCount++;
+	}
+	print "\n";
 	#calculate RMSD for all atoms
 
 	print "H1(all)(local) = $H1cal\n";
@@ -85,7 +132,8 @@ while(my $line = <DATA>){
 	#print("Model PDB file: $MODELpdb\n"); 
 
 }
-
+#print counts
+print "RMSDs were calculated for $successCount out of a total of $totalCount proteins";
 
 sub TestModel
 {
