@@ -1,9 +1,8 @@
 #!/usr/bin/perl
 use strict;
-use Carp::Assert;
 use List::MoreUtils;
 
-open(DATA, "</home/charlie/Documents/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -151,20 +150,20 @@ sub TestModel
     my @preambleErrors = (); #create array @preambleErrors (for errors in preamble)
     my @lines = split(/\n/, $result); #split on returns to produce lines.
     #defines scope of variable $index.
-    my $index; 
+    my $search_For;
+    my $line; 
     #find the index of the line starting with "Starting script:".. its the bit 
     #following this that is the interesting bit.
     #BEWARE this is going to remove the bit that says unable to read file.
     #this needs to be sorted out later. 
-    for my $line1 (@lines) 
+    for my $line (@lines) 
     {
-		if($line1 =~ /Starting\s+(.+)/)
+		if($line =~ /Starting\s+(.+)/)
 		{
-			my $search = $line1;
-			$index = List::MoreUtils::first_index {$_ eq $search} @lines;
-			
+			$search_For = $line; 
 		}		
 	}
+	my $index = grep{$lines[$_] eq $search_For} 0..$#lines;
 	#count the number of lines in profit readout
 	my $lineCount = @lines; 
 	#splice out the mostly irrelvant part of the profit readout to leave relevant readings
