@@ -8,7 +8,7 @@ while(my $line = <>) #cycle through lines of redundancy file
 	print("Seqfile: $seqfile\n");
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
-	my $someVariable = `/home/charlie/Documents/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /home/charlie/Documents/abymod/DATA/abseqlib/$seqfile > /home/charlie/Documents/pdb/$pdbfile`;
+	my $someVariable = `/acrm/bsmhome/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /acrm/bsmhome/abymod/DATA/abseqlib/$seqfile > /acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models/$pdbfile`;
 	#system("/home/charlie/Documents/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /home/charlie/Documents/abymod/DATA/abseqlib/$seqfile > /home/charlie/Documents/pdb/$pdbfile"); #external command to run abymod in a loop
 	my $count++;     #counter to keep track of progress
 	print("$count\n");
