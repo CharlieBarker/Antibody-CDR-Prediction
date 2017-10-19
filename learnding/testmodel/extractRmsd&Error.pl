@@ -1,7 +1,8 @@
-#THIS FILE PRINTS SUCCESSFULLY CALCULATED RMSDs ONLY AND NO ERRORS. FOR ERRORS USE extractRmsd&Error.pl
 #!/usr/bin/perl
 use strict;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+
+
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -19,81 +20,111 @@ while(my $line = <DATA>){
 	#if this count is the correct number (4) we can increment successcount.
 	#this makes the success count only count proteins where all 4 files has worked rather than just one.
 	my $count = 0;
+	print "$ACTUALpdb\n\n";
 	#if the RMSD value count is not 9 then we've encountered an error
 	#so print the error messages found in the preamble of the profit readout. 
-	if($valueCount == 9)
+	if($valueCount != 9)
 	{
-		$count++;
-		print "\n";
-		print "$ACTUALpdb L1(CA)(local)  = $l1cal\n";
-		print "$ACTUALpdb L2(CA)(local)  = $l2cal\n";
-		print "$ACTUALpdb L3(CA)(local)  = $l3cal\n";
-		print "$ACTUALpdb L1(CA)(global) = $l1cag\n";
-		print "$ACTUALpdb L2(CA)(global) = $l2cag\n";
-		print "$ACTUALpdb L3(CA)(global) = $l3cag\n";
+		print "ERROR\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
 	}
 		#if value count does equal 9 increment count
 
-
+	else
+	{
+		$count++;
+	}
+	print "\n";
+	print "L1(CA)(local)  = $l1cal\n";
+	print "L2(CA)(local)  = $l2cal\n";
+	print "L3(CA)(local)  = $l3cal\n";
+	print "L1(CA)(global) = $l1cag\n";
+	print "L2(CA)(global) = $l2cag\n";
+	print "L3(CA)(global) = $l3cag\n";
 	#print on console with discription
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	#calculate RMSD for all atoms
-	if($valueCount == 9)
+	if($valueCount != 9)
 	{
-		$count++;
-		print "$ACTUALpdb L1(all)(local) = $l1cal\n";
-		print "$ACTUALpdb L2(all)(local) = $l2cal\n";
-		print "$ACTUALpdb L3(all)(local) = $l3cal\n";
-		print "$ACTUALpdb L1(all)(global)= $l1cag\n";
-		print "$ACTUALpdb L2(all)(global)= $l2cag\n";
-		print "$ACTUALpdb L3(all)(global)= $l3cag\n";
+		print "ERROR\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
 	}
 		#if value count does equal 9 increment count
 
-
+	else
+	{
+		$count++;
+	}
 	print "\n";
 
+	print "L1(all)(local) = $l1cal\n";
+	print "L2(all)(local) = $l2cal\n";
+	print "L3(all)(local) = $l3cal\n";
+	print "L1(all)(global)= $l1cag\n";
+	print "L2(all)(global)= $l2cag\n";
+	print "L3(all)(global)= $l3cag\n";
+	#print onto console with description 
 
 	#HEAVY CHAIN RMSD 
 
 	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
 		TestModel('H_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
-	if($valueCount == 9)
+	if($valueCount != 9)
 	{
-		$count++;
-		print "\n";
-		print "$ACTUALpdb H1(CA)(local)  = $H1cal\n";
-		print "$ACTUALpdb H2(CA)(local)  = $H2cal\n";
-		print "$ACTUALpdb H3(CA)(local)  = $H3cal\n";
-		print "$ACTUALpdb H1(CA)(global) = $H1cag\n";
-		print "$ACTUALpdb H2(CA)(global) = $H2cag\n";
-		print "$ACTUALpdb H3(CA)(global) = $H3cag\n";
+		print "ERROR\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
 	}
 		#if value count does equal 9 increment count
 
-
-	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
-		TestModel('H_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
-	if($valueCount == 9)
+	else
 	{
 		$count++;
-		print "$ACTUALpdb H1(all)(local) = $H1cal\n";
-		print "$ACTUALpdb H2(all)(local) = $H2cal\n";
-		print "$ACTUALpdb H3(all)(local) = $H3cal\n";
-		print "$ACTUALpdb H1(all)(global)= $H1cag\n";
-		print "$ACTUALpdb H2(all)(global)= $H2cag\n";
-		print "$ACTUALpdb H3(all)(global)= $H3cag\n";
-		print "\n\n"; 
 	}
-
+	print "\n";
+	print "H1(CA)(local)  = $H1cal\n";
+	print "H2(CA)(local)  = $H2cal\n";
+	print "H3(CA)(local)  = $H3cal\n";
+	print "H1(CA)(global) = $H1cag\n";
+	print "H2(CA)(global) = $H2cag\n";
+	print "H3(CA)(global) = $H3cag\n";
+	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
+		TestModel('H_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	if($valueCount != 9)
+	{
+		print "ERROR\n";
+		foreach (@preambleErrors) 
+		{
+			print "$_\n";
+		}
+	}
+	#if value count does equal 9 increment count
+    else
+	{
+		$count++;
+	}
 	#always increment the total count on ever cycle. 
 	$totalCount++;
 	#if all the individual files have worked (or count = 4), increment success count
 
 	#calculate RMSD for all atoms
 
-
+	print "H1(all)(local) = $H1cal\n";
+	print "H2(all)(local) = $H2cal\n";
+	print "H3(all)(local) = $H3cal\n";
+	print "H1(all)(global)= $H1cag\n";
+	print "H2(all)(global)= $H2cag\n";
+	print "H3(all)(global)= $H3cag\n";
+	print "\n\n"; 
 	#print onto console with description 
 
 	#print("Actual PDB file: $ACTUALpdb\n");
@@ -103,7 +134,11 @@ while(my $line = <DATA>){
 		$successCount++;
 	}
 	#so that i can cross reference the success counter with a control
-
+	else
+	{
+		print "ProFit failure\n";
+	}
+	print "\n";
 
 }
 #print counts
