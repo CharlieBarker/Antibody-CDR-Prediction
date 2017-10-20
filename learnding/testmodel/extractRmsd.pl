@@ -12,102 +12,107 @@ while(my $line = <DATA>){
 	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure 
 	#LIGHT CHAIN RMSD
 
+	#use Testmodel sub to call ProFit and calc RMSD for alpha carbons in light chain.
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); 
-	#testmodel subroutine calculates RSMD of ca local
 	#create count to incrememnt every time RMSD is correctly calculated for every profit instruction file
-	#if this count is the correct number (4) we can increment successcount.
-	#this makes the success count only count proteins where all 4 files has worked rather than just one.
+	#if this count is the correct number (4) we print. Otherwise we discard all the errors
 	my $count = 0;
-	#if the RMSD value count is not 9 then we've encountered an error
-	#so print the error messages found in the preamble of the profit readout. 
+	#if the RMSD value count is 9 then we assume everything went well with the ProFit RMSD calcs. 
+	my($l1CaLocal, $l2CaLocal, $l3CaLocal, $l1CaGlobal, $l2CaGlobal, $l3CaGlobal); 
 	if($valueCount == 9)
 	{
 		$count++;
-		print "\n";
-		print "$ACTUALpdb L1(CA)(local)  = $l1cal\n";
-		print "$ACTUALpdb L2(CA)(local)  = $l2cal\n";
-		print "$ACTUALpdb L3(CA)(local)  = $l3cal\n";
-		print "$ACTUALpdb L1(CA)(global) = $l1cag\n";
-		print "$ACTUALpdb L2(CA)(global) = $l2cag\n";
-		print "$ACTUALpdb L3(CA)(global) = $l3cag\n";
+		$l1CaLocal = $l1cal;
+		$l2CaLocal = $l2cal;
+		$l3CaLocal = $l3cal;
+		$l1CaGlobal = $l1cag;
+		$l2CaGlobal = $l2cag;
+		$l3CaGlobal = $l3cag;
 	}
-		#if value count does equal 9 increment count
 
-
-	#print on console with discription
+	#Do same again for all light chain atoms (using ProFit instruction file L_all.pft)
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
 		TestModel('L_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
-	#calculate RMSD for all atoms
+	my($l1AllLocal, $l2AllLocal, $l3AllLocal, $l1AllGlobal, $l2AllGlobal, $l3AllGlobal); 
 	if($valueCount == 9)
 	{
 		$count++;
-		print "$ACTUALpdb L1(all)(local) = $l1cal\n";
-		print "$ACTUALpdb L2(all)(local) = $l2cal\n";
-		print "$ACTUALpdb L3(all)(local) = $l3cal\n";
-		print "$ACTUALpdb L1(all)(global)= $l1cag\n";
-		print "$ACTUALpdb L2(all)(global)= $l2cag\n";
-		print "$ACTUALpdb L3(all)(global)= $l3cag\n";
+		$l1AllLocal = $l1cal;
+		$l2AllLocal = $l2cal;
+		$l3AllLocal = $l3cal;
+		$l1AllGlobal = $l1cag;
+		$l2AllGlobal = $l2cag;
+		$l3AllGlobal = $l3cag;
 	}
-		#if value count does equal 9 increment count
-
-
-	print "\n";
 
 
 	#HEAVY CHAIN RMSD 
-
+	#same again for alpha carbon atoms in heavy chain
 	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
 		TestModel('H_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	my($h1CaLocal, $h2CaLocal, $h3CaLocal, $h1CaGlobal, $h2CaGlobal, $h3CaGlobal);
 	if($valueCount == 9)
 	{
 		$count++;
-		print "\n";
-		print "$ACTUALpdb H1(CA)(local)  = $H1cal\n";
-		print "$ACTUALpdb H2(CA)(local)  = $H2cal\n";
-		print "$ACTUALpdb H3(CA)(local)  = $H3cal\n";
-		print "$ACTUALpdb H1(CA)(global) = $H1cag\n";
-		print "$ACTUALpdb H2(CA)(global) = $H2cag\n";
-		print "$ACTUALpdb H3(CA)(global) = $H3cag\n";
+		$h1CaLocal = $H1cal;
+		$h2CaLocal = $H2cal;
+		$h3CaLocal = $H3cal;
+		$h1CaGlobal = $H1cag;
+		$h2CaGlobal = $H2cag;
+		$h3CaGlobal = $H3cag;
 	}
-		#if value count does equal 9 increment count
 
 
+	#same again for all atoms in heavy chain
 	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
 		TestModel('H_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	my($h1AllLocal, $h2AllLocal, $h3AllLocal, $h1AllGlobal, $h2AllGlobal, $h3AllGlobal); 
 	if($valueCount == 9)
 	{
 		$count++;
-		print "$ACTUALpdb H1(all)(local) = $H1cal\n";
-		print "$ACTUALpdb H2(all)(local) = $H2cal\n";
-		print "$ACTUALpdb H3(all)(local) = $H3cal\n";
-		print "$ACTUALpdb H1(all)(global)= $H1cag\n";
-		print "$ACTUALpdb H2(all)(global)= $H2cag\n";
-		print "$ACTUALpdb H3(all)(global)= $H3cag\n";
-		print "\n\n"; 
+		$h1AllLocal = $H1cal;
+		$h2AllLocal = $H2cal;
+		$h3AllLocal = $H3cal;
+		$h1AllGlobal = $H1cag;
+		$h2AllGlobal = $H2cag;
+		$h3AllGlobal = $H3cag;
 	}
-
-	#always increment the total count on ever cycle. 
-	$totalCount++;
-	#if all the individual files have worked (or count = 4), increment success count
-
-	#calculate RMSD for all atoms
-
-
-	#print onto console with description 
-
-	#print("Actual PDB file: $ACTUALpdb\n");
-	#print("Model PDB file: $MODELpdb\n"); 
+	
+	#if all of these 4 ProFit instruction files have been conducted without error (if($valueCount == 9) for all 4)
+	#print the results
 	if($count == 4)
 	{
-		$successCount++;
+		print "$ACTUALpdb L1(CA)(local)   = $l1CaLocal\n";
+		print "$ACTUALpdb L2(CA)(local)   = $l2CaLocal\n";
+		print "$ACTUALpdb L3(CA)(local)   = $l3CaLocal\n";
+		print "$ACTUALpdb L1(CA)(global)  = $l1CaGlobal\n";
+		print "$ACTUALpdb L2(CA)(global)  = $l2CaGlobal\n";
+		print "$ACTUALpdb L3(CA)(global)  = $l3CaGlobal\n";
+		print "$ACTUALpdb L1(all)(local)  = $l1AllLocal\n";
+		print "$ACTUALpdb L2(all)(local)  = $l2AllLocal\n";
+		print "$ACTUALpdb L3(all)(local)  = $l3AllLocal\n";
+		print "$ACTUALpdb L1(all)(global) = $l1AllGlobal\n";
+		print "$ACTUALpdb L2(all)(global) = $l2AllGlobal\n";
+		print "$ACTUALpdb L3(all)(global) = $l3AllGlobal\n";
+		print "$ACTUALpdb H1(CA)(local)   = $h1CaLocal\n";
+		print "$ACTUALpdb H2(CA)(local)   = $h2CaLocal\n";
+		print "$ACTUALpdb H3(CA)(local)   = $h3CaLocal\n";
+		print "$ACTUALpdb H1(CA)(global)  = $h1CaGlobal\n";
+		print "$ACTUALpdb H2(CA)(global)  = $h2CaGlobal\n";
+		print "$ACTUALpdb H3(CA)(global)  = $h3CaGlobal\n";
+		print "$ACTUALpdb H1(all)(local)  = $h1AllLocal\n";
+		print "$ACTUALpdb H2(all)(local)  = $h2AllLocal\n";
+		print "$ACTUALpdb H3(all)(local)  = $h3AllLocal\n";
+		print "$ACTUALpdb H1(all)(global) = $h1AllGlobal\n";
+		print "$ACTUALpdb H2(all)(global) = $h2AllGlobal\n";
+		print "$ACTUALpdb H3(all)(global) = $h3AllGlobal\n";
 	}
-	#so that i can cross reference the success counter with a control
+	
 
 
 }
-#print counts
-print "RMSDs were calculated for $successCount out of a total of $totalCount proteins";
+
 
 ####################SUBROUTINES##############################
 
