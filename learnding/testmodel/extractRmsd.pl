@@ -83,30 +83,30 @@ while(my $line = <DATA>){
 	#print the results
 	if($count == 4)
 	{
-		print "$ACTUALpdb L1(CA)(local)   = $l1CaLocal\n";
-		print "$ACTUALpdb L2(CA)(local)   = $l2CaLocal\n";
-		print "$ACTUALpdb L3(CA)(local)   = $l3CaLocal\n";
-		print "$ACTUALpdb L1(CA)(global)  = $l1CaGlobal\n";
-		print "$ACTUALpdb L2(CA)(global)  = $l2CaGlobal\n";
-		print "$ACTUALpdb L3(CA)(global)  = $l3CaGlobal\n";
-		print "$ACTUALpdb L1(all)(local)  = $l1AllLocal\n";
-		print "$ACTUALpdb L2(all)(local)  = $l2AllLocal\n";
-		print "$ACTUALpdb L3(all)(local)  = $l3AllLocal\n";
-		print "$ACTUALpdb L1(all)(global) = $l1AllGlobal\n";
-		print "$ACTUALpdb L2(all)(global) = $l2AllGlobal\n";
-		print "$ACTUALpdb L3(all)(global) = $l3AllGlobal\n";
-		print "$ACTUALpdb H1(CA)(local)   = $h1CaLocal\n";
-		print "$ACTUALpdb H2(CA)(local)   = $h2CaLocal\n";
-		print "$ACTUALpdb H3(CA)(local)   = $h3CaLocal\n";
-		print "$ACTUALpdb H1(CA)(global)  = $h1CaGlobal\n";
-		print "$ACTUALpdb H2(CA)(global)  = $h2CaGlobal\n";
-		print "$ACTUALpdb H3(CA)(global)  = $h3CaGlobal\n";
-		print "$ACTUALpdb H1(all)(local)  = $h1AllLocal\n";
-		print "$ACTUALpdb H2(all)(local)  = $h2AllLocal\n";
-		print "$ACTUALpdb H3(all)(local)  = $h3AllLocal\n";
-		print "$ACTUALpdb H1(all)(global) = $h1AllGlobal\n";
-		print "$ACTUALpdb H2(all)(global) = $h2AllGlobal\n";
-		print "$ACTUALpdb H3(all)(global) = $h3AllGlobal\n";
+		print "L1(CA)(local) = $l1CaLocal	$ACTUALpdb \n";
+		print "L2(CA)(local) = $l2CaLocal	$ACTUALpdb \n";
+		print "L3(CA)(local) = $l3CaLocal	$ACTUALpdb \n";
+		print "L1(CA)(global) = $l1CaGlobal	$ACTUALpdb \n";
+		print "L2(CA)(global) = $l2CaGlobal	$ACTUALpdb \n";
+		print "L3(CA)(global) = $l3CaGlobal	$ACTUALpdb \n";
+		print "L1(all)(local) = $l1AllLocal	$ACTUALpdb \n";
+		print "L2(all)(local) = $l2AllLocal	$ACTUALpdb \n";
+		print "L3(all)(local) = $l3AllLocal	$ACTUALpdb \n";
+		print "L1(all)(global) = $l1AllGlobal	$ACTUALpdb \n";
+		print "L2(all)(global) = $l2AllGlobal	$ACTUALpdb \n";
+		print "L3(all)(global) = $l3AllGlobal	$ACTUALpdb \n";
+		print "H1(CA)(local) = $h1CaLocal	$ACTUALpdb \n";
+		print "H2(CA)(local) = $h2CaLocal	$ACTUALpdb \n";
+		print "H3(CA)(local) = $h3CaLocal	$ACTUALpdb \n";
+		print "H1(CA)(global) = $h1CaGlobal	$ACTUALpdb \n";
+		print "H2(CA)(global) = $h2CaGlobal	$ACTUALpdb \n";
+		print "H3(CA)(global) = $h3CaGlobal	$ACTUALpdb \n";
+		print "H1(all)(local) = $h1AllLocal	$ACTUALpdb \n";
+		print "H2(all)(local) = $h2AllLocal	$ACTUALpdb \n";
+		print "H3(all)(local) = $h3AllLocal	$ACTUALpdb \n";
+		print "H1(all)(global) = $h1AllGlobal	$ACTUALpdb \n";
+		print "H2(all)(global) = $h2AllGlobal	$ACTUALpdb \n";
+		print "H3(all)(global) = $h3AllGlobal	$ACTUALpdb \n";
 	}
 	
 
@@ -121,90 +121,18 @@ sub TestModel
     my($pftfile, $actual, $model) = @_; #pass the inputed scalars into a default array
 
     my $result = `profit -f $pftfile $actual $model`; #call external code and store output in scalar $results
-
- #   print $result;
-
     my @values = (); #create array @values 
-    my @errors = (); #create array @errors (for errors in main body of readout)
-    my @preambleErrors = (); #create array @preambleErrors (for errors in preamble)
-    my @lines = split(/\n/, $result); #split on returns to produce lines.
-    #defines scope of variable $index.
-    my $search_For;
-    my $line; 
-    #find the index of the line starting with "Starting script:".. its the bit 
-    #following this that is the interesting bit.
-    for my $line (@lines) 
-    {
-		if($line =~ /Starting\s+(.+)/)
-		{
-			$search_For = $line; 
-		}		
-	}
-        #find the index of the line starting with starting script
-	my $index = grep{$lines[$_] eq $search_For} 0..$#lines;
-	#count the number of lines in profit readout
-	my $lineCount = @lines; 
-	#splice out the mostly irrelvant part of the profit readout to leave relevant readings
-	#(@relevantOutput) by using the total number of lines (lineCount) and the index of where 
-	#preamble ends.
-	my @relevantOutput = splice(@lines, $index, $lineCount);
-	#splice out the profit preamble (entirely useless) so we have the part of the preamble
-	#that contains all the initial error messages that we may want to record. 
-	
-	my @UselessPreamble = splice(@lines, 0, 15);
-	for my $line (@lines)
-	{
-		#if Profit is unable to find relevant file, exit subroutine and print relevant missing file.
-		if($line =~ /Unable to open file\s+(.+)/)
-		{
-			push @preambleErrors, $1;
-		}
-		elsif($line =~ /Error==>\s+(.+)/) #search for lines that start with error. 
-        {
-            push @preambleErrors, $1; #store in error array
-        }
-    }
-
-
-    #next bit finds RMSDs and errors of the profit readout. 
-    
-    for my $line (@relevantOutput) #for every line in the array @lines
+    my @lines = split(/\n/, $result); #split on returns to produce lines 
+    for my $line (@lines) #for every line in the array @lines
     {
         if($line =~ /RMS:\s+(.+)/) #search for lines that start with RMS (these are the things we are interested in). 
         {
-            push @values, $1;
-            #print "$1\n";
-            #print "@values\n";
+            push @values, $1; #push values into empty array @values
         }
-        elsif($line =~ /Error==>\s+(.+)/) #search for lines that start with error. 
-        {
-            push @errors, $1; #store in error array
-        }
-               
     }
-   
-    #count number of RMSD values
-    #this is a test to see if the RSMD calculations have gone well
-    #if this is equal to 9 then they have gone flawlessly (correct assumption?)
-    #if not then the @error and @preambleError arrays are returned rather than 
-    #the rmsds
-    my $valueCount = @values; 
-
-	
-		
-    #assert($valueCount == 9, "Incorrect ProFit output. Number of RMSD values does not equal 9.");
-    if($valueCount == 9)
-    {
-		return($values[0], $values[1], $values[2],
-               $values[4], $values[6], $values[8],
-               $valueCount);
-    }
-    else
-    {
-		return($errors[0], $errors[1], $errors[2],
-               $errors[3], $errors[4], $errors[5],
-               $valueCount, @preambleErrors);
-	}
+    my $valueCount = @values; 		
+    return($values[0], $values[1], $values[2],
+           $values[4], $values[6], $values[8], $valueCount);
 }
 sub ProcessLine
 {
