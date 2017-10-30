@@ -1,7 +1,9 @@
-#THIS FILE PRINTS SUCCESSFULLY CALCULATED RMSDs ONLY AND NO ERRORS. FOR ERRORS USE extractRmsd&Error.pl
 #!/usr/bin/perl
+
+#THIS FILE PRINTS SUCCESSFULLY CALCULATED RMSDs ONLY AND NO ERRORS. FOR ERRORS USE extractRmsd&Error.pl
+
 use strict;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -9,7 +11,8 @@ while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
 	my $ACTUALpath= "/acrm/bsmhome/abymod/DATA/abpdblib"; #specify path for the actual pdb structure 
-	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure 
+	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure.
+
 	#LIGHT CHAIN RMSD
 
 	#use Testmodel sub to call ProFit and calc RMSD for alpha carbons in light chain.
@@ -120,7 +123,7 @@ sub TestModel
 {
     my($pftfile, $actual, $model) = @_; #pass the inputed scalars into a default array
 
-    my $result = `profit -f $pftfile $actual $model`; #call external code and store output in scalar $results
+    my $result = `profit -f /acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/$pftfile $actual $model`; #call external code and store output in scalar $results
     my @values = (); #create array @values 
     my @lines = split(/\n/, $result); #split on returns to produce lines 
     for my $line (@lines) #for every line in the array @lines

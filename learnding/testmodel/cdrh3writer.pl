@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 #####FILE FOR CREATING TAB SEPERATED DATA TABLE#####
 use strict;
 #create empty arrays for all the columns of data
