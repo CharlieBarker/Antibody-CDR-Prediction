@@ -2,7 +2,7 @@
 
 use strict;
 my $count = 0;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {

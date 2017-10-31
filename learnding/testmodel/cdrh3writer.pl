@@ -8,6 +8,7 @@ my @caGlobal = ();
 my @allLocal = ();
 my @allGlobal = (); 
 my @pdbName = ();
+print STDERR "WRITING .XLS FILE\n";
 #extract the relevant data from the output of extractRmsd.pl
 while(my $line = <>) #cycle through lines of redundancy file
 
@@ -68,5 +69,5 @@ print "$ele\t$dataTable[$index+1]\t$dataTable[$index+2]\t$dataTable[$index+3]\t$
 
 }
 }
-
+print STDERR "fin\n";
 

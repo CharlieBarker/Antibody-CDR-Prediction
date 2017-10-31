@@ -3,10 +3,11 @@
 #THIS FILE PRINTS SUCCESSFULLY CALCULATED RMSDs ONLY AND NO ERRORS. FOR ERRORS USE extractRmsd&Error.pl
 
 use strict;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
+print STDERR "CALCULATING RMSD VALUES\n";
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
@@ -17,7 +18,9 @@ while(my $line = <DATA>){
 
 	#use Testmodel sub to call ProFit and calc RMSD for alpha carbons in light chain.
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
-		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); 
+		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+	#increment total count (used for progress calculation) 
+	$totalCount++;
 	#create count to incrememnt every time RMSD is correctly calculated for every profit instruction file
 	#if this count is the correct number (4) we print. Otherwise we discard all the errors
 	my $count = 0;
@@ -112,6 +115,12 @@ while(my $line = <DATA>){
 		print "H3(all)(global) = $h3AllGlobal	$ACTUALpdb \n";
 	}
 	
+	#next bit is to keep track of progress. will go in stderr because stdout will be written to file.
+	#DOESNT SEEM TO WORK. WWWHHHY?
+
+	my $percentage = round(($totalCount/1180)*100);
+	print STDERR "Progress : $percentage %\r";
+	
 
 
 }
@@ -160,4 +169,12 @@ sub ProcessLine
     my $ACTUALpdb = "\L$seqfile" . ".pdb"; # Change to lower case and add .seq
     # Now deal with getting the list of PDB files
     return($ACTUALpdb, $MODELpdb);
+}
+#subroutine for rounding. 
+#any number greater than .5 will be increased to the next highest integer, and any number less than 
+#.5 will remain the current integer, which has the same effect as rounding. 
+sub round 
+{
+    my($number) = shift;
+    return int($number + .5);
 }
