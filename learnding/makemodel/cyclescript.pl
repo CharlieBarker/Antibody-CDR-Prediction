@@ -1,6 +1,25 @@
+#!/usr/bin/perl
+
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       cyclescript.pl
+#   Date:       03.10.17
+#   Function:   Runs abYmod over all the files listed in the protein 
+#               redundancy file, excluding redundant proteins. 
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	cyclescript.pl [-abYmodflags]
+#		See abYmod.pl for selection of abYmod flags. 
+#   Inputs: 	Redundancy file	(specified line 21).
+#   Outputs:	tmp file filled with predicted antibody models in pdb format. 
+#               
+#*************************************************************************
+
 use strict;
 my $count = 0;
-while(my $line = <>) #cycle through lines of redundancy file
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {
 	
@@ -8,10 +27,12 @@ while(my $line = <>) #cycle through lines of redundancy file
 	print("Seqfile: $seqfile\n");
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
-	my $someVariable = `/home/charlie/Documents/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /home/charlie/Documents/abymod/DATA/abseqlib/$seqfile > /home/charlie/Documents/pdb/$pdbfile`;
+	#@ARGV is adding arguments specfied in the command line. 
+	my $someVariable = `/acrm/bsmhome/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt @ARGV /acrm/bsmhome/abymod/DATA/abseqlib/$seqfile > /acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models/$pdbfile`;
 	#system("/home/charlie/Documents/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /home/charlie/Documents/abymod/DATA/abseqlib/$seqfile > /home/charlie/Documents/pdb/$pdbfile"); #external command to run abymod in a loop
-	my $count++;     #counter to keep track of progress
-	print("$count\n");
+	#my $count++;     #counter to keep track of progress
+	#print("$count\n");
+	print @ARGV; 
 	 
 	
 	

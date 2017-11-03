@@ -1,23 +1,46 @@
 #!/usr/bin/perl
-use strict;
-use List::MoreUtils;
 
-open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       extractRmsd&Error.pl
+#   Date:       03.10.17
+#   Function:   Same basic function as extractRmsd.pl save for the fact this
+#		script is not used in the main pipeline specified in the 
+#		masterscript (analyseabYmod.pl). This is because this gives
+#		a more detailed readout of the ProFit programme, errors and 
+# 		all, in a more human readable fashion. Hence, if the error 
+#		"ERROR: Unexpected ProFit RMSD calculations. Have you tried 
+#		running the extractRmsd&Error.pl script for debugging", this 
+#		is the script to run.  
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	extractRmsd&Error.pl 
+#   Inputs: 	pdb folder in \tmp file.
+#   Outputs:	RMSDoutput.txt in \tmp file. 
+#               
+#*************************************************************************
+
+use strict;
+
+
+open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
-	my $ACTUALpath= "/home/charlie/Documents/abymod/DATA/abpdblib"; #specify path for the actual pdb structure 
-	my $MODELpath= "/home/charlie/Documents/pdb"; #specify path for the model pdb structure 
+	my $ACTUALpath= "/acrm/bsmhome/abymod/DATA/abpdblib"; #specify path for the actual pdb structure 
+	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure 
 	#LIGHT CHAIN RMSD
 
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
-		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); #testmodel subroutine calculates RSMD of ca local
+		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb"); 
+	#testmodel subroutine calculates RSMD of ca local
 	#create count to incrememnt every time RMSD is correctly calculated for every profit instruction file
 	#if this count is the correct number (4) we can increment successcount.
-	#this makes the success count only count proteins where every file has worked rather than just one.
+	#this makes the success count only count proteins where all 4 files has worked rather than just one.
 	my $count = 0;
 	print "$ACTUALpdb\n\n";
 	#if the RMSD value count is not 9 then we've encountered an error
@@ -114,11 +137,7 @@ while(my $line = <DATA>){
 	#always increment the total count on ever cycle. 
 	$totalCount++;
 	#if all the individual files have worked (or count = 4), increment success count
-	if($count == 4)
-	{
-		$successCount++;
-	}
-	print "\n";
+
 	#calculate RMSD for all atoms
 
 	print "H1(all)(local) = $H1cal\n";
@@ -132,10 +151,22 @@ while(my $line = <DATA>){
 
 	#print("Actual PDB file: $ACTUALpdb\n");
 	#print("Model PDB file: $MODELpdb\n"); 
+	if($count == 4)
+	{
+		$successCount++;
+	}
+	#so that i can cross reference the success counter with a control
+	else
+	{
+		print "ProFit failure\n";
+	}
+	print "\n";
 
 }
 #print counts
 print "RMSDs were calculated for $successCount out of a total of $totalCount proteins";
+
+####################SUBROUTINES##############################
 
 sub TestModel
 {
@@ -154,8 +185,6 @@ sub TestModel
     my $line; 
     #find the index of the line starting with "Starting script:".. its the bit 
     #following this that is the interesting bit.
-    #BEWARE this is going to remove the bit that says unable to read file.
-    #this needs to be sorted out later. 
     for my $line (@lines) 
     {
 		if($line =~ /Starting\s+(.+)/)
@@ -163,11 +192,13 @@ sub TestModel
 			$search_For = $line; 
 		}		
 	}
+        #find the index of the line starting with starting script
 	my $index = grep{$lines[$_] eq $search_For} 0..$#lines;
 	#count the number of lines in profit readout
 	my $lineCount = @lines; 
 	#splice out the mostly irrelvant part of the profit readout to leave relevant readings
-	#(@relevantOutput)
+	#(@relevantOutput) by using the total number of lines (lineCount) and the index of where 
+	#preamble ends.
 	my @relevantOutput = splice(@lines, $index, $lineCount);
 	#splice out the profit preamble (entirely useless) so we have the part of the preamble
 	#that contains all the initial error messages that we may want to record. 

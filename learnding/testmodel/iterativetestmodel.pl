@@ -1,3 +1,14 @@
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       
+#   Date:       03.10.17
+#   Function:   
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#               
+#*************************************************************************
+
 use strict;
 open(DATA, "</home/charlie/Documents/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
 
