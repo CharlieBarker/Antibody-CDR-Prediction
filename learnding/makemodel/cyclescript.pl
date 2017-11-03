@@ -17,8 +17,8 @@
 #*************************************************************************
 
 use strict;
-my $count = 0;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+use config; 
+open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {
@@ -28,10 +28,7 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
 	#@ARGV is adding arguments specfied in the command line. 
-	my $someVariable = `/acrm/bsmhome/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt @ARGV /acrm/bsmhome/abymod/DATA/abseqlib/$seqfile > /acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models/$pdbfile`;
-	#system("/home/charlie/Documents/abymod/abymod.pl -exclude=$exclusions -v=3 -noopt /home/charlie/Documents/abymod/DATA/abseqlib/$seqfile > /home/charlie/Documents/pdb/$pdbfile"); #external command to run abymod in a loop
-	#my $count++;     #counter to keep track of progress
-	#print("$count\n");
+	my $someVariable = `$config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 -noopt @ARGV $config::abseqlib/$seqfile > $config::pdbFile/$pdbfile`;
 	print @ARGV; 
 	 
 	

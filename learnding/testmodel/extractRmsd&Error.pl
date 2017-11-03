@@ -22,17 +22,17 @@
 #*************************************************************************
 
 use strict;
+use config;
 
-
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
-	my $ACTUALpath= "/acrm/bsmhome/abymod/DATA/abpdblib"; #specify path for the actual pdb structure 
-	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure 
+	my $ACTUALpath= "$config::abpdblib"; #specify path for the actual pdb structure 
+	my $MODELpath= "$config::pdbFile"; #specify path for the model pdb structure 
 	#LIGHT CHAIN RMSD
 
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 

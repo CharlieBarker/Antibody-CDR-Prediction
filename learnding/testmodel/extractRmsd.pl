@@ -11,13 +11,16 @@
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
 #   Usage:	extractRmsd.pl 
+#		To switch from testRedundancy file to regular (or visa versa), 
+#		change "$config::testRedundancyFile" to "$config::redundancyFile".
 #   Inputs: 	pdb folder in \tmp file.
 #   Outputs:	RMSDoutput.txt in \tmp file. 
 #               
 #*************************************************************************
 
 use strict;
-open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";
+use config;
+open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -25,8 +28,8 @@ print STDERR "CALCULATING RMSD VALUES\n";
 while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
-	my $ACTUALpath= "/acrm/bsmhome/abymod/DATA/abpdblib"; #specify path for the actual pdb structure 
-	my $MODELpath= "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models"; #specify path for the model pdb structure.
+	my $ACTUALpath= "$config::abpdblib"; #specify path for the actual pdb structure 
+	my $MODELpath= "$config::pdbFile"; #specify path for the model pdb structure.
 
 	#LIGHT CHAIN RMSD
 
@@ -146,7 +149,7 @@ sub TestModel
 {
     my($pftfile, $actual, $model) = @_; #pass the inputed scalars into a default array
 
-    my $result = `profit -f /acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/$pftfile $actual $model`; #call external code and store output in scalar $results
+    my $result = `profit -f $config::testmodel/$pftfile $actual $model`; #call external code and store output in scalar $results
     my @values = (); #create array @values 
     my @lines = split(/\n/, $result); #split on returns to produce lines 
     for my $line (@lines) #for every line in the array @lines
