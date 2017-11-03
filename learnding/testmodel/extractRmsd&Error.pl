@@ -1,5 +1,26 @@
 #!/usr/bin/perl
 
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       extractRmsd&Error.pl
+#   Date:       03.10.17
+#   Function:   Same basic function as extractRmsd.pl save for the fact this
+#		script is not used in the main pipeline specified in the 
+#		masterscript (analyseabYmod.pl). This is because this gives
+#		a more detailed readout of the ProFit programme, errors and 
+# 		all, in a more human readable fashion. Hence, if the error 
+#		"ERROR: Unexpected ProFit RMSD calculations. Have you tried 
+#		running the extractRmsd&Error.pl script for debugging", this 
+#		is the script to run.  
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	extractRmsd&Error.pl 
+#   Inputs: 	pdb folder in \tmp file.
+#   Outputs:	RMSDoutput.txt in \tmp file. 
+#               
+#*************************************************************************
+
 use strict;
 
 

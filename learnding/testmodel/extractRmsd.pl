@@ -1,6 +1,20 @@
 #!/usr/bin/perl
 
-#THIS FILE PRINTS SUCCESSFULLY CALCULATED RMSDs ONLY AND NO ERRORS. FOR ERRORS USE extractRmsd&Error.pl
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       extractRmsd.pl
+#   Date:       03.10.17
+#   Function:   Calculated RMSDs using the program ProFit. This script produces 
+#		an output more readable to cdrh3writer.pl. If an unexpected 
+#		error occurs use the script extractRmsd&Error.pl to debug.
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	extractRmsd.pl 
+#   Inputs: 	pdb folder in \tmp file.
+#   Outputs:	RMSDoutput.txt in \tmp file. 
+#               
+#*************************************************************************
 
 use strict;
 open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";

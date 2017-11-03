@@ -1,4 +1,16 @@
 #*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       cdrproperties.pl
+#   Date:       03.10.17
+#   Function:   pulls out the cdr length, anchor RMSD and sequence similarity
+#               of the queried protein and the template used for CDRH3. 
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#               
+#*************************************************************************
+
+#*************************************************************************
 #> ($score, $similarityScore) = CalcMismatchedCDRScore($cdr, $aSeqFileContents, 
 #                                            $canFile, $hMDM)
 #  ------------------------------------------------------------------

@@ -1,5 +1,21 @@
 #!/usr/bin/perl
 
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       cyclescript.pl
+#   Date:       03.10.17
+#   Function:   Runs abYmod over all the files listed in the protein 
+#               redundancy file, excluding redundant proteins. 
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	cyclescript.pl [-abYmodflags]
+#		See abYmod.pl for selection of abYmod flags. 
+#   Inputs: 	Redundancy file	(specified line 21).
+#   Outputs:	tmp file filled with predicted antibody models in pdb format. 
+#               
+#*************************************************************************
+
 use strict;
 my $count = 0;
 open(DATA, "</acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/testmodel/TEST_Redundant_LH_Combined_Chothia.txt") or die "Couldn't open file file.txt, $!";

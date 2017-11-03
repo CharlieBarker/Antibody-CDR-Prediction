@@ -1,6 +1,22 @@
 #!/usr/bin/perl
 
-#####FILE FOR CREATING TAB SEPERATED DATA TABLE#####
+#*************************************************************************
+#
+#   Program:    analyseabYmod
+#   File:       cdrh3writer.pl
+#   Date:       03.10.17
+#   Function:   Takes the output of extractRmsd&Error.pl/extractRmsd.pl 
+#		and puts it into tab seperated format so that the data
+# 		can easily be turned into a .xls table and thus read by 
+#		R for statistical analysis. 
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	cdrh3writer.pl results/RMSDoutput.txt > 
+#		results/spreadsheets/jobname.xls`;
+#   Inputs:	RMSDoutput.txt 	
+#   Outputs:	jobname.xls
+#               
+#*************************************************************************
 use strict;
 #create empty arrays for all the columns of data
 my @caLocal = (); 
