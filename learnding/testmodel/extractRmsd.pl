@@ -20,7 +20,14 @@
 
 use strict;
 use config;
-open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
+#open redundancy file or print error message.
+#swap testRedundancyFile for redundancyFile if not testing 
+open(DATA, "<$config::testRedundancyFile"); 
+if(!open(DATA, "<$config::testRedundancyFile"))
+{
+    print STDERR "Error: unable to open file $config::testRedundancyFile\n";
+    exit 1;
+}
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 
@@ -132,8 +139,7 @@ while(my $line = <DATA>){
 		print "H3(all)(global) = $h3AllGlobal	$ACTUALpdb \n";
 	}
 	
-	#next bit is to keep track of progress. will go in stderr because stdout will be written to file.
-	#DOESNT SEEM TO WORK. WWWHHHY?
+	#next bit is to keep track of progress. 
 
 	my $percentage = round(($totalCount/1180)*100);
 	print STDERR "Progress : $percentage %\r";
@@ -142,7 +148,12 @@ while(my $line = <DATA>){
 
 }
 
+#print warning if only half the maximum possible RMSDs are created 
 
+if($totalCount =< 590)
+{
+	print STDERR "WARNING: RMSDs for only HALF the number of pdb files were created"
+}
 ####################SUBROUTINES##############################
 
 sub TestModel

@@ -9,8 +9,8 @@
 #		script is not used in the main pipeline specified in the 
 #		masterscript (analyseabYmod.pl). This is because this gives
 #		a more detailed readout of the ProFit programme, errors and 
-# 		all, in a more human readable fashion. Hence, if the error 
-#		"ERROR: Unexpected ProFit RMSD calculations. Have you tried 
+# 		all, in a more human readable fashion. Hence, if the warning
+#		"WARNING: Unexpected ProFit RMSD calculations. Have you tried 
 #		running the extractRmsd&Error.pl script for debugging", this 
 #		is the script to run.  
 #   Author:     Charlie Barker
@@ -24,7 +24,7 @@
 use strict;
 use config;
 
-open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
+open(DATA, "<$config::redundancyFile") or die "Couldn't open file file.txt, $!";
 #start counting succesful rmsd calculations for means and stats
 my $successCount = 0;
 my $totalCount = 0; 

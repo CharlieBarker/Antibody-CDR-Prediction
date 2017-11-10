@@ -18,7 +18,14 @@
 
 use strict;
 use config; 
-open(DATA, "<$config::testRedundancyFile") or die "Couldn't open file file.txt, $!";
+#open redundancy file or print error message.
+#swap testRedundancyFile for redundancyFile if not testing 
+open(DATA, "<$config::testRedundancyFile"); 
+if(!open(DATA, "<$config::testRedundancyFile"))
+{
+    print STDERR "Error: unable to open file $config::testRedundancyFile\n";
+    exit 1;
+}
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {
@@ -34,6 +41,7 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	
 	
 }
+
 sub ProcessLine
 {
     my($line) = @_;
@@ -75,10 +83,5 @@ sub ProcessLine
 
     return($seqfile, $exclusions, $pdbfile);
 }
-
-
-
-
-
 
 
