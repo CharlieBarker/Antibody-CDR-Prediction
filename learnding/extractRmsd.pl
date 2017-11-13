@@ -155,7 +155,8 @@ while(my $line = <DATA>){
 
 if($totalCount <= 590)
 {
-	print STDERR "WARNING: RMSDs for only HALF the number of pdb files were created\n"
+	print STDERR "WARNING: RMSDs for only HALF the number of pdb files were created. 
+	 You may want to run extractRmsd&Error.pl to find the issue\n"
 }
 ####################SUBROUTINES##############################
 
