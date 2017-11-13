@@ -9,6 +9,7 @@
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
 #   Usage:	analyseabYmod [nameofjob] [-abYmodflags] (see abymod.pl usage)
+#			Don't forget to put -noopt
 #		Can edit the code to redirect STDOUT into files 
 #		if you want to keep the STDOUT of the seperate scripts being
 #		ran.   
@@ -25,21 +26,24 @@ use strict;
 my $xlsName = shift(@ARGV);
 
 #create temporary folder for pdb data storage (produced by cyclescript.pl
-my $tmpdir = "$config::tmp";
+my $tmpdir = "/tmp/analyseabymod_$$";
 `mkdir $tmpdir`;
 if(! -d $tmpdir)
 {
     print STDERR "Error: unable to create directory $tmpdir\n";
     exit 1;
 }
+
+
+
 #RUN CYCLESCRIPT
-my $var = `./cyclescript.pl @ARGV`; 
+my $var = `./cyclescript.pl $tmpdir @ARGV`; 
 #RUN EXTRACT RMSD
-my $var = `./extractRmsd.pl > results/RMSDoutput.txt`;
+my $var = `./extractRmsd.pl $tmpdir > results/RMSDoutput.txt`;
 #RUN CDRH3WRITER
 my $var = `./cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
 #remove tmp folder
 
-#`rm -rf $tmpdir`;
+`rm -rf $tmpdir`;
 
 

@@ -20,6 +20,8 @@
 
 use strict;
 use config;
+#path for profit files
+my $pftPath = $config::pftScripts;
 #swap testRedundancyFile for redundancyFile if not testing 
 my $rdFile = $config::testRedundancyFile;
 #open redundancy file or print error message.
@@ -37,13 +39,13 @@ while(my $line = <DATA>){
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
 	my $ACTUALpath= "$config::abpdblib"; #specify path for the actual pdb structure 
-	my $MODELpath= "$config::tmp"; #specify path for the model pdb structure.
+	my $MODELpath= "@ARGV"; #specify path for the model pdb structure 
 
 	#LIGHT CHAIN RMSD
 
 	#use Testmodel sub to call ProFit and calc RMSD for alpha carbons in light chain.
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
-		TestModel('L_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+		TestModel("$pftPath/L_ca.pft","$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	#increment total count (used for progress calculation) 
 	$totalCount++;
 	#create count to incrememnt every time RMSD is correctly calculated for every profit instruction file
@@ -64,7 +66,7 @@ while(my $line = <DATA>){
 
 	#Do same again for all light chain atoms (using ProFit instruction file L_all.pft)
 	my($l1cal, $l2cal, $l3cal, $l1cag, $l2cag, $l3cag, $valueCount, @preambleErrors) = 
-		TestModel('L_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+		TestModel("$pftPath/L_all.pft","$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	my($l1AllLocal, $l2AllLocal, $l3AllLocal, $l1AllGlobal, $l2AllGlobal, $l3AllGlobal); 
 	if($valueCount == 9)
 	{
@@ -81,7 +83,7 @@ while(my $line = <DATA>){
 	#HEAVY CHAIN RMSD 
 	#same again for alpha carbon atoms in heavy chain
 	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
-		TestModel('H_ca.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+		TestModel("$pftPath/H_ca.pft","$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	my($h1CaLocal, $h2CaLocal, $h3CaLocal, $h1CaGlobal, $h2CaGlobal, $h3CaGlobal);
 	if($valueCount == 9)
 	{
@@ -97,7 +99,7 @@ while(my $line = <DATA>){
 
 	#same again for all atoms in heavy chain
 	my($H1cal, $H2cal, $H3cal, $H1cag, $H2cag, $H3cag, $valueCount, @preambleErrors) = 
-		TestModel('H_all.pft',"$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
+		TestModel("$pftPath/H_all.pft","$ACTUALpath/$ACTUALpdb", "$MODELpath/$MODELpdb");
 	my($h1AllLocal, $h2AllLocal, $h3AllLocal, $h1AllGlobal, $h2AllGlobal, $h3AllGlobal); 
 	if($valueCount == 9)
 	{

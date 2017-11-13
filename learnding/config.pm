@@ -28,8 +28,7 @@ $config::abseqlib="$config::dataDir/abseqlib";                 # sequence files
 $config::abcanlib="$config::dataDir/abcanlib";                 # canonical files
 
 # Temporary directory
-my $folderName = "analyseabymod_$$";
-$config::tmp="/tmp/$folderName";
+
 
 #Files 
 $config::redundancyFile="$config::rdFiles/Redundant_LH_Combined_Chothia.txt"; #full redundancy file

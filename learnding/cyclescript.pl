@@ -17,6 +17,7 @@
 #*************************************************************************
 use strict;
 use config; 
+
 #swap testRedundancyFile for redundancyFile if not testing 
 my $rdFile = $config::testRedundancyFile;
 #open redundancy file or print error message.
@@ -26,6 +27,10 @@ if(!open(DATA, "<$rdFile"))
     print STDERR "Error: unable to open file $rdFile\n";
     exit 1;
 }
+
+#get name of tmp folder for the current job from the beginning of @ARGV
+my $tmpdir = shift(@ARGV);
+print STDERR "$tmpdir\n";
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {
@@ -35,8 +40,8 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
 	#@ARGV is adding arguments specfied in the command line. 
-	my $someVariable = `$config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $config::tmp/$pdbfile`;
-	print STDERR @ARGV; 
+	my $someVariable = `$config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile`;
+	print STDERR "@ARGV\n"; 
 	 	
 }
 
