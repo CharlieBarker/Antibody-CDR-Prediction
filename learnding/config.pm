@@ -12,14 +12,14 @@ use strict;
 #*************************************************************************
 
 #Root directory for the analyseabYmod - YOU NEED TO CHANGE THIS TO WHERE 
-$config::analyseabYmodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding'; 
+$config::analyseabYmodRoot='/home/charlie/Documents/abymod-masters-project/learnding'; 
 
 #Root directory for abYmod
-$config::abymodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod_V1.19';
+$config::abymodRoot='/home/charlie/Documents/abymod/';
 
 #analyseabYmod folders
-$config::testmodel="$config::analyseabYmodRoot/testmodel"; #testmodel folder.
-$config::makemodel="$config::analyseabYmodRoot/makemodel"; #makemodel folder.
+$config::rdFiles="$config::analyseabYmodRoot/rdfiles"; #redundancy file folder.
+$config::pftScripts="$config::analyseabYmodRoot/profitscripts"; #profit script folder.
 
 #abYmod folders 
 $config::dataDir="$config::abymodRoot/DATA";
@@ -28,12 +28,11 @@ $config::abseqlib="$config::dataDir/abseqlib";                 # sequence files
 $config::abcanlib="$config::dataDir/abcanlib";                 # canonical files
 
 # Temporary directory
-$config::tmp     = "/var/tmp";  
+my $folderName = "analyseabymod_$$";
+$config::tmp="/tmp/$folderName";
 
 #Files 
-$config::redundancyFile="$config::makemodel/Redundant_LH_Combined_Chothia.txt"; #full redundancy file
-$config::testRedundancyFile="$config::makemodel/TEST_Redundant_LH_Combined_Chothia.txt"; #shortened redundacny file (for tests)
-$config::redundancyFile="$config::makemodel/Redundant_LH_Combined_Chothia.txt"; #sequences file
-$config::pdbFile='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/pdb_Models'; #pdb file folder TO CHANGE!!!!!!!!!!!
+$config::redundancyFile="$config::rdFiles/Redundant_LH_Combined_Chothia.txt"; #full redundancy file
+$config::testRedundancyFile="$config::rdFiles/TEST_Redundant_LH_Combined_Chothia.txt"; #shortened redundacny file (for tests)
 $config::chodat="$config::dataDir/canonical/chothia.dat.auto"; # Canonical definitions
 

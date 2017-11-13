@@ -17,6 +17,7 @@
 #               
 #*************************************************************************
 
+#DON'T FORGET TO USE -noopt
 use strict;
 
 my $var = `perl analyseabYmod.pl normal 2> results/abyModSTDERR/normal.txt`; 

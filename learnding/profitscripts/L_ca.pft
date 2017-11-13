@@ -1,0 +1,24 @@
+IGNORE
+atoms ca
+zone L24-L34 
+fit
+zone *
+zone L50-L56
+fit
+zone *
+zone L89-L97
+fit
+zone *
+zone L5-L23
+zone L35-L49
+zone L57-L88
+zone L98-L104
+fit
+rzone L24-L34
+rzone *
+rzone L50-L56
+rzone *
+rzone L89-L97
+
+#taken from Sequences of Proteins of Immunological Interest
+#By Elvin A. Kabat, Tai Te Wu, Carl Foeller, Harold M. Perry, Kay S. Gottesman

@@ -19,14 +19,27 @@
 #		        
 #*************************************************************************
 
+use config;
 use strict;
 #first element of argv is the name of xls file  
 my $xlsName = shift(@ARGV);
+
+#create temporary folder for pdb data storage (produced by cyclescript.pl
+my $tmpdir = "$config::tmp";
+`mkdir $tmpdir`;
+if(! -d $tmpdir)
+{
+    print STDERR "Error: unable to create directory $tmpdir\n";
+    exit 1;
+}
 #RUN CYCLESCRIPT
-my $var = `./makemodel/cyclescript.pl @ARGV`; 
+my $var = `./cyclescript.pl @ARGV`; 
 #RUN EXTRACT RMSD
-my $var = `./testmodel/extractRmsd.pl > results/RMSDoutput.txt`;
+my $var = `./extractRmsd.pl > results/RMSDoutput.txt`;
 #RUN CDRH3WRITER
-my $var = `./testmodel/cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
+my $var = `./cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
+#remove tmp folder
+
+#`rm -rf $tmpdir`;
 
 
