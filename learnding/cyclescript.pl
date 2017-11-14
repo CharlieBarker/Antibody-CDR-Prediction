@@ -19,7 +19,7 @@ use strict;
 use config; 
 
 #swap testRedundancyFile for redundancyFile if not testing 
-my $rdFile = $config::testRedundancyFile;
+my $rdFile = $config::redundancyFile;
 #open redundancy file or print error message.
 open(DATA, "<$rdFile"); 
 if(!open(DATA, "<$rdFile"))

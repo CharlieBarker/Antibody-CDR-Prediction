@@ -10,7 +10,7 @@
 #		error occurs use the script extractRmsd&Error.pl to debug.
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
-#   Usage:	extractRmsd.pl 
+#   Usage:	extractRmsd.pl [tmpdir name]
 #		To switch from testRedundancy file to regular (or visa versa), 
 #		change "$config::testRedundancyFile" to "$config::redundancyFile".
 #   Inputs: 	pdb folder in \tmp file.
@@ -23,7 +23,7 @@ use config;
 #path for profit files
 my $pftPath = $config::pftScripts;
 #swap testRedundancyFile for redundancyFile if not testing 
-my $rdFile = $config::testRedundancyFile;
+my $rdFile = $config::redundancyFile;
 #open redundancy file or print error message.
 open(DATA, "<$rdFile"); 
 if(!open(DATA, "<$rdFile"))
@@ -32,10 +32,13 @@ if(!open(DATA, "<$rdFile"))
     exit 1;
 }
 #start counting succesful rmsd calculations for means and stats
-my $successCount = 0;
-my $totalCount = 0; 
+my $successCount = 0;	#no. of successfully calculated rmsds
+my $totalCount = 0; 	#no. of calculated rmsds (including errors)
+my $rdFileCount = 0;	#total no. of proteins to be calculated
 print STDERR "CALCULATING RMSD VALUES\n";
 while(my $line = <DATA>){
+	#total no. of lines in the rdFile (equivalent to the total no. of calculations required)
+	$rdFileCount = $.;
 	my ($ACTUALpdb, $MODELpdb) = ProcessLine($line); #use subroutine below to extract file
 	                                                 #names of predicted and actual PDB structures to compare
 	my $ACTUALpath= "$config::abpdblib"; #specify path for the actual pdb structure 
@@ -140,24 +143,29 @@ while(my $line = <DATA>){
 		print "H1(all)(global) = $h1AllGlobal	$ACTUALpdb \n";
 		print "H2(all)(global) = $h2AllGlobal	$ACTUALpdb \n";
 		print "H3(all)(global) = $h3AllGlobal	$ACTUALpdb \n";
+		$successCount++;
 	}
 	
 	#next bit is to keep track of progress. 
 
-	my $percentage = round(($totalCount/1180)*100);
+	my $percentage = round(($totalCount/$rdFileCount)*100);
 	print STDERR "Progress : $percentage %\r";
 	
 
 
 }
+print STDERR "\n";
 
 #print warning if only half the maximum possible RMSDs are created 
 
-if($totalCount <= 590)
+if($successCount <= $rdFileCount/2)
 {
 	print STDERR "WARNING: RMSDs for only HALF the number of pdb files were created. 
 	 You may want to run extractRmsd&Error.pl to find the issue\n"
 }
+print STDERR "$rdFileCount\n";
+print STDERR "$totalCount\n"; 
+print STDERR "$successCount\n";
 ####################SUBROUTINES##############################
 
 sub TestModel

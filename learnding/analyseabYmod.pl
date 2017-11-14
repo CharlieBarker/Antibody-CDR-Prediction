@@ -44,6 +44,6 @@ my $var = `./extractRmsd.pl $tmpdir > results/RMSDoutput.txt`;
 my $var = `./cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
 #remove tmp folder
 
-`rm -rf $tmpdir`;
+#`rm -rf $tmpdir`;
 
 

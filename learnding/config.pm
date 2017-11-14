@@ -12,10 +12,10 @@ use strict;
 #*************************************************************************
 
 #Root directory for the analyseabYmod - YOU NEED TO CHANGE THIS TO WHERE 
-$config::analyseabYmodRoot='/home/charlie/Documents/abymod-masters-project/learnding'; 
+$config::analyseabYmodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding'; 
 
 #Root directory for abYmod
-$config::abymodRoot='/home/charlie/Documents/abymod/';
+$config::abymodRoot='/acrm/bsmhome/abymod_V1.19';
 
 #analyseabYmod folders
 $config::rdFiles="$config::analyseabYmodRoot/rdfiles"; #redundancy file folder.
