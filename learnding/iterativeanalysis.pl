@@ -10,7 +10,7 @@
 #   EMail:      zcbtark@ucl.ac.uk
 #   Usage:	iterativeanalysis 
 #		Control the jobs by editing the code below. 
-#		perl analyseabYmod.pl [jobname] [-abYmodflags] [<optional> 2> 
+#		perl analyseabYmod.pl [jobname] [-abYmodflags] [2> 
 #		results/abyModSTDERR/jobname.txt] 
 #		Optional allows the printing of STDERR readout into seperate file.
 #		Don't forget to use -noopt
@@ -61,7 +61,7 @@ my $job20 = "perl analyseabYmod.pl nLoops30 -noopt -nloophits=30 2> results/abyM
 my @jobs = ($job1, $job2, $job3, $job4, $job5, $job6, $job7, $job8, $job9, $job10, $job11, $job12,
 	$job13, $job14, $job15);
 #go through jobs running them while the total number of abymods that are running is less than 4
-foreach $job (@jobs)
+foreach my $job (@jobs)
 {
     my $nRunning  = 0;
     my $firstCall = 1;
@@ -89,5 +89,5 @@ foreach $job (@jobs)
 sub StartJob
 {
 	my ($job) = @_; 
-	`$job`;
+	 system($job);
 }
