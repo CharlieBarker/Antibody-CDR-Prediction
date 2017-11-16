@@ -89,5 +89,5 @@ foreach my $job (@jobs)
 sub StartJob
 {
 	my ($job) = @_; 
-	 system($job);
+	system("$job &")
 }
