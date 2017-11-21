@@ -31,7 +31,7 @@ $config::abcanlib="$config::dataDir/abcanlib";                 # canonical files
 
 
 #Files 
+#CHANGE THIS FOR TEST
 $config::redundancyFile="$config::rdFiles/Redundant_LH_Combined_Chothia.txt"; #full redundancy file
-$config::testRedundancyFile="$config::rdFiles/TEST_Redundant_LH_Combined_Chothia.txt"; #shortened redundacny file (for tests)
 $config::chodat="$config::dataDir/canonical/chothia.dat.auto"; # Canonical definitions
 

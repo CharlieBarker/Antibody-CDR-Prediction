@@ -10,7 +10,7 @@
 #		error occurs use the script extractRmsd&Error.pl to debug.
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
-#   Usage:	extractRmsd.pl [tmpdir name]
+#   Usage:	extractRmsd.pl [location of protein structures]
 #		To switch from testRedundancy file to regular (or visa versa), 
 #		change "$config::testRedundancyFile" to "$config::redundancyFile".
 #   Inputs: 	pdb folder in \tmp file.
