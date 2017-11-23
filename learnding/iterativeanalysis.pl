@@ -36,22 +36,15 @@ use strict;
 		
 
 
-my $job1 = "perl analyseabYmod.pl nLoops19 -noopt -loopdb -nloophits=19 2> results/abyModSTDERR/nLoops19.txt"; 
-my $job2 = "perl analyseabYmod.pl nLoops16 -noopt -loopdb -nloophits=16 2> results/abyModSTDERR/nLoops16.txt"; 
-my $job3 = "perl analyseabYmod.pl nLoops23 -noopt -loopdb -nloophits=23 2> results/abyModSTDERR/nLoops23.txt"; 
-my $job4 = "perl analyseabYmod.pl nLoops27 -noopt -loopdb -nloophits=27 2> results/abyModSTDERR/nLoops27.txt"; 
-my $job5 = "perl analyseabYmod.pl nLoops10 -noopt -loopdb -nloophits=10 2> results/abyModSTDERR/nLoops10.txt"; 
-my $job6 = "perl analyseabYmod.pl nLoops11 -noopt -loopdb -nloophits=11 2> results/abyModSTDERR/nLoops11.txt"; 
-my $job7 = "perl analyseabYmod.pl nLoops12 -noopt -loopdb -nloophits=12 2> results/abyModSTDERR/nLoops12.txt"; 
-my $job8 = "perl analyseabYmod.pl nLoops29 -noopt -loopdb -nloophits=29 2> results/abyModSTDERR/nLoops29.txt"; 
-my $job9 = "perl analyseabYmod.pl nLoops30 -noopt -loopdb -nloophits=30 2> results/abyModSTDERR/nLoops30.txt";
-my $job10 = "perl analyseabYmod.pl nLoops21 -noopt -loopdb -nloophits=21 2> results/abyModSTDERR/nLoops21.txt";
+my $job1 = "perl analyseabYmod.pl noloopdb -noopt -noloopdb 2> results/abyModSTDERR/noloopdb.txt"; 
+my $job2 = "perl analyseabYmod.pl loopdb -noopt -loopdb 2> results/abyModSTDERR/loopdb.txt"; 
+
 
 
 
 #####################################################################################################
 
-my @jobs = ($job1, $job2, $job3, $job4, $job5, $job6, $job7, $job8, $job9, $job10);
+my @jobs = ($job1, $job2);
 #go through jobs running them while the total number of abymods that are running is less than 4
 foreach my $job (@jobs)
 {

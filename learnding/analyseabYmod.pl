@@ -45,5 +45,3 @@ my $var = `./cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsNa
 #remove tmp folder
 
 `rm -rf $tmpdir`;
-
-
