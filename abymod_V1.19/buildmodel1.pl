@@ -223,6 +223,20 @@ else
         print STDERR "name -> $name\n";
         print STDERR "top E -> @loopInfo\n";
         print STDERR "done\n" if($::v >= 1);
+	if (-e "$config::analysisResults/loopinfo.txt") 
+	{ 
+   		open (MYFILE, ">>$config::analysisResults/loopinfo.txt");
+ 		print MYFILE "$name\t@loopInfo\t$targetCanonicals{'H3'}\n";
+ 		close (MYFILE); 
+	}
+	else 
+	{
+		`touch loopinfo.txt`;
+		open (MYFILE, ">>$config::analysisResults/loopinfo.txt");
+		print MYFILE "Name\tEnergy\tLoopsize\n";
+		print MYFILE "$name\t@loopInfo\t$targetCanonicals{'H3'}\n";
+ 		close (MYFILE);
+	}
     }
 
     if(defined($::modeller) && 
