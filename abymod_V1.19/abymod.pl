@@ -157,6 +157,7 @@ system($exe);
 
 # Run buildmodel.pl
 print STDERR "BUILDING MODEL...\n" if($::v >= 1);
+# CHANGE THIS TO BUILDMODEL 1 FOR YOUR OWN BUILD/ BUILDMODEL FOR THE ORIGINAL 
 $exe = "$binDir/buildmodel.pl $optString $kString $vString $modellerString $loopdbString $cdrString $tplFile $seqFile";
 $exe .= " >$pdbFile" if($pdbFile ne "");
 print STDERR "Running: $exe\n" if($::v >= 5);
