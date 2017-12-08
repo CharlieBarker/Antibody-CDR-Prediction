@@ -27,7 +27,10 @@ $config::abpdblib="$config::dataDir/abpdblib";                 # numbered PDB fi
 $config::abseqlib="$config::dataDir/abseqlib";                 # sequence files
 $config::abcanlib="$config::dataDir/abcanlib";                 # canonical files
 
-# Temporary directory
+# results
+$config::results="$config::analyseabYmodRoot/results";
+$config::abYmodSTDERR="$config::results/abyModSTDERR";
+
 
 
 #Files 

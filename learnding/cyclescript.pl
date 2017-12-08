@@ -9,7 +9,7 @@
 #               redundancy file, excluding redundant proteins. 
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
-#   Usage:	cyclescript.pl [-abYmodflags]
+#   Usage:	cyclescript.pl [directory you want to put pdb model in ][-abYmodflags]
 #		See abYmod.pl for selection of abYmod flags. 
 #   Inputs: 	Redundancy file	(specified line 21).
 #   Outputs:	tmp file filled with predicted antibody models in pdb format. 
@@ -34,14 +34,14 @@ print STDERR "$tmpdir\n";
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
 {
-	
 	my ($seqfile, $exclusions, $pdbfile) = ProcessLine($line); #use subroutine below
 	print("Seqfile: $seqfile\n");
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
 	#@ARGV is adding arguments specfied in the command line. 
-	my $someVariable = `time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile`;
-	print STDERR "@ARGV\n"; 
+	print STDERR "FILE NAME: $pdbfile\n"; 
+	`time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile`;
+	#print STDERR "@ARGV\n"; 
 	 	
 }
 
