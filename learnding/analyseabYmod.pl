@@ -39,9 +39,12 @@ if(! -d $tmpdir)
 #RUN CYCLESCRIPT
 my $var = `./cyclescript.pl $tmpdir @ARGV`; 
 #RUN EXTRACT RMSD
-my $var = `./extractRmsd.pl $tmpdir > results/RMSDoutput.txt`;
+my $var = `./extractRmsd.pl $tmpdir > $tmpdir/RMSDoutput.txt`;
 #RUN CDRH3WRITER
-my $var = `./cdrh3writer.pl results/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
-#remove tmp folder
-
+my $var = `./cdrh3writer.pl $tmpdir/RMSDoutput.txt > results/spreadsheets/$xlsName.xls`;
+#count pdb files and remove tmp folder
+my $dir = 'directory name goes here';
+my @files = <$tmpdir/*>;
+my $count = @files;
+print "PDB FILES PRODUCED: $count\n";
 `rm -rf $tmpdir`;
