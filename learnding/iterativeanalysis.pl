@@ -36,7 +36,7 @@ use strict;
 		
 
 
-my $job1 = "perl analyseabYmod.pl default -noopt -loopdb 2> results/abyModSTDERR/results/default.txt";  
+my $job1 = "perl analyseabYmod.pl default -noopt -loopdb 2> results/abyModSTDERR/default.txt";  
 my $job2 = "perl analyseabYmod.pl nLoops1 -noopt -loopdb -nloophits=1 2> results/abyModSTDERR/nLoops1.txt"; 
 my $job3 = "perl analyseabYmod.pl nLoops2 -noopt -loopdb -nloophits=2 2> results/abyModSTDERR/nLoops2.txt"; 
 my $job4 = "perl analyseabYmod.pl nLoops3 -noopt -loopdb -nloophits=3 2> results/abyModSTDERR/nLoops3.txt"; 
@@ -76,7 +76,8 @@ my $job31 = "perl analyseabYmod.pl nLoops30 -noopt -loopdb -nloophits=30 2> resu
 #####################################################################################################
 
 my @jobs = ($job1, $job2, $job3, $job4, $job5, $job6, $job7, $job8, $job9, $job10, $job11, $job12,
-	$job13, $job14, $job15, $job16, $job17, $job18, $job19, $job20, $job21, $job22, $job23, $job24, $job25, $job26, 	$job27, $job28, $job29, $job30, $job31);
+	$job13, $job14, $job15, $job16, $job17, $job18, $job19, $job20, $job21, $job22, $job23, $job24, $job25, $job26, $job27, $job28, $job29, $job30, $job31);
+@jobs = reverse @jobs;
 #go through jobs running them while the total number of abymods that are running is less than 4
 foreach my $job (@jobs)
 {
