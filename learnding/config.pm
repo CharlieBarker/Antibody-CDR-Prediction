@@ -35,6 +35,6 @@ $config::abYmodSTDERR="$config::results/abyModSTDERR";
 
 #Files 
 #CHANGE THIS FOR TEST
-$config::redundancyFile="$config::rdFiles/Redundant_LH_Combined_Chothia.txt"; #full redundancy file
+$config::redundancyFile="$config::rdFiles/0.98Redundant_LH_Combined_Chothia.txt"; #full redundancy file
 $config::chodat="$config::dataDir/canonical/chothia.dat.auto"; # Canonical definitions
 

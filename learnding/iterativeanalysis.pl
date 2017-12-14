@@ -36,7 +36,7 @@ use strict;
 		
 
 
-my $job1 = "perl analyseabYmod.pl default -noopt -loopdb 2> results/abyModSTDERR/default.txt";  
+my $job1 = "perl analyseabYmod.pl default -noopt 2> results/abyModSTDERR/default.txt";  
 my $job2 = "perl analyseabYmod.pl nLoops1 -noopt -loopdb -nloophits=1 2> results/abyModSTDERR/nLoops1.txt"; 
 my $job3 = "perl analyseabYmod.pl nLoops2 -noopt -loopdb -nloophits=2 2> results/abyModSTDERR/nLoops2.txt"; 
 my $job4 = "perl analyseabYmod.pl nLoops3 -noopt -loopdb -nloophits=3 2> results/abyModSTDERR/nLoops3.txt"; 
