@@ -35,9 +35,9 @@ use strict;
 #ALWAYS CHECK JOBS ARE RUNNING BY TYPING ps auxwww | grep abymod.pl  AFTER EXECUTION
 
 
-my $job1 = "perl analyseabYmod.pl 6arestraintloopdb -noopt -loopdb 2> results/abyModSTDERR/6arestraintloopdb.txt";  
-my $job2 = "perl analyseabYmod.pl 6arestraintnoloopdb -noopt -noloopdb 2> results/abyModSTDERR/6arestraintnoloopdb.txt"; 
-my $job3 = "perl analyseabYmod.pl 6arestraintdefault -noopt 2> results/abyModSTDERR/6arestraintdefault.txt"; 
+my $job1 = "perl analyseabYmod.pl 10arestraintloopdb -noopt -loopdb 2> results/abyModSTDERR/10arestraintloopdb.txt";  
+my $job2 = "perl analyseabYmod.pl 10arestraintnoloopdb -noopt -noloopdb 2> results/abyModSTDERR/10arestraintnoloopdb.txt"; 
+my $job3 = "perl analyseabYmod.pl 10arestraintdefault -noopt 2> results/abyModSTDERR/10arestraintdefault.txt"; 
 
 
 
