@@ -1,0 +1,1 @@
+directory names refer to the restraint added first and the weighting after that. eg. 6:0 means a distance of 10 angstroms between H100 and H103. Mistake in 12:0 as the github commit says 10 angstroms and the files also agree with 10. This is false, the restraint added was indeed 12 angstroms. 
