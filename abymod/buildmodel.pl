@@ -135,6 +135,30 @@ my @heavyTemplates   = ();
 my %CDRTemplates     = ();
 my %constraints      = ();
 my %restraints       = ();
+# get the seqfile open, find the index of H103 and then -3 from this and store that file. 
+open(DATA, "<$seqFile"); 
+if(!open(DATA, "<$seqFile"))
+{
+    print STDERR "Error: unable to open file $seqFile\n";
+    exit 1;
+}
+my @residuesNo;
+#for every line in the seq file get the residue number and chain
+while(my $line = <DATA>){
+	my @entries = split(/\s+/, $line);
+	my $residue = $entries[0];
+	push @residuesNo, $residue;
+}
+my $count;
+#set default value as H100 so that if it is deleted then the code wont mess up
+my $nMinusThree = "H100"; 
+foreach my $elem (@residuesNo){
+	$count++;
+	if($elem =~ /H103/){
+		$nMinusThree = @residuesNo[$count-4]; 	
+	}
+}
+$restraints{"$nMinusThree:H103"} = "12.0:10.0";
 
 my $tmpDir = util::CreateTempDir("abymod");
 if(!defined($tmpDir))
@@ -1171,37 +1195,20 @@ sub RunLoopdb
 {
     my ($inPDB, $loophit, $loopLength, $hConstraints, $hRestraints) = @_;
     my $nHits = $config::nLoopHits;
+
     # Get the best fitting hits from the database
     $nHits = $::nloophits if(defined($::nloophits));
-    my $exe = "$config::bindir/scanloopdb -n 0 -l $loopLength $config::loopData $inPDB";
+    my $exe = "$config::bindir/scanloopdb -n $nHits -l $loopLength $config::loopData $inPDB";
     my $hitsOut = util::RunCommand($exe);
     my @hits    = split(/\n/, $hitsOut);
 
     # Build each and sort based on energy
-    my @energyHits = SortSplicedLoops($inPDB, 'H3', \@hits, $hConstraints, $hRestraints);
-# Keep just N sequences - setting $#array truncates the length of the array - it's the last array index not the length.
-    $#hits = $nHits-1;
-    my $bestFit = $nHits;
-# For each of these best energy loops, find the position in the fit sorted list. Record the lowest position
-
-    for(my $i=0; $i<$nHits; $i++)
-    {
-    	for(my $j=0; $j<scalar(@hits); $j++)
-   	{
-      		if($energyHits[$i] eq $hits[$j])
-      		{
-         		if($j < $bestFit)
-         		{
-            			$bestFit = $j;
-         		}
-         		last;
-      		}			
-   	}
-    }
+    @hits = SortSplicedLoops($inPDB, 'H3', \@hits, $hConstraints, $hRestraints);
 
     # Obtain the specified loop
-    my $loopID        = $hits[$bestFit]; # Minus 1 because we count loop hits from 1
+    my $loopID        = $hits[$loophit-1]; # Minus 1 because we count loop hits from 1
     my @theChosenLoop = split(/\-/, $loopID);
+
     if($::failOnError)
     {
         my $loopFile = "$config::loopDataPDB/$loopID";
