@@ -158,7 +158,8 @@ foreach my $elem (@residuesNo){
 		$nMinusThree = @residuesNo[$count-4]; 	
 	}
 }
-$restraints{"$nMinusThree:H103"} = "12.0:10.0";
+#set restraints
+$restraints{"$nMinusThree:H103"} = "6.0:10.0";
 
 my $tmpDir = util::CreateTempDir("abymod");
 if(!defined($tmpDir))
