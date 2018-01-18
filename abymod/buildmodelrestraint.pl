@@ -135,6 +135,31 @@ my @heavyTemplates   = ();
 my %CDRTemplates     = ();
 my %constraints      = ();
 my %restraints       = ();
+# get the seqfile open, find the index of H103 and then -3 from this and store that file. 
+open(DATA, "<$seqFile"); 
+if(!open(DATA, "<$seqFile"))
+{
+    print STDERR "Error: unable to open file $seqFile\n";
+    exit 1;
+}
+my @residuesNo;
+#for every line in the seq file get the residue number and chain
+while(my $line = <DATA>){
+	my @entries = split(/\s+/, $line);
+	my $residue = $entries[0];
+	push @residuesNo, $residue;
+}
+my $count;
+#set default value as H100 so that if it is deleted then the code wont mess up
+my $nMinusThree = "H100"; 
+foreach my $elem (@residuesNo){
+	$count++;
+	if($elem =~ /H103/){
+		$nMinusThree = @residuesNo[$count-4]; 	
+	}
+}
+#set restraints
+$restraints{"$nMinusThree:H103"} = "6.0:10.0";
 
 my $tmpDir = util::CreateTempDir("abymod");
 if(!defined($tmpDir))
