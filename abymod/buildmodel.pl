@@ -164,6 +164,14 @@ if(CheckTemplates(\%targetCanonicals,
     else
     {
         print STDERR "\nabYmod/buildmodel failed\n";
+	if(defined($::k))
+	{
+    		print STDERR "Temporary files are in $tmpDir\n";
+	}
+	else
+	{
+    		`\\rm -rf $tmpDir`;
+	}
         exit 1;
     }
 }

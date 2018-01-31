@@ -2,14 +2,15 @@
 #*************************************************************************
 #
 #   Program:    abYmod
-#   File:       buildmodel.pl
+#   File:       buildmodelrestraint.pl
 #   
 #   Version:    V1.20
 #   Date:       11.12.17
 #   Function:   Build an antibody model from a specified set of templates
 #   
 #   Copyright:  (c) Dr. Andrew C. R. Martin, UCL, 2013-2017
-#   Author:     Dr. Andrew C. R. Martin
+#   Authors:     Dr. Andrew C. R. Martin
+#		Charlie Barker
 #   Address:    Institute of Structural and Molecular Biology
 #               Division of Biosciences
 #               University College
@@ -77,6 +78,8 @@
 #                    Fixes bug in splicing CDR-H3 when this happens to be
 #                    from Chain H and contains H94 or H103 messing up
 #                    the renumbering
+#   V1.20  18.01.18  version that calculates H103 to H(103 - 3 residues)
+#		     accounting for indels.  
 #
 #*************************************************************************
 use strict;
@@ -189,6 +192,14 @@ if(CheckTemplates(\%targetCanonicals,
     else
     {
         print STDERR "\nabYmod/buildmodel failed\n";
+	if(defined($::k))
+	{
+    		print STDERR "Temporary files are in $tmpDir\n";
+	}
+	else
+	{
+    		`\\rm -rf $tmpDir`;
+	}
         exit 1;
     }
 }
