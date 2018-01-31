@@ -30,6 +30,8 @@ if(!open(DATA, "<$rdFile"))
 
 #get name of tmp folder for the current job from the beginning of @ARGV
 my $tmpdir = shift(@ARGV);
+#get the name of the time directory. 
+my $timeDir = "$tmpdir/time";
 print STDERR "$tmpdir\n";
 while(my $line = <DATA>) #cycle through lines of redundancy file
 
@@ -40,7 +42,7 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	print("PDBfile: $pdbfile\n"); 
 	#@ARGV is adding arguments specfied in the command line. 
 	print STDERR "FILE NAME: $pdbfile\n"; 
-	`time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile`;
+	`(time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile) 2> $timeDir/$seqfile.txt`;
 	#print STDERR "@ARGV\n"; 
 	 	
 }
