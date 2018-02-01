@@ -1,0 +1,13 @@
+if (-e "$config::analysisResults/loopinfo.txt") 
+{ 
+   	open (MYFILE, 'loopinfo.txt');
+ 	print MYFILE "Bob\n";
+ 	close (MYFILE); 
+}
+else 
+{
+	`touch loopinfo.txt`;
+	open (MYFILE, "loopinfo.txt");
+	print MYFILE "Bob\n";
+ 	close (MYFILE);
+}

@@ -1,0 +1,2410 @@
+/tmp/analyseabymod_39644
+FILE NAME: 3d9a0PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/12e80.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a140.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a2y0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7n0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7p0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7r0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1axs0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b2w0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b4j0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bbj0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bfo0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bj10.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bm30.seq 0.945
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bvk0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bz70.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c120.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c5c0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ct80.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cz80.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5b0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5i0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dee0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dvf0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1emt0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fai0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fbi0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fdl0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fe80.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgn0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgv0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fh50.seq 0.945
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fj10.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fns0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fsk0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fvd0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fve0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7h0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7i0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7j0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7l0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7m0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gaf0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hez0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hi60.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i3g0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i8k0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1iai1.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igc0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igm0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igt0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igy0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ikf0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jfq0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jgl0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhk0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhl0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jnl0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jps0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1k6q0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kb50.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcu0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcv0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kip0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kiq0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kir0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kno0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1l7i0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lk30.seq 0.484
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mam0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mex0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mlb0.seq 0.945
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nby0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nca0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ncb0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ndm0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngy0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngz0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nma0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmb0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmc0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1oak0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1op30.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1opg0.seq 0.945
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1osp0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1p2c0.seq 0.917
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r0a0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r240.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rih0.seq 0.899
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rjl0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzg0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi0.seq 0.492
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi1.seq 0.492
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t3f0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1tzi0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uj30.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1um50.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwe0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwg0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwx0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uyw0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1wej0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgp0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgq0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgr0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgt0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgu0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xiw0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yjd0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynt0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yy80.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zan0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zlv0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ztx0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a6i0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2adg0.seq 0.486
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aep0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aeq0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aj30.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2arj0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2bdn0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2d7t0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2e270.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eiz0.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eks0.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2f5a0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fgw0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjf0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjh0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gfb0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2h9g0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff1.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hfg0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hh00.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hmi0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ih30.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2jix0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2nr60.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2orb0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2oz40.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2pr40.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q760.seq 0.917
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8a0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8b0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qad0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqk0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqn0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0k0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0l0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r4r0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r560.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r8s0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2rcs0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uzi0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v170.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v7h0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vh50.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxq0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxt0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2xkn0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yc10.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ymx0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ypv0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yss0.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2zjs0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3b2u0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bgf0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bn90.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bqu0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cfd0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cle0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3clf0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cvi0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cx50.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cxd0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d0l0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d850.seq 0.826
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3dif0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3drq0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3efd0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eo90.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fmg0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fn00.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fzu0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5v0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5x0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5y0.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5z0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g6j0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3giz0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gk80.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3grw0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc00.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc30.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc40.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hmx0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hnt0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i750.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i9g0.seq 0.468
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3idg0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iu40.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy00.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy10.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy20.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy60.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j1s0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j420.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8v0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8w0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3jcx0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3k2u0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kr30.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kym0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5w0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5x0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l950.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3liz0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mxw0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3n850.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3na90.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3naa0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nab0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nac0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ncj0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nzh0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3oau0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ojd0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3p0y0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3pgf0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qpq0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r060.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r1g0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ra70.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rkd0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rvv0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3s340.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3skj0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sob0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sqo0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3t3p0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u0w0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u300.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ubx0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3uc00.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v0w0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o1.seq 0.418
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ve00.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vg90.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vrl0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3w140.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wd50.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wfd0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wii0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x2d0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x3f0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4aeh0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4al80.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4bz20.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cad0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cmh0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cni0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4d9q0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dke0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dkf0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edw0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edx0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ers0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4f2m0.seq 0.780
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fnl0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g5z0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g6m0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g7v0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g800.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gms1.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gmt0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h200.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h880.seq 0.807
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hc10.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg40.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg41.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hkz0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hlz0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ij30.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ioi0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfx0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfz0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg00.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg10.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jha0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jqi0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jzn0.seq 0.345
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k2u0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k7p1.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ki51.seq 0.411
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kmt0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kq40.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kvc0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ky10.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kzd0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4l5f0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lf30.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lkc0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu1.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llw0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lly0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lmq0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m430.seq 0.752
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m6o0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mwf0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mxv0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g1.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g2.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g3.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nhh1.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx1.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry1.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrz0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl3.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzr0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzu0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4o020.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oaw0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oii0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4p590.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4plj0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4poz0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4py70.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qth0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7d0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7n0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r970.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rau0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rdq0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgm0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgo0.seq 0.844
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rrp0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1d0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uao0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uik0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uin0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4wv10.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4x0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4y0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x800.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xak0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xgz0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xhj0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xi50.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ydk0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yk40.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yr60.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yue0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z0x0.seq 0.330
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z8f0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zfo0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bo10.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bvj0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c0r0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c8j0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cma0.seq 0.826
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cws0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czv0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czx0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5d960.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd00.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd50.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd60.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd61.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dmi0.seq 0.844
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5do20.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dum0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dwu0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e080.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e940.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eii0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5en20.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5esa0.seq 0.338
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eu70.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ezi0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3b0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3h0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fha0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggq0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggv0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gir0.seq 0.917
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjs0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjt0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gs00.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gzo0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5h2b0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i150.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i160.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i190.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1a0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1e0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1g0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1j0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i300.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i5k0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i660.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i8c0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ikc0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k590.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9q0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kaq0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kel0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kem1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken2.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kte0.seq 0.945
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kvg0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5l0q0.seq 0.761
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5mvz0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5sx50.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn1.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo1.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th20.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th90.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tih0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpn0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tqq0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tz20.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tzu0.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uix0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uqy0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/6fab0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dl70.seq 0.558
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gpo0.seq 0.894
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nak0.seq 0.832
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nby0.seq 0.894
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ndm0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nld0.seq 0.513
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1p4b0.seq 0.531
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1p4i0.seq 0.540
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgp0.seq 0.885
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgq0.seq 0.885
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgr0.seq 0.885
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgt0.seq 0.885
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgu0.seq 0.885
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eiz0.seq 0.779
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eks0.seq 0.770
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yss0.seq 0.788
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kph0.seq 0.665
+done
+Finding best templates for CDR-L1................................done
+Finding best templates for CDR-L2................................done
+Finding best templates for CDR-L3................................done
+Finding best templates for CDR-H1................................done
+Finding best templates for CDR-H2................................done
+Finding best templates for CDR-H3................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 1ndm0
+Framework template H: 1ndm0
+CDR template H2: 2eiz0
+CDR template L1: 2eiz0
+CDR template H3: 2eiz0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/pdbgetchain L,H  /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1ndm0.pdb /var/tmp/abymod_39925_1516884103/mod1.pdb
+done
+Grafting CDRs...
+...splicing H50-H65 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb into /var/tmp/abymod_39925_1516884103/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H50 H65 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb H50 H65 /var/tmp/abymod_39925_1516884103/mod1.pdb /var/tmp/abymod_39925_1516884103/mod1.pdb_H2
+
+...splicing L24-L34 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb into /var/tmp/abymod_39925_1516884103/mod1.pdb_H2
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb L24 L34 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb L24 L34 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1
+
+...splicing H95-H102 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb into /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H95 H102 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2eiz0.pdb H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 5 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+
+...splicing B395-B405 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ndm-B395-B405-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B395 B405 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ndm-B395-B405-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm
+
+...splicing B96-B106 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ngw-B96-B106-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B96 B106 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ngw-B96-B106-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw
+
+...splicing H96-H106 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ngw-H96-H106-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H96 H106 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ngw-H96-H106-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ngw
+
+...splicing H95-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayu-H95-H105-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H95 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayu-H95-H105-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-5ayu-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-5ayu-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-5ayu
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-5ayu
+
+...splicing E203-E213 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ooh-E203-E213-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X E203 E213 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ooh-E203-E213-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-3ooh-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-3ooh-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-3ooh
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-3ooh
+
+...splicing B395-B405 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1nby-B395-B405-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B395 B405 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1nby-B395-B405-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1nby-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1nby-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1nby
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1nby
+
+...splicing A93-A103 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4r0l-A93-A103-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A93 A103 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4r0l-A93-A103-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-4r0l-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-4r0l-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-4r0l
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-4r0l
+
+...splicing L96-L106 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1n7m-L96-L106-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X L96 L106 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1n7m-L96-L106-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1n7m-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1n7m-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1n7m
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1n7m
+1ndm-B395-B405-5 -37.047688
+5ayu-H95-H105-5 -27.009813
+1n7m-L96-L106-5 -22.654959
+4r0l-A93-A103-5 -9.439119
+1nby-B395-B405-5 51.968338
+1ngw-B96-B106-5 1036.507108
+1ngw-H96-H106-5 1222.797334
+3ooh-E203-E213-5 707751.572686
+
+...splicing B395-B405 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ndm-B395-B405-5 into CDR H3 of /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B395 B405 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ndm-B395-B405-5 H95 H102 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm-tmp /var/tmp/abymod_39925_1516884103/mod1.pdb_H2_L1_H3_H3-1ndm
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 Q -m L39 K -m L40 S -m L41 H -m L42 E -m L43 S -m L44 P -m L45 R -m L46 L -m L47 L -m L48 I -m L49 K /var/tmp/abymod_39925_1516884103/rsc_0.pdb > /var/tmp/abymod_39925_1516884103/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 I -m H38 R -m H39 K -m H40 F -m H41 P -m H42 G -m H43 N -m H44 R -m H45 L -m H46 E -m H47 Y -m H48 M -m H49 G /var/tmp/abymod_39925_1516884103/rsc_1.pdb > /var/tmp/abymod_39925_1516884103/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 G -m L101 G -m L102 T -m L103 K -m L104 L -m L105 E -m L106 I -m L107 K -m L108 R -m L109 A /var/tmp/abymod_39925_1516884103/rsc_2.pdb > /var/tmp/abymod_39925_1516884103/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 L -m H109 V -m H110 T -m H111 V -m H112 S -m H113 A /var/tmp/abymod_39925_1516884103/rsc_3.pdb > /var/tmp/abymod_39925_1516884103/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 T -m L81 E -m L82 D -m L83 F -m L84 G -m L85 M -m L86 Y -m L87 F -m L88 C /var/tmp/abymod_39925_1516884103/rsc_4.pdb > /var/tmp/abymod_39925_1516884103/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 E -m H86 D -m H87 T -m H88 A -m H89 T -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 N /var/tmp/abymod_39925_1516884103/rsc_5.pdb > /var/tmp/abymod_39925_1516884103/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 I -m L59 P -m L60 S -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 S -m L75 I -m L76 N -m L77 S -m L78 V -m L79 E /var/tmp/abymod_39925_1516884103/rsc_6.pdb > /var/tmp/abymod_39925_1516884103/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 I -m H68 S -m H69 I -m H70 T -m H71 R -m H72 D -m H73 T -m H74 S -m H75 K -m H76 N -m H77 Q -m H78 Y -m H79 Y -m H80 L -m H81 D -m H82 L -m H82A N -m H82B S -m H82C V -m H83 T -m H84 T /var/tmp/abymod_39925_1516884103/rsc_7.pdb > /var/tmp/abymod_39925_1516884103/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 D -m L2 I -m L3 V -m L4 L -m L5 T -m L6 Q -m L7 S -m L8 P -m L9 A -m L10 T -m L11 L -m L12 S -m L13 V -m L14 T -m L15 P -m L16 G -m L17 N -m L18 S -m L19 V -m L20 S -m L21 L -m L22 S -m L23 C /var/tmp/abymod_39925_1516884103/rsc_8.pdb > /var/tmp/abymod_39925_1516884103/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 D -m H2 V -m H3 Q -m H4 L -m H5 Q -m H6 E -m H7 S -m H8 G -m H9 P -m H10 S -m H11 L -m H12 V -m H13 K -m H14 P -m H15 S -m H16 Q -m H17 T -m H18 L -m H19 S -m H20 L -m H21 T -m H22 C -m H23 S -m H24 V -m H25 T /var/tmp/abymod_39925_1516884103/rsc_9.pdb > /var/tmp/abymod_39925_1516884103/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 Y -m H51 V -m H52 S -m H53 Y -m H54 S -m H55 G -m H56 S -m H57 T -m H58 Y -m H59 Y -m H60 N -m H61 P -m H62 S -m H63 L -m H64 K -m H65 S /var/tmp/abymod_39925_1516884103/rsc_10.pdb > /var/tmp/abymod_39925_1516884103/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 Y -m L51 A -m L52 S -m L53 Q -m L54 S -m L55 I -m L56 S /var/tmp/abymod_39925_1516884103/rsc_11.pdb > /var/tmp/abymod_39925_1516884103/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 D -m H28 S -m H29 I -m H30 T -m H31 S -m H32 D -m H33 Y -m H34 W -m H35 S /var/tmp/abymod_39925_1516884103/rsc_12.pdb > /var/tmp/abymod_39925_1516884103/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 A -m L26 S -m L27 Q -m L28 S -m L29 I -m L30 G -m L31 N -m L32 N -m L33 L -m L34 H /var/tmp/abymod_39925_1516884103/rsc_13.pdb > /var/tmp/abymod_39925_1516884103/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 Q -m L91 S -m L92 N -m L93 S -m L94 W -m L95 P -m L96 Y -m L97 T /var/tmp/abymod_39925_1516884103/rsc_14.pdb > /var/tmp/abymod_39925_1516884103/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 W -m H96 D -m H97 G -m H101 D -m H102 Y /var/tmp/abymod_39925_1516884103/rsc_15.pdb > /var/tmp/abymod_39925_1516884103/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_39925_1516884103/rsc_16.pdb /var/tmp/abymod_39925_1516884103/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m19.304s
+user	0m17.990s
+sys	0m0.262s
+FILE NAME: 1a7p0PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/12e80.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a140.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1axs0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b2w0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b4j0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bbj0.seq 0.850
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bfo0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bj10.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bm30.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bvk0.seq 0.804
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bz70.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c120.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c5c0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic0.seq 0.953
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic1.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ct80.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cz80.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5b0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5i0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dee0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dvf0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x1.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1emt0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fai0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fbi0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fdl0.seq 0.963
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fe80.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgn0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgv0.seq 0.701
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fh50.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fj10.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fns0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fsk0.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fvd0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fve0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gaf0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hez0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hi60.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i3g0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i8k0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1iai1.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic40.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic50.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic70.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igc0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igm0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igt0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igy0.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ikf0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1o0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1p0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1x0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jfq0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jgl0.seq 0.897
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhk0.seq 0.897
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhl0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jnl0.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jps0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1k6q0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kb50.seq 0.841
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcu0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcv0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kno0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1l7i0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lk30.seq 0.426
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mam0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mex0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mlb0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nby0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nca0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ncb0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ndm0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngy0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngz0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nma0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmb0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmc0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1oak0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1op30.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1opg0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1osp0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1p2c0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r0a0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r240.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rih0.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rjl0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzg0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi0.seq 0.538
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi1.seq 0.538
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t3f0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1tzi0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uac0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uj30.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1um50.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwe0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwg0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwx0.seq 0.729
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uyw0.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1wej0.seq 0.925
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgp0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgq0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgr0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgt0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgu0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xiw0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yjd0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynt0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yy80.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zan0.seq 0.766
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zlv0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ztx0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a6i0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2adg0.seq 0.477
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aep0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aeq0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aj30.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2arj0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2bdn0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2d7t0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqc0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqd0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqe0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqf0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqg0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqh0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqi0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2e270.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eiz0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eks0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2f5a0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fgw0.seq 0.701
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjf0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjh0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gfb0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2h9g0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff1.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hfg0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hh00.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hmi0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ih30.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2jix0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2nr60.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2orb0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2oz40.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2pr40.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q760.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8a0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8b0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qad0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqk0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqn0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0k0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0l0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r4r0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r560.seq 0.682
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r8s0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2rcs0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uzi0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v170.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v7h0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vh50.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxq0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxt0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2xkn0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yc10.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ymx0.seq 0.794
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ypv0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yss0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2zjs0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a670.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a6b0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a6c0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3b2u0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bgf0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bn90.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bqu0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cfd0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cle0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3clf0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cvi0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cx50.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cxd0.seq 0.822
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d0l0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d850.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d9a0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3dif0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3drq0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3efd0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eo90.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fmg0.seq 0.766
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fn00.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fzu0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5v0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5x0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5y0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5z0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g6j0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3giz0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gk80.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3grw0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc00.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc30.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc40.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hmx0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hnt0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i750.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i9g0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3idg0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iu40.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy00.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy10.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy20.seq 0.785
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy60.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j1s0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j420.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8v0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8w0.seq 0.813
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3jcx0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3k2u0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kr30.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kym0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5w0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5x0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l950.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3liz0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mxw0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3n850.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3na90.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3naa0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nab0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nac0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ncj0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nzh0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3oau0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ojd0.seq 0.869
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3p0y0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3pgf0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qpq0.seq 0.897
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r060.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r1g0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ra70.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rkd0.seq 0.832
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rvv0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3s340.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3skj0.seq 0.692
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sob0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sqo0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3t3p0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u0w0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u300.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p1.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ubx0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3uc00.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v0w0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o0.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o1.seq 0.381
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ve00.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vg90.seq 0.785
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vrl0.seq 0.935
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3w140.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wd50.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wfd0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wii0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x2d0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x3f0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4aeh0.seq 0.822
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4al80.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4bz20.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cad0.seq 0.907
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cmh0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cni0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4d9q0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dke0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dkf0.seq 0.682
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edw0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edx0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ers0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4f2m0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fnl0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g5z0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g6m0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g7v0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g800.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gms1.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gmt0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h200.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h880.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hc10.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg40.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg41.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hkz0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hlz0.seq 0.729
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ij30.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ioi0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfx0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfz0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg00.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg10.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jha0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jqi0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jzn0.seq 0.344
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k2u0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k7p1.seq 0.813
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ki51.seq 0.411
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kmt0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kq40.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kvc0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ky10.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kzd0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4l5f0.seq 0.486
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lf30.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lkc0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu1.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llw0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lly0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lmq0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m430.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m6o0.seq 0.682
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mwf0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mxv0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g0.seq 0.710
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g1.seq 0.710
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g2.seq 0.710
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g3.seq 0.710
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nhh1.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx1.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry1.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrz0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl3.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzr0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzu0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4o020.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oaw0.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oii0.seq 0.925
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4p590.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4plj0.seq 0.813
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4poz0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4py70.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qth0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7d0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7n0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r970.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rau0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rdq0.seq 0.804
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgm0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgo0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rrp0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1d0.seq 0.888
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uao0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uik0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uin0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4wv10.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4x0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4y0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x800.seq 0.832
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xak0.seq 0.682
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xgz0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xhj0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xi50.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ydk0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yk40.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yr60.seq 0.897
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yue0.seq 0.720
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z0x0.seq 0.344
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z8f0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zfo0.seq 0.477
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bo10.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bvj0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c0r0.seq 0.738
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c8j0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cma0.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cws0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czv0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czx0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5d960.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd00.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd50.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd60.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd61.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dmi0.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5do20.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dum0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dwu0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e080.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e940.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eii0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5en20.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5esa0.seq 0.336
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eu70.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ezi0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3b0.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3h0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fha0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggq0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggv0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gir0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjs0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjt0.seq 0.654
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gs00.seq 0.570
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gzo0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5h2b0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i150.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i160.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i190.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1a0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1e0.seq 0.673
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1g0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1j0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i300.seq 0.607
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i5k0.seq 0.682
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i660.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i8c0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ikc0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k590.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9q0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kaq0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kel0.seq 0.841
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kem1.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken0.seq 0.542
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken2.seq 0.813
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kte0.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kvg0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5l0q0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5mvz0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5sx50.seq 0.645
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn1.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo0.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo1.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th20.seq 0.533
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th90.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tih0.seq 0.561
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpn0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tqq0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tz20.seq 0.598
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tzu0.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uix0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uqy0.seq 0.626
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/6fab0.seq 0.589
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bvk0.seq 0.802
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic0.seq 0.983
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fdl0.seq 0.983
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gk01.seq 0.836
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2jix0.seq 0.664
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ab00.seq 0.500
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j700.seq 0.324
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kj41.seq 0.776
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mj80.seq 0.698
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3zkm0.seq 0.767
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4liq0.seq 0.500
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4o4y0.seq 0.393
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4o510.seq 0.393
+done
+Finding best templates for CDR-L1................................done
+Finding best templates for CDR-L2................................done
+Finding best templates for CDR-L3................................done
+Finding best templates for CDR-H1................................done
+Finding best templates for CDR-H2................................done
+Finding best templates for CDR-H3................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 1fdl0
+Framework template H: 1fdl0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/pdbgetchain L,H  /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1fdl0.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb
+done
+Grafting CDRs...done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 8 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_40537_1516884122/mod1.pdb
+
+...splicing H95-H108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1fdl-H95-H108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H95 H108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1fdl-H95-H108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl
+
+...splicing H96-H109 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qbm-H96-H109-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H96 H109 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qbm-H96-H109-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1qbm-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1qbm-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1qbm
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1qbm
+
+...splicing B95-B108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1g7h-B95-B108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B95 B108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1g7h-B95-B108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7h-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7h-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7h
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7h
+
+...splicing B95-B108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1g7i-B95-B108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B95 B108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1g7i-B95-B108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7i-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7i-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7i
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1g7i
+
+...splicing B95-B108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1bvk-B95-B108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B95 B108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1bvk-B95-B108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1bvk-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1bvk-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1bvk
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1bvk
+
+...splicing B95-B108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1vfb-B95-B108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B95 B108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1vfb-B95-B108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1vfb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1vfb-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1vfb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1vfb
+
+...splicing B95-B108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1kiq-B95-B108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B95 B108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1kiq-B95-B108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1kiq-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1kiq-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1kiq
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1kiq
+
+...splicing D93-D106 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4o51-D93-D106-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X D93 D106 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4o51-D93-D106-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-4o51-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-4o51-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-4o51
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-4o51
+1fdl-H95-H108-8 -64.936944
+1g7i-B95-B108-8 -63.841940
+1kiq-B95-B108-8 -63.729078
+1g7h-B95-B108-8 -61.968355
+1bvk-B95-B108-8 -60.823853
+1vfb-B95-B108-8 -60.807932
+1qbm-H96-H109-8 89.260833
+4o51-D93-D106-8 146910007874.213409
+
+...splicing H95-H108 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1fdl-H95-H108-8 into CDR H3 of /var/tmp/abymod_40537_1516884122/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H95 H108 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1fdl-H95-H108-8 H95 H102 /var/tmp/abymod_40537_1516884122/mod1.pdb /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl-tmp /var/tmp/abymod_40537_1516884122/mod1.pdb_H3-1fdl
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 Q -m L39 K -m L40 Q -m L41 G -m L42 K -m L43 S -m L44 P -m L45 Q -m L46 L -m L47 L -m L48 V -m L49 Y /var/tmp/abymod_40537_1516884122/rsc_0.pdb > /var/tmp/abymod_40537_1516884122/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 V -m H38 R -m H39 Q -m H40 P -m H41 P -m H42 G -m H43 K -m H44 G -m H45 L -m H46 E -m H47 W -m H48 L -m H49 G /var/tmp/abymod_40537_1516884122/rsc_1.pdb > /var/tmp/abymod_40537_1516884122/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 G -m L101 G -m L102 T -m L103 K -m L104 L -m L105 E -m L106 I -m L107 K /var/tmp/abymod_40537_1516884122/rsc_2.pdb > /var/tmp/abymod_40537_1516884122/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 T -m H109 V -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_40537_1516884122/rsc_3.pdb > /var/tmp/abymod_40537_1516884122/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 P -m L81 D -m L82 D -m L83 F -m L84 G -m L85 S -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_40537_1516884122/rsc_4.pdb > /var/tmp/abymod_40537_1516884122/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 D -m H86 D -m H87 T -m H88 A -m H89 R -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 R /var/tmp/abymod_40537_1516884122/rsc_5.pdb > /var/tmp/abymod_40537_1516884122/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 P -m L60 S -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 Q -m L71 Y -m L72 S -m L73 L -m L74 K -m L75 I -m L76 N -m L77 S -m L78 L -m L79 Q /var/tmp/abymod_40537_1516884122/rsc_6.pdb > /var/tmp/abymod_40537_1516884122/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 L -m H68 S -m H69 I -m H70 S -m H71 K -m H72 D -m H73 N -m H74 S -m H75 K -m H76 S -m H77 Q -m H78 V -m H79 F -m H80 L -m H81 K -m H82 M -m H82A N -m H82B S -m H82C L -m H83 H -m H84 T /var/tmp/abymod_40537_1516884122/rsc_7.pdb > /var/tmp/abymod_40537_1516884122/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 D -m L2 I -m L3 V -m L4 L -m L5 T -m L6 Q -m L7 S -m L8 P -m L9 A -m L10 S -m L11 L -m L12 S -m L13 A -m L14 S -m L15 V -m L16 G -m L17 E -m L18 T -m L19 V -m L20 T -m L21 I -m L22 T -m L23 C /var/tmp/abymod_40537_1516884122/rsc_8.pdb > /var/tmp/abymod_40537_1516884122/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 Q -m H2 V -m H3 Q -m H4 L -m H5 Q -m H6 E -m H7 S -m H8 G -m H9 P -m H10 G -m H11 L -m H12 V -m H13 A -m H14 P -m H15 S -m H16 Q -m H17 S -m H18 L -m H19 S -m H20 I -m H21 T -m H22 C -m H23 T -m H24 V -m H25 S /var/tmp/abymod_40537_1516884122/rsc_9.pdb > /var/tmp/abymod_40537_1516884122/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 M -m H51 I -m H52 W -m H53 G -m H54 D -m H55 G -m H56 N -m H57 T -m H58 D -m H59 Y -m H60 N -m H61 S -m H62 A -m H63 L -m H64 K -m H65 S /var/tmp/abymod_40537_1516884122/rsc_10.pdb > /var/tmp/abymod_40537_1516884122/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 Y -m L51 T -m L52 T -m L53 T -m L54 L -m L55 A -m L56 D /var/tmp/abymod_40537_1516884122/rsc_11.pdb > /var/tmp/abymod_40537_1516884122/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 F -m H28 S -m H29 L -m H30 T -m H31 G -m H32 Y -m H33 G -m H34 V -m H35 N /var/tmp/abymod_40537_1516884122/rsc_12.pdb > /var/tmp/abymod_40537_1516884122/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 A -m L26 S -m L27 G -m L28 N -m L29 I -m L30 H -m L31 N -m L32 Y -m L33 L -m L34 A /var/tmp/abymod_40537_1516884122/rsc_13.pdb > /var/tmp/abymod_40537_1516884122/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 H -m L91 F -m L92 W -m L93 S -m L94 T -m L95 S -m L96 R -m L97 T /var/tmp/abymod_40537_1516884122/rsc_14.pdb > /var/tmp/abymod_40537_1516884122/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 E -m H96 R -m H97 D -m H98 Y -m H99 R -m H100 L -m H101 D -m H102 Y /var/tmp/abymod_40537_1516884122/rsc_15.pdb > /var/tmp/abymod_40537_1516884122/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_40537_1516884122/rsc_16.pdb /var/tmp/abymod_40537_1516884122/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m19.502s
+user	0m18.355s
+sys	0m0.267s
+FILE NAME: 4iof1PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2g750.seq 0.378
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qsc0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxv0.seq 0.667
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2xra0.seq 0.759
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eyf0.seq 0.648
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eyo0.seq 0.648
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eyo1.seq 0.648
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eyq0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3f120.seq 0.694
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3f121.seq 0.694
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3idx0.seq 0.769
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3uji0.seq 0.363
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v7a0.seq 0.657
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4d3c0.seq 0.685
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hfu0.seq 0.676
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hha0.seq 0.676
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k940.seq 0.944
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nnp0.seq 0.944
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4odv0.seq 0.657
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oqt0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhm0.seq 0.348
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhn0.seq 0.348
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uta0.seq 0.694
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ywg0.seq 0.574
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ywg1.seq 0.620
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zyk0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zyk1.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e8e0.seq 0.676
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fgb0.seq 0.356
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fgb1.seq 0.356
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fgc0.seq 0.341
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5it20.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5itb0.seq 0.833
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1za30.seq 0.845
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4imk0.seq 0.535
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4iml0.seq 0.535
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m1c0.seq 0.781
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ydk0.seq 0.581
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5alb0.seq 0.543
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cjo0.seq 0.984
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 4nnp0
+Framework template H: 5cjo0
+CDR template L2: 4m1c0
+CDR template L3: 4m1c0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/fitlhpdb -s H:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/5cjo0.pdb L:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4nnp0.pdb /var/tmp/abymod_865_1516884137/mod1.pdb
+done
+Grafting CDRs...
+...splicing L50-L56 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4m1c0.pdb into /var/tmp/abymod_865_1516884137/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb L50 L56 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4m1c0.pdb L50 L56 /var/tmp/abymod_865_1516884137/mod1.pdb /var/tmp/abymod_865_1516884137/mod1.pdb_L2
+
+...splicing L89-L97 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4m1c0.pdb into /var/tmp/abymod_865_1516884137/mod1.pdb_L2
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb L89 L97 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4m1c0.pdb L89 L97 /var/tmp/abymod_865_1516884137/mod1.pdb_L2 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 20 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+
+...splicing C636-C661 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4rhb-C636-C661-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X C636 C661 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4rhb-C636-C661-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3c2a-H92-H105-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3c2a-H92-H105-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ghb-H92-H105-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ghb-H92-H105-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1q1j-H92-H105-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1q1j-H92-H105-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-1q1j-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-1q1j-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-1q1j
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-1q1j
+
+...splicing A218-A243 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ihv-A218-A243-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A218 A243 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ihv-A218-A243-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-5ihv-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-5ihv-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-5ihv
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-5ihv
+
+...splicing A636-A661 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4rhb-A636-A661-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A636 A661 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4rhb-A636-A661-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-4rhb
+
+...splicing I92-I105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ghb-I92-I105-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X I92 I105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ghb-I92-I105-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3ghb
+
+...splicing A233-A258 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3drk-A233-A258-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A233 A258 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3drk-A233-A258-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3drk-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3drk-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3drk
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3drk
+3c2a-H92-H105-20 1543.426743
+1q1j-H92-H105-20 2727.505824
+3ghb-H92-H105-20 4171.627236
+3ghb-I92-I105-20 17755.318260
+4rhb-A636-A661-20 13393291.657535
+4rhb-C636-C661-20 17546593.413252
+5ihv-A218-A243-20 109306473.437742
+3drk-A233-A258-20 411741785955450.000000
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3c2a-H92-H105-20 into CDR H3 of /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3c2a-H92-H105-20 H95 H102 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a-tmp /var/tmp/abymod_865_1516884137/mod1.pdb_L2_L3_H3-3c2a
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 Q -m L39 K -m L40 P -m L41 G -m L42 K -m L43 A -m L44 P -m L45 K -m L46 L -m L47 L -m L48 I -m L49 Y /var/tmp/abymod_865_1516884137/rsc_0.pdb > /var/tmp/abymod_865_1516884137/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 V -m H38 R -m H39 Q -m H40 A -m H41 P -m H42 G -m H43 K -m H44 G -m H45 L -m H46 E -m H47 W -m H48 V -m H49 A /var/tmp/abymod_865_1516884137/rsc_1.pdb > /var/tmp/abymod_865_1516884137/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 Q -m L101 G -m L102 T -m L103 K -m L104 V -m L105 E -m L106 I -m L107 K -m L108 R -m L109 T -m L110 V /var/tmp/abymod_865_1516884137/rsc_2.pdb > /var/tmp/abymod_865_1516884137/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 L -m H109 V -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_865_1516884137/rsc_3.pdb > /var/tmp/abymod_865_1516884137/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 P -m L81 E -m L82 D -m L83 F -m L84 A -m L85 T -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_865_1516884137/rsc_4.pdb > /var/tmp/abymod_865_1516884137/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 E -m H86 D -m H87 T -m H88 A -m H89 V -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 R /var/tmp/abymod_865_1516884137/rsc_5.pdb > /var/tmp/abymod_865_1516884137/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 P -m L60 S -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 R -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 T -m L75 I -m L76 S -m L77 S -m L78 L -m L79 Q /var/tmp/abymod_865_1516884137/rsc_6.pdb > /var/tmp/abymod_865_1516884137/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 F -m H68 T -m H69 I -m H70 S -m H71 A -m H72 D -m H73 T -m H74 S -m H75 K -m H76 N -m H77 T -m H78 A -m H79 Y -m H80 L -m H81 Q -m H82 M -m H82A N -m H82B S -m H82C L -m H83 R -m H84 A /var/tmp/abymod_865_1516884137/rsc_7.pdb > /var/tmp/abymod_865_1516884137/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L4 M -m L5 T -m L6 Q -m L7 S -m L8 P -m L9 S -m L10 S -m L11 L -m L12 S -m L13 A -m L14 S -m L15 V -m L16 G -m L17 D -m L18 R -m L19 V -m L20 T -m L21 I -m L22 T -m L23 C /var/tmp/abymod_865_1516884137/rsc_8.pdb > /var/tmp/abymod_865_1516884137/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 E -m H2 V -m H3 Q -m H4 L -m H5 V -m H6 E -m H7 S -m H8 G -m H9 G -m H10 G -m H11 L -m H12 V -m H13 Q -m H14 P -m H15 G -m H16 G -m H17 S -m H18 L -m H19 R -m H20 L -m H21 S -m H22 C -m H23 A -m H24 A -m H25 S /var/tmp/abymod_865_1516884137/rsc_9.pdb > /var/tmp/abymod_865_1516884137/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 S -m H51 I -m H52 S -m H52A S -m H53 Y -m H54 Y -m H55 G -m H56 S -m H57 T -m H58 S -m H59 Y -m H60 A -m H61 D -m H62 S -m H63 V -m H64 K -m H65 G /var/tmp/abymod_865_1516884137/rsc_10.pdb > /var/tmp/abymod_865_1516884137/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 S -m L51 T -m L52 S -m L53 S -m L54 L -m L55 Y -m L56 S /var/tmp/abymod_865_1516884137/rsc_11.pdb > /var/tmp/abymod_865_1516884137/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 F -m H28 N -m H29 V -m H30 S -m H31 S -m H32 Y -m H33 S -m H34 I -m H35 H /var/tmp/abymod_865_1516884137/rsc_12.pdb > /var/tmp/abymod_865_1516884137/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 A -m L26 S -m L27 Q -m L28 S -m L29 V -m L30 S -m L31 S -m L32 A -m L33 V -m L34 A /var/tmp/abymod_865_1516884137/rsc_13.pdb > /var/tmp/abymod_865_1516884137/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 Q -m L91 S -m L92 S -m L93 P -m L94 S -m L95 F -m L95A L -m L96 I -m L97 T /var/tmp/abymod_865_1516884137/rsc_14.pdb > /var/tmp/abymod_865_1516884137/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 D -m H96 R -m H97 V -m H98 M -m H99 Y -m H100 Y -m H100A W -m H100B S -m H100C F -m H100D S -m H100E K -m H100F Y -m H100G G -m H100H Y -m H100I P -m H100J Y -m H100K G -m H100L M -m H101 D -m H102 Y /var/tmp/abymod_865_1516884137/rsc_15.pdb > /var/tmp/abymod_865_1516884137/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_865_1516884137/rsc_16.pdb /var/tmp/abymod_865_1516884137/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m14.754s
+user	0m14.074s
+sys	0m0.236s
+FILE NAME: 4om10PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3se90.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u7y0.seq 0.942
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jdt0.seq 0.942
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jkp0.seq 0.952
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lss0.seq 0.971
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lst0.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1r0.seq 0.971
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1s0.seq 0.971
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xvt0.seq 0.827
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fyk1.seq 0.923
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ies0.seq 0.577
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rih0.seq 0.440
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hfg0.seq 0.432
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2xqb0.seq 0.520
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3h3p0.seq 0.488
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i750.seq 0.440
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3lmj0.seq 0.464
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qeh0.seq 0.496
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ra70.seq 0.392
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3so30.seq 0.448
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u7y0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cad0.seq 0.440
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fqj0.seq 0.536
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fqk0.seq 0.528
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fze0.seq 0.504
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4i180.seq 0.424
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4idj0.seq 0.528
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jdv0.seq 0.640
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jkp0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ktd0.seq 0.352
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n0y0.seq 0.384
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g0.seq 0.400
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g1.seq 0.294
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g2.seq 0.301
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ptu0.seq 0.392
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1s0.seq 0.568
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xak0.seq 0.520
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xbg3.seq 0.488
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xcy3.seq 0.488
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xvt0.seq 0.744
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yfl0.seq 0.440
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yfl1.seq 0.440
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5a3i0.seq 0.472
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cin0.seq 0.480
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5drz0.seq 0.448
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e8e0.seq 0.488
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibl0.seq 0.456
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibt0.seq 0.448
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibu0.seq 0.448
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5igx0.seq 0.648
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpn0.seq 0.424
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 4jkp0
+Framework template H: 4jkp0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/pdbgetchain L,H  /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4jkp0.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb
+done
+Grafting CDRs...done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 16 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_1512_1516884150/mod1.pdb
+
+...splicing A112-A133 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5aye-A112-A133-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A112 A133 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5aye-A112-A133-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye
+
+...splicing B101-B122 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhz-B101-B122-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B101 B122 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhz-B101-B122-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhz-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhz-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhz
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhz
+
+...splicing B101-B122 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhx-B101-B122-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B101 B122 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhx-B101-B122-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx
+
+...splicing A112-A133 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayd-A112-A133-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A112 A133 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayd-A112-A133-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd
+
+...splicing D101-D122 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhx-D101-D122-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X D101 D122 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xhx-D101-D122-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-1xhx
+
+...splicing H96-H117 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ra7-H96-H117-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H96 H117 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ra7-H96-H117-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7
+
+...splicing E112-E133 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayd-E112-E133-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X E112 E133 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5ayd-E112-E133-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5ayd
+
+...splicing E112-E133 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5aye-E112-E133-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X E112 E133 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5aye-E112-E133-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-5aye
+3ra7-H96-H117-16 64.219649
+1xhx-D101-D122-16 331909075729.358093
+5aye-A112-A133-16 349488120849.256592
+5ayd-A112-A133-16 376408315647.536194
+5ayd-E112-E133-16 1562395391260.203369
+1xhz-B101-B122-16 3186140433370.681641
+5aye-E112-E133-16 5723070027834.724609
+1xhx-B101-B122-16 11030840503237.535156
+
+...splicing H96-H117 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ra7-H96-H117-16 into CDR H3 of /var/tmp/abymod_1512_1516884150/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H96 H117 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3ra7-H96-H117-16 H95 H102 /var/tmp/abymod_1512_1516884150/mod1.pdb /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7-tmp /var/tmp/abymod_1512_1516884150/mod1.pdb_H3-3ra7
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 Q -m L39 R -m L40 P -m L41 G -m L42 Q -m L43 A -m L44 P -m L45 R -m L46 L -m L47 V -m L48 I -m L49 Y /var/tmp/abymod_1512_1516884150/rsc_0.pdb > /var/tmp/abymod_1512_1516884150/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 I -m H38 R -m H39 L -m H40 A -m H41 P -m H42 G -m H43 K -m H44 R -m H45 P -m H46 E -m H47 W -m H48 M -m H49 G /var/tmp/abymod_1512_1516884150/rsc_1.pdb > /var/tmp/abymod_1512_1516884150/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 Q -m L101 G -m L102 T -m L103 K -m L104 V -m L105 Q -m L106 V -m L107 D -m L108 I -m L109 K -m L110 R /var/tmp/abymod_1512_1516884150/rsc_2.pdb > /var/tmp/abymod_1512_1516884150/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 P -m H109 V -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_1512_1516884150/rsc_3.pdb > /var/tmp/abymod_1512_1516884150/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 S -m L81 G -m L82 D -m L83 F -m L84 G -m L85 V -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_1512_1516884150/rsc_4.pdb > /var/tmp/abymod_1512_1516884150/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 D -m H86 D -m H87 T -m H88 A -m H89 V -m H90 Y -m H91 F -m H92 C -m H93 T -m H94 R /var/tmp/abymod_1512_1516884150/rsc_5.pdb > /var/tmp/abymod_1512_1516884150/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 I -m L59 P -m L60 D -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 R -m L67 W -m L68 G -m L69 P -m L70 D -m L71 Y -m L72 N -m L73 L -m L74 T -m L75 I -m L76 S -m L77 N -m L78 L -m L79 E /var/tmp/abymod_1512_1516884150/rsc_6.pdb > /var/tmp/abymod_1512_1516884150/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 V -m H68 T -m H69 M -m H70 T -m H71 R -m H72 D -m H73 M -m H74 Y -m H75 S -m H76 E -m H77 T -m H78 A -m H79 F -m H80 L -m H81 E -m H82 L -m H82A R -m H82B S -m H82C L -m H83 T -m H84 S /var/tmp/abymod_1512_1516884150/rsc_7.pdb > /var/tmp/abymod_1512_1516884150/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 E -m L2 I -m L3 V -m L4 L -m L5 T -m L6 Q -m L7 S -m L8 P -m L9 G -m L10 T -m L11 L -m L12 S -m L13 L -m L14 S -m L15 P -m L16 G -m L17 E -m L18 T -m L19 A -m L20 I -m L21 I -m L22 S -m L23 C /var/tmp/abymod_1512_1516884150/rsc_8.pdb > /var/tmp/abymod_1512_1516884150/rsc_9.pdb
+Warning: (mutmodel) Residue L1 not in PDB file
+Warning: (mutmodel) Residue L2 not in PDB file
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 Q -m H2 V -m H3 R -m H4 L -m H5 S -m H6 Q -m H7 S -m H8 G -m H9 G -m H10 Q -m H11 M -m H12 K -m H13 K -m H14 P -m H15 G -m H16 D -m H17 S -m H18 M -m H19 R -m H20 I -m H21 S -m H22 C -m H23 R -m H24 A -m H25 S /var/tmp/abymod_1512_1516884150/rsc_9.pdb > /var/tmp/abymod_1512_1516884150/rsc_10.pdb
+Warning: (mutmodel) Residue H1 not in PDB file
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 W -m H51 M -m H52 K -m H52A P -m H53 R -m H54 W -m H55 G -m H56 A -m H57 V -m H58 N -m H59 Y -m H60 A -m H61 R -m H62 Q -m H63 L -m H64 Q -m H65 G /var/tmp/abymod_1512_1516884150/rsc_10.pdb > /var/tmp/abymod_1512_1516884150/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 S -m L51 G -m L52 S -m L53 T -m L54 R -m L55 A -m L56 A /var/tmp/abymod_1512_1516884150/rsc_11.pdb > /var/tmp/abymod_1512_1516884150/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 Y -m H28 E -m H29 F -m H30 Q -m H31 N -m H32 C -m H33 P -m H34 I -m H35 N /var/tmp/abymod_1512_1516884150/rsc_12.pdb > /var/tmp/abymod_1512_1516884150/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 T -m L26 S -m L27 Q -m L28 Y -m L31 G -m L32 S -m L33 L -m L34 A /var/tmp/abymod_1512_1516884150/rsc_13.pdb > /var/tmp/abymod_1512_1516884150/rsc_14.pdb
+Warning: (mutmodel) Residue L31 not in PDB file
+Warning: (mutmodel) Residue L32 not in PDB file
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 Q -m L91 Y -m L96 E -m L97 F /var/tmp/abymod_1512_1516884150/rsc_14.pdb > /var/tmp/abymod_1512_1516884150/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 G -m H96 K -m H97 Y -m H98 C -m H99 T -m H100 A -m H100A R -m H100B D -m H100C Y -m H100D Y -m H100E N -m H100F W -m H100G D -m H100H F -m H101 E -m H102 H /var/tmp/abymod_1512_1516884150/rsc_15.pdb > /var/tmp/abymod_1512_1516884150/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_1512_1516884150/rsc_16.pdb /var/tmp/abymod_1512_1516884150/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m13.199s
+user	0m12.417s
+sys	0m0.190s
+FILE NAME: 2fx70PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dn00.seq 0.847
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hq40.seq 0.559
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1iai0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1iqd0.seq 0.802
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ken0.seq 0.559
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1n0x0.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1orq0.seq 0.577
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rhh0.seq 0.820
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1u6a0.seq 0.838
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/25c80.seq 0.586
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2agj0.seq 0.829
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2brr0.seq 0.586
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v7n0.seq 0.811
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eo00.seq 0.838
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eot0.seq 0.613
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3lh20.seq 0.973
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3lh22.seq 0.973
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ls50.seq 0.577
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qeg0.seq 0.856
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sdy0.seq 0.829
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3tcl0.seq 0.748
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u4b0.seq 0.721
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3w2d0.seq 0.577
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dvb0.seq 0.559
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fql0.seq 0.847
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4idj0.seq 0.802
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4las0.seq 0.568
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llv1.seq 0.973
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llv2.seq 0.735
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lvn0.seq 0.559
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m1g0.seq 0.577
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m620.seq 0.865
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m8q0.seq 0.847
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n900.seq 0.838
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4np40.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ob50.seq 0.865
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4odx0.seq 0.865
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qxg0.seq 0.820
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r8w0.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xaw0.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xbg3.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xbg4.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xc10.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xcy3.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xcy5.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xp40.seq 0.586
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ypg0.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zfg0.seq 0.685
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5csz0.seq 0.802
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5d8j0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dr50.seq 0.802
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5esv0.seq 0.766
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5grv0.seq 0.775
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gs10.seq 0.775
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i170.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i171.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1c0.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1h0.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1k0.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibl0.seq 0.811
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibt0.seq 0.874
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ibu0.seq 0.820
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9j0.seq 0.856
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5l7x0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5v7r0.seq 0.820
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5x080.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1n0x0.seq 0.559
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a9m0.seq 0.512
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a9n0.seq 0.512
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3grw0.seq 0.543
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3lh22.seq 0.984
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4eow0.seq 0.535
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fql0.seq 0.496
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4glr0.seq 0.433
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llv1.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m620.seq 0.835
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4odx0.seq 0.843
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4wv10.seq 0.535
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xc10.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xce0.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xvj0.seq 0.496
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cgy0.seq 0.543
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dum0.seq 0.543
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fgc0.seq 0.496
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpl0.seq 0.543
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpp0.seq 0.551
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tqa0.seq 0.535
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5u0r0.seq 0.630
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5u150.seq 0.630
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 4xc10
+Framework template H: 4xc10
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/pdbgetchain L,H  /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4xc10.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb
+done
+Grafting CDRs...done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 18 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_2153_1516884166/mod1.pdb
+
+...splicing b97-b120 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4tvs-b97-b120-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X b97 b120 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4tvs-b97-b120-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4tvs-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4tvs-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4tvs
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4tvs
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-H92-H105-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-H92-H105-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2fx7-H92-H105-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2fx7-H92-H105-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-2fx7-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-2fx7-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-2fx7
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-2fx7
+
+...splicing B97-B120 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6f0d-B97-B120-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B97 B120 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6f0d-B97-B120-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d
+
+...splicing I92-I105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-I92-I105-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X I92 I105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-I92-I105-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62
+
+...splicing A97-A120 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6f0d-A97-A120-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A97 A120 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6f0d-A97-A120-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6f0d
+
+...splicing S96-S119 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5hgg-S96-S119-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X S96 S119 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5hgg-S96-S119-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-5hgg-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-5hgg-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-5hgg
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-5hgg
+
+...splicing B97-B120 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6ezw-B97-B120-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B97 B120 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/6ezw-B97-B120-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6ezw-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6ezw-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6ezw
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-6ezw
+4m62-H92-H105-18 -61.443082
+2fx7-H92-H105-18 -59.964364
+4m62-I92-I105-18 -32.290552
+6f0d-A97-A120-18 133262377.010821
+6f0d-B97-B120-18 284147861.215520
+4tvs-b97-b120-18 365574419.850005
+6ezw-B97-B120-18 4623900089.392662
+5hgg-S96-S119-18 257838054938.682983
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-H92-H105-18 into CDR H3 of /var/tmp/abymod_2153_1516884166/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4m62-H92-H105-18 H95 H102 /var/tmp/abymod_2153_1516884166/mod1.pdb /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62-tmp /var/tmp/abymod_2153_1516884166/mod1.pdb_H3-4m62
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 Q -m L39 R -m L40 P -m L41 G -m L42 Q -m L43 A -m L44 P -m L45 R -m L46 L -m L47 L -m L48 I -m L49 Y /var/tmp/abymod_2153_1516884166/rsc_0.pdb > /var/tmp/abymod_2153_1516884166/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 V -m H38 R -m H39 Q -m H40 A -m H41 P -m H42 G -m H43 R -m H44 G -m H45 L -m H46 E -m H47 W -m H48 M -m H49 G /var/tmp/abymod_2153_1516884166/rsc_1.pdb > /var/tmp/abymod_2153_1516884166/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 Q -m L101 G -m L102 T -m L103 K -m L104 V -m L105 E -m L106 V -m L107 K -m L108 R -m L109 T -m L110 V /var/tmp/abymod_2153_1516884166/rsc_2.pdb > /var/tmp/abymod_2153_1516884166/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 L -m H109 V -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_2153_1516884166/rsc_3.pdb > /var/tmp/abymod_2153_1516884166/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 P -m L81 E -m L82 D -m L83 F -m L84 A -m L85 V -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_2153_1516884166/rsc_4.pdb > /var/tmp/abymod_2153_1516884166/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 E -m H86 D -m H87 T -m H88 A -m H89 V -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 R /var/tmp/abymod_2153_1516884166/rsc_5.pdb > /var/tmp/abymod_2153_1516884166/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 A -m L60 D -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 T -m L75 I -m L76 S -m L77 R -m L78 L -m L79 E /var/tmp/abymod_2153_1516884166/rsc_6.pdb > /var/tmp/abymod_2153_1516884166/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 I -m H68 T -m H69 I -m H70 T -m H71 A -m H72 D -m H73 R -m H74 S -m H75 T -m H76 S -m H77 T -m H78 A -m H79 Y -m H80 L -m H81 E -m H82 L -m H82A N -m H82B S -m H82C L -m H83 R -m H84 P /var/tmp/abymod_2153_1516884166/rsc_7.pdb > /var/tmp/abymod_2153_1516884166/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 E -m L2 I -m L3 V -m L4 L -m L5 T -m L6 Q -m L7 S -m L8 P -m L9 G -m L10 T -m L11 Q -m L12 S -m L13 L -m L14 S -m L15 P -m L16 G -m L17 E -m L18 R -m L19 A -m L20 T -m L21 L -m L22 S -m L23 C /var/tmp/abymod_2153_1516884166/rsc_8.pdb > /var/tmp/abymod_2153_1516884166/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 Q -m H2 V -m H3 Q -m H4 L -m H5 V -m H6 Q -m H7 S -m H8 G -m H9 A -m H10 E -m H11 V -m H12 K -m H13 R -m H14 P -m H15 G -m H16 S -m H17 S -m H18 V -m H19 T -m H20 V -m H21 S -m H22 C -m H23 K -m H24 A -m H25 S /var/tmp/abymod_2153_1516884166/rsc_9.pdb > /var/tmp/abymod_2153_1516884166/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 G -m H51 V -m H52 I -m H52A P -m H53 L -m H54 L -m H55 T -m H56 I -m H57 T -m H58 N -m H59 Y -m H60 A -m H61 P -m H62 R -m H63 F -m H64 Q -m H65 G /var/tmp/abymod_2153_1516884166/rsc_10.pdb > /var/tmp/abymod_2153_1516884166/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 G -m L51 A -m L52 S -m L53 S -m L54 R -m L55 P -m L56 S /var/tmp/abymod_2153_1516884166/rsc_11.pdb > /var/tmp/abymod_2153_1516884166/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 G -m H28 S -m H29 F -m H30 S -m H31 T -m H32 Y -m H33 A -m H34 L -m H35 S /var/tmp/abymod_2153_1516884166/rsc_12.pdb > /var/tmp/abymod_2153_1516884166/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 A -m L26 S -m L27 Q -m L28 S -m L29 V -m L30 G -m L30A N -m L31 N -m L32 K -m L33 L -m L34 A /var/tmp/abymod_2153_1516884166/rsc_13.pdb > /var/tmp/abymod_2153_1516884166/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 Q -m L91 Y -m L92 G -m L93 Q -m L94 S -m L95 L -m L96 S -m L97 T /var/tmp/abymod_2153_1516884166/rsc_14.pdb > /var/tmp/abymod_2153_1516884166/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 E -m H96 G -m H97 T -m H98 T -m H99 G -m H100 W -m H100A G -m H100B W -m H100C L -m H100D G -m H100E K -m H100F P -m H100G I -m H100H G -m H100I A -m H100J F -m H101 A -m H102 H /var/tmp/abymod_2153_1516884166/rsc_15.pdb > /var/tmp/abymod_2153_1516884166/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_2153_1516884166/rsc_16.pdb /var/tmp/abymod_2153_1516884166/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m15.667s
+user	0m15.183s
+sys	0m0.220s
+FILE NAME: 2ipt0PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a4j0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a4k0.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ad90.seq 0.579
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ae60.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bln0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c1e0.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cfv0.seq 0.816
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cl70.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cly0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1clz0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cr90.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dbb0.seq 0.877
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dlf0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dsf0.seq 0.851
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1f3d0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1f8t0.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fl30.seq 0.702
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fl50.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1flr0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fpt0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gpo0.seq 0.614
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i9j0.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igj0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kel0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kfa0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ktr0.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1l7t0.seq 0.842
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lo00.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lo40.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mh50.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mj80.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mju0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mnu0.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mrc0.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mre0.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1n4x0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nak0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nbv0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ncw0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nld0.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1plg0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1q720.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rmf0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rur0.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1s3k0.seq 0.728
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t2q0.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t660.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1tqb0.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ub50.seq 0.728
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ub60.seq 0.702
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uz80.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1wt50.seq 0.825
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgy0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yec0.seq 0.702
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yed0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yee0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yej0.seq 0.702
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynk0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynl0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zea0.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a770.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai00.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai01.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai03.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ajv0.seq 0.675
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2c1p0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2cju0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2d030.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ddq0.seq 0.991
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqu0.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dtm0.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eh70.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2g2r0.seq 0.754
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2g600.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gk00.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gk01.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2h1p0.seq 0.895
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hkf0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2igf0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2iq90.seq 0.991
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2iqa0.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2o5x0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ok00.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2pcp0.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0w0.seq 1.000
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uud0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uyl0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vq10.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2w600.seq 0.772
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2z4q0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3aaz0.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bae0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3c5s1.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cfb0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fo00.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fo10.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fo20.seq 0.921
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fo90.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ggw0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gkw0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gnm0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hr50.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifn0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifo0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifp0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3jau0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ley0.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3m8o0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mck0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nn80.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nz80.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3o2v0.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3o6k0.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3pp40.seq 0.772
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qcu0.seq 0.825
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qg60.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qnz0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qum0.seq 0.728
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sge0.seq 0.772
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u0t0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u1s0.seq 0.658
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9u0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3utz2.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v4v0.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vi30.seq 0.675
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3whx0.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4aei0.seq 0.974
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dtg0.seq 0.754
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4f370.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fab0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hcr0.seq 0.754
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hdi0.seq 0.912
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hxb0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hzl0.seq 0.947
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jn20.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jn21.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k230.seq 0.772
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lci0.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lex0.seq 0.851
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lkx0.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lri0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lri1.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lu50.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m7j0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nkd0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nkm0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nko0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nug0.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nuj0.seq 0.711
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ocx0.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ojf0.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4okv0.seq 0.754
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4onf0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ong0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4p3c0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4pb00.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4pb90.seq 0.693
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4q0x0.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qt50.seq 0.746
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4tpr0.seq 0.982
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4u6h0.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uv40.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uv70.seq 0.807
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x0k0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xxd0.seq 0.816
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ybq0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ygv0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yhl0.seq 0.860
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yho0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5a3i0.seq 0.781
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5aum0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bmf0.seq 0.816
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cp30.seq 0.728
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cp70.seq 0.728
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dlm0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dyo0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e2w0.seq 0.684
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eoq0.seq 0.886
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5epm0.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5h350.seq 0.956
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5jop0.seq 0.833
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9o0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kn50.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t1d0.seq 0.868
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t5f0.seq 0.719
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t6p0.seq 0.939
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tbd0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5trp0.seq 0.763
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tzt0.seq 0.851
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5v7u0.seq 0.737
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r0a0.seq 0.691
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hmi0.seq 0.691
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2iq90.seq 0.935
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0w0.seq 0.935
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3drq0.seq 0.602
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifo0.seq 0.829
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifp0.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mck0.seq 0.846
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3tnm0.seq 0.537
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5a160.seq 0.732
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 2r0w0
+Framework template H: 2r0w0
+CDR template H1: 1etz0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/pdbgetchain L,H  /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2r0w0.pdb /var/tmp/abymod_2876_1516884179/mod1.pdb
+done
+Grafting CDRs...
+...splicing H26-H35B from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1etz0.pdb into /var/tmp/abymod_2876_1516884179/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H26 H35B /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1etz0.pdb H26 H35B /var/tmp/abymod_2876_1516884179/mod1.pdb /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 13 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+
+...splicing E280-E298 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2xqr-E280-E298-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X E280 E298 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2xqr-E280-E298-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2xqr-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2xqr-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2xqr
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2xqr
+
+...splicing E57-E75 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j4e-E57-E75-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X E57 E75 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j4e-E57-E75-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e
+
+...splicing A280-A298 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2qqu-A280-A298-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A280 A298 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2qqu-A280-A298-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2qqu-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2qqu-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2qqu
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2qqu
+
+...splicing F327-F345 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1l2a-F327-F345-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X F327 F345 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1l2a-F327-F345-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1l2a-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1l2a-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1l2a
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1l2a
+
+...splicing A164-A182 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qib-A164-A182-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A164 A182 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qib-A164-A182-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib
+
+...splicing F57-F75 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j4e-F57-F75-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X F57 F75 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j4e-F57-F75-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-4j4e
+
+...splicing A57-A75 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1iiy-A57-A75-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A57 A75 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1iiy-A57-A75-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1iiy-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1iiy-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1iiy
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1iiy
+
+...splicing A57-A75 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ezm-A57-A75-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A57 A75 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ezm-A57-A75-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2ezm-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2ezm-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2ezm
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-2ezm
+1qib-A164-A182-13 -19.141779
+1l2a-F327-F345-13 8108.806539
+2xqr-E280-E298-13 48943.803669
+2qqu-A280-A298-13 64027.951427
+4j4e-F57-F75-13 2318207581.365407
+4j4e-E57-E75-13 26441874262.090855
+1iiy-A57-A75-13 8442620841047.953125
+2ezm-A57-A75-13 8744432160102.318359
+
+...splicing A164-A182 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qib-A164-A182-13 into CDR H3 of /var/tmp/abymod_2876_1516884179/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A164 A182 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1qib-A164-A182-13 H95 H102 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib-tmp /var/tmp/abymod_2876_1516884179/mod1.pdb_H1_H3-1qib
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 L -m L38 Q -m L39 K -m L40 P -m L41 G -m L42 Q -m L43 S -m L44 P -m L45 K -m L46 L -m L47 L -m L48 I -m L49 Y /var/tmp/abymod_2876_1516884179/rsc_0.pdb > /var/tmp/abymod_2876_1516884179/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 I -m H38 R -m H39 Q -m H40 P -m H41 S -m H42 G -m H43 K -m H44 G -m H45 L -m H46 E -m H47 W -m H48 L -m H49 A /var/tmp/abymod_2876_1516884179/rsc_1.pdb > /var/tmp/abymod_2876_1516884179/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 A -m L101 G -m L102 T -m L103 K -m L104 L -m L105 E -m L106 I -m L107 K -m L108 R -m L109 A /var/tmp/abymod_2876_1516884179/rsc_2.pdb > /var/tmp/abymod_2876_1516884179/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 L -m H109 V -m H110 T -m H111 V -m H112 S -m H113 A /var/tmp/abymod_2876_1516884179/rsc_3.pdb > /var/tmp/abymod_2876_1516884179/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 A -m L81 E -m L82 D -m L83 L -m L84 G -m L85 V -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_2876_1516884179/rsc_4.pdb > /var/tmp/abymod_2876_1516884179/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 A -m H86 D -m H87 T -m H88 A -m H89 T -m H90 Y -m H91 Y -m H92 C -m H93 V -m H94 R /var/tmp/abymod_2876_1516884179/rsc_5.pdb > /var/tmp/abymod_2876_1516884179/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 P -m L60 D -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 K -m L75 I -m L76 S -m L77 R -m L78 V -m L79 E /var/tmp/abymod_2876_1516884179/rsc_6.pdb > /var/tmp/abymod_2876_1516884179/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 Q -m H67 L -m H68 T -m H69 I -m H70 S -m H71 K -m H72 D -m H73 A -m H74 A -m H75 R -m H76 N -m H77 Q -m H78 V -m H79 F -m H80 L -m H81 R -m H82 I -m H82A T -m H82B S -m H82C V -m H83 D -m H84 T /var/tmp/abymod_2876_1516884179/rsc_7.pdb > /var/tmp/abymod_2876_1516884179/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 D -m L2 V -m L3 L -m L4 M -m L5 T -m L6 Q -m L7 T -m L8 P -m L9 L -m L10 S -m L11 L -m L12 P -m L13 V -m L14 S -m L15 L -m L16 G -m L17 D -m L18 Q -m L19 A -m L20 S -m L21 I -m L22 S -m L23 C /var/tmp/abymod_2876_1516884179/rsc_8.pdb > /var/tmp/abymod_2876_1516884179/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 Q -m H2 V -m H3 T -m H4 L -m H5 K -m H6 E -m H7 S -m H8 G -m H9 P -m H10 G -m H11 I -m H12 L -m H13 K -m H14 P -m H15 S -m H16 Q -m H17 T -m H18 L -m H19 S -m H20 L -m H21 T -m H22 C -m H23 S -m H24 F -m H25 S /var/tmp/abymod_2876_1516884179/rsc_9.pdb > /var/tmp/abymod_2876_1516884179/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 H -m H51 I -m H52 W -m H53 W -m H54 D -m H55 D -m H56 D -m H57 K -m H58 S -m H59 Y -m H60 N -m H61 P -m H62 S -m H63 L -m H64 K -m H65 S /var/tmp/abymod_2876_1516884179/rsc_10.pdb > /var/tmp/abymod_2876_1516884179/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 K -m L51 V -m L52 S -m L53 N -m L54 R -m L55 F -m L56 S /var/tmp/abymod_2876_1516884179/rsc_11.pdb > /var/tmp/abymod_2876_1516884179/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 F -m H28 S -m H29 L -m H30 S -m H31 T -m H31A S -m H31B G -m H32 M -m H33 G -m H34 V -m H35 G /var/tmp/abymod_2876_1516884179/rsc_12.pdb > /var/tmp/abymod_2876_1516884179/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 S -m L26 S -m L27 Q -m L28 S -m L29 I -m L30 V -m L30A H -m L30B S -m L30C N -m L30D G -m L30E N -m L31 T -m L32 Y -m L33 L -m L34 E /var/tmp/abymod_2876_1516884179/rsc_13.pdb > /var/tmp/abymod_2876_1516884179/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 F -m L90 Q -m L91 G -m L92 S -m L93 H -m L94 V -m L95 P -m L96 L -m L97 T /var/tmp/abymod_2876_1516884179/rsc_14.pdb > /var/tmp/abymod_2876_1516884179/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 R -m H96 A -m H97 H -m H98 T -m H99 T -m H100 V -m H100A L -m H100B G -m H100C D -m H100D W -m H100E F -m H101 A -m H102 Y /var/tmp/abymod_2876_1516884179/rsc_15.pdb > /var/tmp/abymod_2876_1516884179/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_2876_1516884179/rsc_16.pdb /var/tmp/abymod_2876_1516884179/rsc_16.pdb-fix
+...done
+Truncating structure...done
+
+real	0m12.766s
+user	0m12.170s
+sys	0m0.221s
+FILE NAME: 3fo20PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a4j0.seq 0.930
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a4k0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ad90.seq 0.574
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ae60.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bln0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c1e0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cfv0.seq 0.774
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cl70.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cly0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1clz0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cr90.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dbb0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dlf0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dsf0.seq 0.809
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1f3d0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1f8t0.seq 0.730
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fl30.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fl50.seq 0.965
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1flr0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fpt0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gpo0.seq 0.609
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i9j0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igj0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kel0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kfa0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ktr0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1l7t0.seq 0.809
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lo00.seq 0.835
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lo40.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mh50.seq 0.678
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mj80.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mju0.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mnu0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mrc0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mre0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1n4x0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nak0.seq 0.843
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nbv0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ncw0.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nld0.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1plg0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1q720.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rmf0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rur0.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1s3k0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t2q0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t660.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1tqb0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ub50.seq 0.730
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ub60.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uz80.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1wt50.seq 0.809
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgy0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yec0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yed0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yee0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yej0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynk0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynl0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zea0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a770.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai00.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai01.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ai03.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ajv0.seq 0.652
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2c1p0.seq 0.730
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2cju0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2d030.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ddq0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqu0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dtm0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eh70.seq 0.765
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2g2r0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2g600.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2h1p0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hkf0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2igf0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ipt0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ipu0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2iq90.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2iqa0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2o5x0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ok00.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2pcp0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0w0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0z0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uud0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uyl0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vq10.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2w600.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2z4q0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3aaz0.seq 0.835
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bae0.seq 0.826
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3c5s1.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cfb0.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eys0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fo90.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ggw0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gkw0.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gnm0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hr50.seq 0.678
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifn0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifo0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ifp0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3jau0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ley0.seq 0.757
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3m8o0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mck0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nn80.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nz80.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3o2v0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3o6k0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3pp40.seq 0.791
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qcu0.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qg60.seq 0.826
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qnz0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qum0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sge0.seq 0.748
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u0t0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u1s0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9u0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3utz2.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v4v0.seq 0.774
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vi30.seq 0.643
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3whx0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4aei0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dtg0.seq 0.765
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4f370.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fab0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hcr0.seq 0.765
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hdi0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hxb0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hzl0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jn20.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jn21.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k230.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lci0.seq 0.687
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lex0.seq 0.843
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lkx0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lri0.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lri1.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lu50.seq 0.739
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m7j0.seq 0.887
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nkd0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nkm0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nko0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nug0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nuj0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ocx0.seq 0.870
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ojf0.seq 0.748
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4okv0.seq 0.730
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4onf0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ong0.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4p3c0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4pb00.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4pb90.seq 0.678
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4q0x0.seq 0.913
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qt50.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4tpr0.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4u6h0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uv40.seq 0.722
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uv70.seq 0.800
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x0k0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xxd0.seq 0.800
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ybq0.seq 0.904
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ygv0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yhl0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yho0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5a3i0.seq 0.783
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5aum0.seq 0.678
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bmf0.seq 0.800
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cp30.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cp70.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dlm0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dyo0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e2w0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eoq0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5epm0.seq 0.896
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5h350.seq 0.922
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5jop0.seq 0.774
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9o0.seq 0.696
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kn50.seq 0.783
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t1d0.seq 0.861
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t5f0.seq 0.704
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5t6p0.seq 0.878
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tbd0.seq 0.713
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5trp0.seq 0.765
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tzt0.seq 0.852
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5v7u0.seq 0.730
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ibg0.seq 0.777
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edw0.seq 0.636
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edx0.seq 0.760
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jam0.seq 0.471
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhk0.seq 0.603
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhl0.seq 0.537
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhm0.seq 0.537
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qhn0.seq 0.488
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fuz0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjs0.seq 0.423
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjt0.seq 0.430
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5itb0.seq 0.529
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5jq60.seq 0.744
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 1fl50
+Framework template H: 1ibg0
+CDR template L3: 2dqu0
+CDR template H2: 3kj40
+CDR template H3: 4py70
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/fitlhpdb -s H:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1ibg0.pdb L:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1fl50.pdb /var/tmp/abymod_3590_1516884194/mod1.pdb
+done
+Grafting CDRs...
+...splicing L89-L97 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2dqu0.pdb into /var/tmp/abymod_3590_1516884194/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb L89 L97 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/2dqu0.pdb L89 L97 /var/tmp/abymod_3590_1516884194/mod1.pdb /var/tmp/abymod_3590_1516884194/mod1.pdb_L3
+
+...splicing H50-H65 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/3kj40.pdb into /var/tmp/abymod_3590_1516884194/mod1.pdb_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H50 H65 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/3kj40.pdb H50 H65 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2
+
+...splicing H95-H102 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4py70.pdb into /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H95 H102 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4py70.pdb H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 8 -l 13 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ibg-H92-H105-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ibg-H92-H105-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1ibg-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1ibg-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1ibg
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1ibg
+
+...splicing A34-A52 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2jp0-A34-A52-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A34 A52 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2jp0-A34-A52-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2jp0-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2jp0-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2jp0
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2jp0
+
+...splicing H92-H105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zck-H92-H105-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H92 H105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zck-H92-H105-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2zck-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2zck-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2zck
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2zck
+
+...splicing A96-A114 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1lmk-A96-A114-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A96 A114 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1lmk-A96-A114-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1lmk-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1lmk-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1lmk
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-1lmk
+
+...splicing D92-D105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j8r-D92-D105-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X D92 D105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4j8r-D92-D105-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4j8r-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4j8r-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4j8r
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4j8r
+
+...splicing A83-A101 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ev8-A83-A101-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A83 A101 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ev8-A83-A101-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8
+
+...splicing I91-I109 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5xov-I91-I109-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X I91 I109 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5xov-I91-I109-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-5xov-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-5xov-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-5xov
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-5xov
+
+...splicing A134-A152 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4mf9-A134-A152-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A134 A152 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4mf9-A134-A152-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4mf9-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4mf9-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4mf9
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-4mf9
+2ev8-A83-A101-13 190016.426487
+2jp0-A34-A52-13 3987829.198272
+2zck-H92-H105-13 27874835.637729
+1ibg-H92-H105-13 73476839.278728
+4mf9-A134-A152-13 85542477.513956
+5xov-I91-I109-13 1249098487.050269
+4j8r-D92-D105-13 1712053557.765529
+1lmk-A96-A114-13 161453406506.320282
+
+...splicing A83-A101 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ev8-A83-A101-13 into CDR H3 of /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A83 A101 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2ev8-A83-A101-13 H95 H102 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8-tmp /var/tmp/abymod_3590_1516884194/mod1.pdb_L3_H2_H3_H3-2ev8
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 L -m L38 Q -m L39 K -m L40 P -m L41 G -m L42 Q -m L43 S -m L44 P -m L45 K -m L46 L -m L47 L -m L48 I -m L49 Y /var/tmp/abymod_3590_1516884194/rsc_0.pdb > /var/tmp/abymod_3590_1516884194/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 V -m H38 R -m H39 Q -m H40 P -m H41 P -m H42 G -m H43 K -m H44 G -m H45 L -m H46 E -m H47 W -m H48 V -m H49 G /var/tmp/abymod_3590_1516884194/rsc_1.pdb > /var/tmp/abymod_3590_1516884194/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 G -m L101 G -m L102 T -m L103 K -m L104 L -m L105 E -m L106 I -m L107 K -m L108 R -m L109 T -m L110 V /var/tmp/abymod_3590_1516884194/rsc_2.pdb > /var/tmp/abymod_3590_1516884194/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 T -m H109 V -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_3590_1516884194/rsc_3.pdb > /var/tmp/abymod_3590_1516884194/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 A -m L81 E -m L82 D -m L83 L -m L84 G -m L85 V -m L86 Y -m L87 Y -m L88 C /var/tmp/abymod_3590_1516884194/rsc_4.pdb > /var/tmp/abymod_3590_1516884194/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 D -m H86 D -m H87 T -m H88 A -m H89 V -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 K /var/tmp/abymod_3590_1516884194/rsc_5.pdb > /var/tmp/abymod_3590_1516884194/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 P -m L60 D -m L61 R -m L62 F -m L63 S -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 K -m L75 I -m L76 N -m L77 R -m L78 V -m L79 E /var/tmp/abymod_3590_1516884194/rsc_6.pdb > /var/tmp/abymod_3590_1516884194/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 L -m H68 S -m H69 I -m H70 S -m H71 K -m H72 D -m H73 N -m H74 S -m H75 K -m H76 S -m H77 Q -m H78 V -m H79 F -m H80 L -m H81 K -m H82 M -m H82A N -m H82B S -m H82C L -m H83 Q -m H84 T /var/tmp/abymod_3590_1516884194/rsc_7.pdb > /var/tmp/abymod_3590_1516884194/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 E -m L2 L -m L3 V -m L4 M -m L5 T -m L6 Q -m L7 T -m L8 P -m L9 L -m L10 S -m L11 L -m L12 P -m L13 V -m L14 S -m L15 L -m L16 G -m L17 D -m L18 Q -m L19 A -m L20 S -m L21 I -m L22 S -m L23 C /var/tmp/abymod_3590_1516884194/rsc_8.pdb > /var/tmp/abymod_3590_1516884194/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 D -m H2 V -m H3 Q -m H4 L -m H5 L -m H6 E -m H7 S -m H8 G -m H9 P -m H10 G -m H11 L -m H12 V -m H13 A -m H14 P -m H15 S -m H16 Q -m H17 S -m H18 L -m H19 S -m H20 I -m H21 T -m H22 C -m H23 T -m H24 V -m H25 S /var/tmp/abymod_3590_1516884194/rsc_9.pdb > /var/tmp/abymod_3590_1516884194/rsc_10.pdb
+Error: (mutmodel) Could not build sidechain as backbone atoms were missing [Residue H1 to D]
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 V -m H51 I -m H52 W -m H53 S -m H54 G -m H55 G -m H56 S -m H57 T -m H58 N -m H59 Y -m H60 N -m H61 S -m H62 A -m H63 L -m H64 M -m H65 S /var/tmp/abymod_3590_1516884194/rsc_10.pdb > /var/tmp/abymod_3590_1516884194/rsc_11.pdb
+Error: (mutmodel) Can't read PDB coordinates
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 K -m L51 V -m L52 S -m L53 N -m L54 R -m L55 F -m L56 S /var/tmp/abymod_3590_1516884194/rsc_11.pdb > /var/tmp/abymod_3590_1516884194/rsc_12.pdb
+Error: (mutmodel) Can't read PDB coordinates
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 F -m H28 S -m H29 L -m H30 T -m H31 N -m H32 Y -m H33 G -m H34 V -m H35 D /var/tmp/abymod_3590_1516884194/rsc_12.pdb > /var/tmp/abymod_3590_1516884194/rsc_13.pdb
+Error: (mutmodel) Can't read PDB coordinates
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 R -m L25 S -m L26 S -m L27 Q -m L28 S -m L29 I -m L30 V -m L30A H -m L30B S -m L30C N -m L30D G -m L30E N -m L31 T -m L32 Y -m L33 L -m L34 Q /var/tmp/abymod_3590_1516884194/rsc_13.pdb > /var/tmp/abymod_3590_1516884194/rsc_14.pdb
+Error: (mutmodel) Can't read PDB coordinates
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 F -m L90 Q -m L91 G -m L92 S -m L93 H -m L94 L -m L95 P -m L96 P -m L97 T /var/tmp/abymod_3590_1516884194/rsc_14.pdb > /var/tmp/abymod_3590_1516884194/rsc_15.pdb
+Error: (mutmodel) Can't read PDB coordinates
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 H -m H96 W -m H97 G -m H98 G -m H99 Y -m H100 Y -m H100A I -m H100B P -m H100C Y -m H100D G -m H100E M -m H101 D -m H102 H /var/tmp/abymod_3590_1516884194/rsc_15.pdb > /var/tmp/abymod_3590_1516884194/rsc_16.pdb
+Error: (mutmodel) Can't read PDB coordinates
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_3590_1516884194/rsc_16.pdb /var/tmp/abymod_3590_1516884194/rsc_16.pdb-fix
+Error: (mutmodel) Can't read PDB coordinates
+...done
+Truncating structure...done
+
+real	0m15.458s
+user	0m15.006s
+sys	0m0.223s
+FILE NAME: 4n9g0PRED.pdb

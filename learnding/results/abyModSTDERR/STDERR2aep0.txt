@@ -1,0 +1,1977 @@
+FILE NAME: 2aep0PRED.pdb
+SELECTING TEMPLATES...
+Finding canonicals for your sequence...done
+Finding canonical matches in the library...done
+Removing excluded files...done
+Finding templates...done
+Ranking templates...
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/12e80.seq 0.853
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a140.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a2y0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7n0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7p0.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1a7r0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1axs0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b2w0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1b4j0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bbj0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bfo0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bj10.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bm30.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bvk0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1bz70.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c120.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1c5c0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cic1.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ct80.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1cz80.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5b0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1d5i0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dee0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1dvf0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1e4x1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1emt0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fai0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fbi0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fdl0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fe80.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgn0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fgv0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fh50.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fj10.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fns0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fsk0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fvd0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1fve0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7h0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7i0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7j0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7l0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1g7m0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1gaf0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hez0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1hi60.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i3g0.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1i8k0.seq 0.459
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1iai1.seq 0.761
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic40.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic50.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ic70.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igc0.seq 0.716
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igm0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igt0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1igy0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ikf0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1o0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1p0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1j1x0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jfq0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jgl0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhk0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jhl0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jnl0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1jps0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1k6q0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kb50.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcu0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kcv0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kip0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kiq0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kir0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1kno0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1l7i0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1lk30.seq 0.470
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mam0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mex0.seq 0.872
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1mlb0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nby0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nca0.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ncb0.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ndm0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngy0.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ngz0.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nma0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmb0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nmc0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1oak0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1op30.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1opg0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1osp0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1p2c0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r0a0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1r240.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rih0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rjl0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzg0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi0.seq 0.492
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1rzi1.seq 0.492
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1t3f0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1tzi0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uac0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uj30.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1um50.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwe0.seq 0.835
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwg0.seq 0.826
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uwx0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1uyw0.seq 0.716
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1wej0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgp0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgq0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgr0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgt0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xgu0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1xiw0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yjd0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ynt0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1yy80.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zan0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1zlv0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1ztx0.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2a6i0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2adg0.seq 0.477
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2aj30.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2arj0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2bdn0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2d7t0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqc0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqd0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqe0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqf0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqg0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqh0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2dqi0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2e270.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eiz0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2eks0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2f5a0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fgw0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjf0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2fjh0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2gfb0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2h9g0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hff1.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hfg0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hh00.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2hmi0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ih30.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2jix0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2nr60.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2orb0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2oz40.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2pr40.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q760.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8a0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2q8b0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qad0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqk0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2qqn0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0k0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r0l0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r4r0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r560.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2r8s0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2rcs0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2uzi0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v170.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2v7h0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vh50.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxq0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2vxt0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2xkn0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yc10.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ymx0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ypv0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2yss0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2zjs0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a670.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a6b0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3a6c0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3b2u0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bgf0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bn90.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3bqu0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cfd0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cle0.seq 0.853
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3clf0.seq 0.853
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cvi0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cx50.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3cxd0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d0l0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d850.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3d9a0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3dif0.seq 0.771
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3drq0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3efd0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3eo90.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fmg0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fn00.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3fzu0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5v0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5x0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5y0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g5z0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3g6j0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3giz0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3gk80.seq 0.752
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3grw0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc00.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc30.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hc40.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hmx0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3hnt0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i750.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i9g0.seq 0.505
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3idg0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iu40.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy00.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy10.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy20.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3iy60.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j1s0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j420.seq 0.706
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8v0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3j8w0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3jcx0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3k2u0.seq 0.697
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kr30.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3kym0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5w0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l5x0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3l950.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3liz0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3mxw0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3n850.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3na90.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3naa0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nab0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nac0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ncj0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3nzh0.seq 0.706
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3oau0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ojd0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3p0y0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3pgf0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3qpq0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r060.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3r1g0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ra70.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rkd0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3rvv0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3s340.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3skj0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sob0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3sqo0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3t3p0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u0w0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u300.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3u9p1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ubx0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3uc00.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v0w0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o0.seq 0.734
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3v6o1.seq 0.565
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3ve00.seq 0.743
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vg90.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3vrl0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3w140.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wd50.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wfd0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3wii0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x2d0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3x3f0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4aeh0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4al80.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4bz20.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cad0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cmh0.seq 0.725
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cni0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4d9q0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dke0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4dkf0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edw0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4edx0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ers0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4f2m0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4fnl0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g5z0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g6m0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g7v0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4g800.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gms1.seq 0.872
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4gmt0.seq 0.872
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h200.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4h880.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hc10.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg40.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hg41.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hkz0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4hlz0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ij30.seq 0.780
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ioi0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfx0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jfz0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg00.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jg10.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jha0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jqi0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4jzn0.seq 0.323
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k2u0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4k7p1.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ki51.seq 0.389
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kmt0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kq40.seq 0.752
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kvc0.seq 0.706
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ky10.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4kzd0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4l5f0.seq 0.495
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lf30.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lkc0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llu1.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4llw0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lly0.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4lmq0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m430.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4m6o0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mwf0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4mxv0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g0.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g1.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g2.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4n9g3.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nhh1.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrx1.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nry1.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nrz0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nyl3.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzr0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4nzu0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4o020.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oaw0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4oii0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4p590.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4plj0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4poz0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4py70.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4qth0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7d0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r7n0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4r970.seq 0.872
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rau0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rdq0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgm0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rgo0.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4rrp0.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4s1d0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uao0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uik0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4uin0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4wv10.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4x0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x4y0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4x800.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xak0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xgz0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xhj0.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4xi50.seq 0.642
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4ydk0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yk40.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yr60.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4yue0.seq 0.514
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z0x0.seq 0.338
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4z8f0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4zfo0.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bo10.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5bvj0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c0r0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5c8j0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cma0.seq 0.550
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5cws0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czv0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5czx0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5d960.seq 0.743
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd00.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd50.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd60.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dd61.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dmi0.seq 0.523
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5do20.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dum0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5dwu0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e080.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5e940.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eii0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5en20.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5esa0.seq 0.316
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5eu70.seq 0.670
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ezi0.seq 0.716
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3b0.seq 0.761
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5f3h0.seq 0.688
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5fha0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggq0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ggv0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gir0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjs0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gjt0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gs00.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5gzo0.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5h2b0.seq 0.706
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i150.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i160.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i190.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1a0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1e0.seq 0.633
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1g0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i1j0.seq 0.578
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i300.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i5k0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i660.seq 0.789
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5i8c0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ikc0.seq 0.798
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k590.seq 0.624
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5k9q0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kaq0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kel0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kem1.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken0.seq 0.817
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5ken2.seq 0.541
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kte0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5kvg0.seq 0.853
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5l0q0.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5mvz0.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5sx50.seq 0.615
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn0.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdn1.seq 0.661
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo0.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tdo1.seq 0.651
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th20.seq 0.606
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5th90.seq 0.679
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tih0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tpn0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tqq0.seq 0.890
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tz20.seq 0.560
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5tzu0.seq 0.532
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uix0.seq 0.587
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/5uqy0.seq 0.569
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/6fab0.seq 0.596
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1nfd0.seq 0.608
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/1pz50.seq 0.625
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/2ck00.seq 0.617
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/3i2c0.seq 0.592
+/acrm/bsmhome/abymod_V1.20/DATA/abseqlib/4cni0.seq 0.642
+done
+Finding best templates for CDR-L1.................................done
+Finding best templates for CDR-L2.................................done
+Finding best templates for CDR-L3.................................done
+Finding best templates for CDR-H1.................................done
+Finding best templates for CDR-H2.................................done
+Finding best templates for CDR-H3.................................done
+BUILDING MODEL...
+Reading template file...done
+Checking template data...done
+Getting best candidate templates...done
+Selecting best templates...done
+Selecting best CDRs...done
+Framework template L: 4r970
+Framework template H: 1pz50
+CDR template H1: 3pho0
+CDR template L3: 1rih0
+CDR template H3: 4xgz0
+Fitting Light and Heavy templates.../acrm/bsmhome/abymod_V1.20/bin/fitlhpdb -s H:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1pz50.pdb L:/acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4r970.pdb /var/tmp/abymod_29883_1516364770/mod1.pdb
+done
+Grafting CDRs...
+...splicing H26-H35B from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/3pho0.pdb into /var/tmp/abymod_29883_1516364770/mod1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H26 H35B /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/3pho0.pdb H26 H35B /var/tmp/abymod_29883_1516364770/mod1.pdb /var/tmp/abymod_29883_1516364770/mod1.pdb_H1
+
+...splicing L89-L97 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1rih0.pdb into /var/tmp/abymod_29883_1516364770/mod1.pdb_H1
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb L89 L97 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/1rih0.pdb L89 L97 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3
+
+...splicing H95-H102 from /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4xgz0.pdb into /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb H95 H102 /acrm/bsmhome/abymod_V1.20/DATA/abpdblib/4xgz0.pdb H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+done
+Running LoopDB on CDR-H3.../acrm/bsmhome/abymod_V1.20/bin/scanloopdb -n 20 -l 9 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/loops.db /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+
+...splicing B92-B105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1pz5-B92-B105-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B92 B105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1pz5-B92-B105-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3pyp-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/3pyp-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-3pyp-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-3pyp-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-3pyp
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-3pyp
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4b9o-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4b9o-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4b9o-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4b9o-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4b9o
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4b9o
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4wl9-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4wl9-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4wl9-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4wl9-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4wl9
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4wl9
+
+...splicing F96-F110 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xcq-F96-F110-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X F96 F110 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1xcq-F96-F110-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1xcq-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1xcq-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1xcq
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1xcq
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ot6-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ot6-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ot6-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ot6-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ot6
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ot6
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2qws-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2qws-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2qws-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2qws-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2qws
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2qws
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5gx9-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/5gx9-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-5gx9-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-5gx9-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-5gx9
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-5gx9
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE21 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+Atom DE22 not found in params for GLN 
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zoh-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zoh-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoh-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoh-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoh
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoh
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zoi-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/2zoi-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoi-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoi-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoi
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-2zoi
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for ASP 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for GLY 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom D    not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD21 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom DD22 not found in params for ASN 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for ILE 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for LEU 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+Atom D    not found in params for GLN 
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts6-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts6-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts6-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts6-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts6
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts6
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts7-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts7-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts7-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts7-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts7
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts7
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts0-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts0-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts0-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts0-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts0
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts0
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts8-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ts8-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts8-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts8-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts8
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ts8
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1otb-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1otb-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1otb-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1otb-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1otb
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1otb
+
+...splicing H96-H110 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4p3d-H96-H110-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X H96 H110 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/4p3d-H96-H110-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4p3d-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4p3d-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4p3d
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-4p3d
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1s1y-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1s1y-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1y-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1y-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1y
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1y
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1s1z-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1s1z-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1z-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1z-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1z
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1s1z
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ota-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1ota-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ota-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ota-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ota
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1ota
+
+...splicing A30-A44 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1gsw-A30-A44-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X A30 A44 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1gsw-A30-A44-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1gsw-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1gsw-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1gsw
+/acrm/bsmhome/abymod_V1.20/bin/clashcalc -p /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/eparams.dat H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1gsw
+1pz5-B92-B105-9 -4.499395
+4p3d-H96-H110-9 763.225506
+1xcq-F96-F110-9 15729.646527
+4wl9-A30-A44-9 51581.434101
+1ot6-A30-A44-9 70535.274221
+4b9o-A30-A44-9 70549.595127
+1ts8-A30-A44-9 79044.752777
+1ts7-A30-A44-9 79213.714403
+1ts6-A30-A44-9 80002.939584
+1ts0-A30-A44-9 80002.939584
+1otb-A30-A44-9 80648.568505
+2zoi-A30-A44-9 89092.762979
+3pyp-A30-A44-9 95086.100698
+2qws-A30-A44-9 336223.623363
+5gx9-A30-A44-9 6376000.424561
+1s1y-A30-A44-9 786320625.190772
+1s1z-A30-A44-9 786320625.190772
+1ota-A30-A44-9 786320625.190772
+2zoh-A30-A44-9 810187273.816923
+1gsw-A30-A44-9 6723823704.630451
+
+...splicing B92-B105 from /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1pz5-B92-B105-9 into CDR H3 of /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3
+/acrm/bsmhome/abymod_V1.20/bin/splicepdb -l -c X B92 B105 /acrm/bsmhome/abymod_V1.20/DATA/loopdb/PDB/1pz5-B92-B105-9 H95 H102 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5-tmp
+
+...renumbering the new loop
+/acrm/bsmhome/abymod_V1.20/bin/renumabloop -c H3 /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5-tmp /var/tmp/abymod_29883_1516364770/mod1.pdb_H1_L3_H3_H3-1pz5
+done
+Replacing sidechains...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L35 W -m L36 Y -m L37 Q -m L38 K -m L39 K -m L40 P -m L41 G -m L42 Q -m L43 S -m L44 P -m L45 K -m L46 P -m L47 L -m L48 M -m L49 Y /var/tmp/abymod_29883_1516364770/rsc_0.pdb > /var/tmp/abymod_29883_1516364770/rsc_1.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H36 W -m H37 F -m H38 R -m H39 Q -m H40 P -m H41 P -m H42 G -m H43 K -m H44 A -m H45 L -m H46 E -m H47 W -m H48 L -m H49 G /var/tmp/abymod_29883_1516364770/rsc_1.pdb > /var/tmp/abymod_29883_1516364770/rsc_2.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L98 F -m L99 G -m L100 S -m L101 G -m L102 T -m L103 K -m L104 L -m L105 E -m L106 L -m L107 K -m L108 R -m L109 A /var/tmp/abymod_29883_1516364770/rsc_2.pdb > /var/tmp/abymod_29883_1516364770/rsc_3.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H103 W -m H104 G -m H105 Q -m H106 G -m H107 T -m H108 T -m H109 L -m H110 T -m H111 V -m H112 S -m H113 S /var/tmp/abymod_29883_1516364770/rsc_3.pdb > /var/tmp/abymod_29883_1516364770/rsc_4.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L80 S -m L81 E -m L82 D -m L83 L -m L84 A -m L85 E -m L86 Y -m L87 F -m L88 C /var/tmp/abymod_29883_1516364770/rsc_4.pdb > /var/tmp/abymod_29883_1516364770/rsc_5.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H85 E -m H86 D -m H87 S -m H88 A -m H89 T -m H90 Y -m H91 Y -m H92 C -m H93 A -m H94 R /var/tmp/abymod_29883_1516364770/rsc_5.pdb > /var/tmp/abymod_29883_1516364770/rsc_6.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L57 G -m L58 V -m L59 P -m L60 D -m L61 R -m L62 F -m L63 T -m L64 G -m L65 S -m L66 G -m L67 S -m L68 G -m L69 T -m L70 D -m L71 F -m L72 T -m L73 L -m L74 T -m L75 I -m L76 S -m L77 N -m L78 V -m L79 Q /var/tmp/abymod_29883_1516364770/rsc_6.pdb > /var/tmp/abymod_29883_1516364770/rsc_7.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H66 R -m H67 F -m H68 T -m H69 I -m H70 S -m H71 R -m H72 D -m H73 N -m H74 S -m H75 Q -m H76 S -m H77 I -m H78 V -m H79 Y -m H80 L -m H81 H -m H82 M -m H82A N -m H82B T -m H82C L -m H83 T -m H84 A /var/tmp/abymod_29883_1516364770/rsc_7.pdb > /var/tmp/abymod_29883_1516364770/rsc_8.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L1 D -m L2 I -m L3 L -m L4 M -m L5 T -m L6 Q -m L7 S -m L8 Q -m L9 K -m L10 F -m L11 L -m L12 S -m L13 T -m L14 S -m L15 V -m L16 G -m L17 D -m L18 R -m L19 V -m L20 S -m L21 V -m L22 T -m L23 C /var/tmp/abymod_29883_1516364770/rsc_8.pdb > /var/tmp/abymod_29883_1516364770/rsc_9.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H1 E -m H2 V -m H3 K -m H4 L -m H5 V -m H6 E -m H7 S -m H8 G -m H9 G -m H10 G -m H11 L -m H12 V -m H13 Q -m H14 P -m H15 G -m H16 G -m H17 S -m H18 L -m H19 S -m H20 L -m H21 S -m H22 C -m H23 A -m H24 T -m H25 S /var/tmp/abymod_29883_1516364770/rsc_9.pdb > /var/tmp/abymod_29883_1516364770/rsc_10.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H50 L -m H51 I -m H52 R -m H52A N -m H52B K -m H52C G -m H53 N -m H54 G -m H55 Y -m H56 T -m H57 M -m H58 E -m H59 Y -m H60 S -m H61 A -m H62 S -m H63 L -m H64 K -m H65 G /var/tmp/abymod_29883_1516364770/rsc_10.pdb > /var/tmp/abymod_29883_1516364770/rsc_11.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L50 S -m L51 A -m L52 S -m L53 Y -m L54 R -m L55 Y -m L56 S /var/tmp/abymod_29883_1516364770/rsc_11.pdb > /var/tmp/abymod_29883_1516364770/rsc_12.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H26 G -m H27 F -m H28 T -m H29 F -m H30 I -m H31 D -m H32 Y -m H33 Y -m H34 M -m H35 S /var/tmp/abymod_29883_1516364770/rsc_12.pdb > /var/tmp/abymod_29883_1516364770/rsc_13.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L24 K -m L25 A -m L26 S -m L27 Q -m L28 N -m L29 V -m L30 G -m L31 T -m L32 N -m L33 V -m L34 A /var/tmp/abymod_29883_1516364770/rsc_13.pdb > /var/tmp/abymod_29883_1516364770/rsc_14.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m L89 Q -m L90 Q -m L91 F -m L92 N -m L93 R -m L94 Y -m L95 P -m L96 L -m L97 T /var/tmp/abymod_29883_1516364770/rsc_14.pdb > /var/tmp/abymod_29883_1516364770/rsc_15.pdb
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -n -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor -m H95 V -m H96 D -m H97 Y -m H98 G -m H99 T -m H100 N -m H100A Y -m H101 D -m H102 Y /var/tmp/abymod_29883_1516364770/rsc_15.pdb > /var/tmp/abymod_29883_1516364770/rsc_16.pdb
+...done
+Fixing any missing atoms...
+/acrm/bsmhome/abymod_V1.20/bin/mutmodel -R -c /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/chitab.dat -r /acrm/bsmhome/abymod_V1.20/DATA/mutmodel/coor /var/tmp/abymod_29883_1516364770/rsc_16.pdb /var/tmp/abymod_29883_1516364770/rsc_16.pdb-fix
+...done
+Truncating structure...done
