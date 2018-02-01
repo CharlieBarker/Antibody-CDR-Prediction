@@ -16,6 +16,9 @@
 #		Don't forget to use -noopt
 #	        Ensure you are running the tests on martin-cs00 (i.e. use "ssh
 #		martin-cs00") to get on the right machine.
+#		Ensure for tests you use a TEST redundancy file (doesnt contain 
+#		of proteins so quicker) and do not use energybuildmodel.pl (
+#		change in abymod.pl ) as this is 20 times slower. 
 #  
 #               
 #*************************************************************************
@@ -33,11 +36,14 @@ use strict;
 #martin-cs00") to get on the right machine.
 #no hup [command] & for no hangup 
 #ALWAYS CHECK JOBS ARE RUNNING BY TYPING ps auxwww | grep abymod.pl  AFTER EXECUTION
+#Check you are always using the right version of abymod. 
+#check you are always using the right VERSION OF BUILDMODEL
+#check you are always using the right REDUNDANCY FILE 
 		
 
 
 
-my $job1 = "perl analyseabYmod.pl default -noopt 2> results/abyModSTDERR/default.txt";  
+ 
 my $job2 = "perl analyseabYmod.pl energynLoops1 -noopt -loopdb -nloophits=1 2> results/abyModSTDERR/energynLoops1.txt"; 
 my $job3 = "perl analyseabYmod.pl energynLoops2 -noopt -loopdb -nloophits=2 2> results/abyModSTDERR/energynLoops2.txt"; 
 my $job4 = "perl analyseabYmod.pl energynLoops3 -noopt -loopdb -nloophits=3 2> results/abyModSTDERR/energynLoops3.txt"; 
@@ -82,7 +88,7 @@ foreach my $job (@jobs)
         {
             sleep 5;
         }
-    } while($nRunning >= 6);
+    } while($nRunning >= 12);
 
     StartJob($job);
 	print "$nRunning\n";
