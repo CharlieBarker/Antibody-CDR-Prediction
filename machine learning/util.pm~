@@ -1,0 +1,40 @@
+package util;
+#*************************************************************************
+#
+#   Program:    abYmod
+#   File:       util.pm
+#   
+#   Version:    V1.20
+#   Date:       05.02.2018
+#   Function:   General perl utilities
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#               
+#*************************************************************************
+
+use strict;
+
+
+#*************************************************************************
+# 3- to 1-letter conversion
+%util::throneData = 
+    ('ALA' => 'A',
+     'CYS' => 'C',
+     'ASP' => 'D',
+     'GLU' => 'E',
+     'PHE' => 'F',
+     'GLY' => 'G',
+     'HIS' => 'H',
+     'ILE' => 'I',
+     'LYS' => 'K',
+     'LEU' => 'L',
+     'MET' => 'M',
+     'ASN' => 'N',
+     'PRO' => 'P',
+     'GLN' => 'Q',
+     'ARG' => 'R',
+     'SER' => 'S',
+     'THR' => 'T',
+     'VAL' => 'V',
+     'TRP' => 'W',
+     'TYR' => 'Y');
