@@ -3,7 +3,7 @@
 #*************************************************************************
 #
 #   Program:    machinelearningprep
-#   File:       finds template used 
+#   File:       findtemplateused.pl  
 #   Date:       05.02.2018
 #   Function:   gets amino acid sequence of loops  
 #   Author:     Charlie Barker
