@@ -63,16 +63,47 @@ while(my $line = <DATA>) {
 }
 my $no = @loops;
 my $noNames = @names;
-#put the pdb files and the loop name of the template used for CDRH3 together
-for(my $i=0; $i<$no; $i++)
+
+
+#removing those values with no RMSD data. 
+#remove .txt and add .xls
+$file = substr $file, 0, -4;
+$file = "$file" . ".xls";
+#path
+my $path = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/nloops1-3.20.12.17+";
+my $filePath = "$path/$file";
+open(SPREAD, "<$filePath"); 
+if(!open(SPREAD, "<$filePath"))
 {
+	print STDERR "Error: unable to open file $filePath\n";
+       	exit 1;
+}
+my @redundant;
+#put the pdb files and the loop name of the template used for CDRH3 together
+for(my $i=0; $i<$no; $i++) {
+	open(SPREAD, "<$filePath"); 
 	my $name = $names[$i];
+	$name = "$name.pdb";
 	my $loop = $loops[$i];
-	print "$name.pdb " . "$loop\n";
+	while(my $line = <SPREAD>) {
+		my @entries = split(/\t+/, $line);
+		if($name eq $entries[0]){
+			my $ele = "$name " . "$loop";
+			push @redundant, $ele;
+		}		
+	}
 }
 
 
+
+
+my $num = @redundant;
+
+foreach my $element (@redundant){
+	print "$element\n";
+}
+print "$num";
+
 #my @out = util::PdbToSeq($loop, $path);
 #print "@out";
-
 
