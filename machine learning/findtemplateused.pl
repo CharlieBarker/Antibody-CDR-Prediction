@@ -103,17 +103,22 @@ for(my $i=0; $i<$no; $i++) {
 
 #my $num = @redundant;
 #
-#foreach my $element (@redundant){
-#	print "$element\n";
-#}
-#print "$num";
+foreach my $element (@redundant){
+	my @entries = split(/\s+/, $element);
+	my @out = CDRH3seq($entries[0]);
+	my @res = util::PdbToSeq($entries[1], "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/loopdb/PDB");
+	my $noOut = @out;
+	my $noRes = @res;
+	if ($noOut == $noRes){
+		print "$element TRUE\n";
+		print "@out\n@res\n";
+	}
+	else {
+		print "$element FALSE\n";
+		print "@out\n@res\n";
+	}
+}
 
-#my @out = util::PdbToSeq($loop, $path);
-#print "@out";
-
-my $pdb = "3d9a0.pdb";
-my @out = CDRH3seq($pdb);
-print @out;
 
 #*************************************************************************
 #> CDRH3seq($pdb)
@@ -130,13 +135,13 @@ print @out;
 sub CDRH3seq
 {
 	my($pdb) = @_;
-	my $path = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/abpdblib";
+	#used abymod_V1.20 from bsmhome as for some reason some pdbs dont exist in my abymod build. 
+	my $path = "/acrm/bsmhome/abymod_V1.20/DATA/abpdblib";
 	my $pdbPath = "$path/$pdb";
 	open(FILE, "<$pdbPath"); 
 	if(!open(FILE, "<$pdbPath"))
 	{
 	    print STDERR "Error: unable to open file $pdbPath\n";
-	    exit 1;
 	}
 	my @res;
 	#step through lines in PDB loop file
