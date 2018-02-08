@@ -16,9 +16,10 @@
 
 use strict;
 use util;
+use config;
 
 #STDERR path
-my $stderrPath = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/abyModSTDERR"; 
+my $stderrPath = "$config::abYmodSTDERR"; 
 # the file name to be used 
 my $file = "nLoops10.txt";
 
@@ -70,7 +71,7 @@ my $noNames = @names;
 $file = substr $file, 0, -4;
 $file = "$file" . ".xls";
 #path
-my $path = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/nloops1-3.20.12.17+";
+my $path = "$config::spreadsheets/nloops1-3.20.12.17+";
 my $filePath = "$path/$file";
 open(SPREAD, "<$filePath"); 
 if(!open(SPREAD, "<$filePath"))
@@ -106,7 +107,7 @@ for(my $i=0; $i<$no; $i++) {
 foreach my $element (@redundant){
 	my @entries = split(/\s+/, $element);
 	my @out = CDRH3seq($entries[0]);
-	my @res = util::PdbToSeq($entries[1], "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/loopdb/PDB");
+	my @res = util::PdbToSeq($entries[1], "$config::loopdb");
 	my $noOut = @out;
 	my $noRes = @res;
 	if ($noOut == $noRes){
@@ -136,7 +137,7 @@ sub CDRH3seq
 {
 	my($pdb) = @_;
 	#used abymod_V1.20 from bsmhome as for some reason some pdbs dont exist in my abymod build. 
-	my $path = "/acrm/bsmhome/abymod_V1.20/DATA/abpdblib";
+	my $path = "$config::abpdblibBSM";
 	my $pdbPath = "$path/$pdb";
 	open(FILE, "<$pdbPath"); 
 	if(!open(FILE, "<$pdbPath"))
