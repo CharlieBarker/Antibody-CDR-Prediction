@@ -24,9 +24,9 @@ my @values;
 foreach my $file (@files) {
 	my $tail =`tail -n3 $file`;
 	my @entries = split(/\n+/, $tail);
-	my $real = $entries[0];
+	my $real = $entries[1];
 	my $time  = substr $real, 5, 9;
-	$file = substr $file, 29, 5;
+	$file = substr $file, 30, 5;
 	print "$file $time\n"
 }
 

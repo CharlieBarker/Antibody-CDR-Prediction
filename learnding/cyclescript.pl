@@ -40,9 +40,12 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	print("Seqfile: $seqfile\n");
 	print("Exclusions: $exclusions\n");
 	print("PDBfile: $pdbfile\n"); 
+	my $stderrFile = "$seqfile" . "stderr.txt"; 
 	#@ARGV is adding arguments specfied in the command line. 
 	print STDERR "FILE NAME: $pdbfile\n"; 
-	`(time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile) 2> $timeDir/$seqfile.txt`;
+	#print STDERR in its own seperate file and redirect time to another. 
+	`(time $config::abymodRoot/abymod.pl -exclude=$exclusions -v=3 @ARGV $config::abseqlib/$seqfile > $tmpdir/$pdbfile 2> $timeDir/$stderrFile) 2> $timeDir/$seqfile.txt`;
+	`rm -rf $timeDir/$stderrFile`;
 	#print STDERR "@ARGV\n"; 
 	 	
 }

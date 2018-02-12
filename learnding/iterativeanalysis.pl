@@ -34,7 +34,7 @@ use strict;
 #I would recomend taking 
 #Ensure you are running the tests on martin-cs00 (i.e. use "ssh
 #martin-cs00") to get on the right machine.
-#no hup [command] & for no hangup 
+#nohup [command] & for no hangup 
 #ALWAYS CHECK JOBS ARE RUNNING BY TYPING ps auxwww | grep abymod.pl  AFTER EXECUTION
 #Check you are always using the right version of abymod. 
 #check you are always using the right VERSION OF BUILDMODEL
@@ -88,7 +88,7 @@ foreach my $job (@jobs)
         {
             sleep 5;
         }
-    } while($nRunning >= 12);
+    } while($nRunning >= 8);
 
     StartJob($job);
 	print "$nRunning\n";

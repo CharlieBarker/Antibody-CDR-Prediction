@@ -15,7 +15,7 @@ use strict;
 $config::analyseabYmodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding'; 
 
 #Root directory for abYmod CHANGE AS NEW UPDATES COME OUT
-$config::abymodRoot='/acrm/bsmhome/abymod_V1.20';
+$config::abymodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod';
 
 #analyseabYmod folders
 $config::rdFiles="$config::analyseabYmodRoot/rdfiles"; #redundancy file folder.
