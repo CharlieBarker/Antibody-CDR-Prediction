@@ -1,0 +1,12 @@
+
+library(ggplot2)
+library(gtools)
+#mydata <- cat(readLines("RedundantDistances.txt"), sep = "\n")
+mydata <- read.table("RedundantDistances.txt")  # read text file 
+names(mydata) <- c("pdb", "distance")
+ggplot(data=mydata, aes(mydata$distance)) + 
+geom_histogram(breaks=seq(5, 11, by=0.1),
+		col="white", 
+                fill="blue") +
+		labs(title="Frequency distrubution of distance between H103 and H103 - 3n") +
+		labs(x="Distance (Angstroms)", y="Count")
