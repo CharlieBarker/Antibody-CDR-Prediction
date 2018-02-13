@@ -103,7 +103,7 @@ for(my $i=0; $i<$no; $i++) {
 
 
 #my $num = @redundant;
-#
+#print results 
 foreach my $element (@redundant){
 	my @entries = split(/\s+/, $element);
 	my @out = CDRH3seq($entries[0]);
@@ -111,15 +111,14 @@ foreach my $element (@redundant){
 	my $noOut = @out;
 	my $noRes = @res;
 	if ($noOut == $noRes){
-		print "$element TRUE\n";
-		print "@out\n@res\n";
+		print "$element # TRUE # ";
+		print "@out # @res\n";
 	}
 	else {
-		print "$element FALSE\n";
-		print "@out\n@res\n";
+		print "$element # FALSE # ";
+		print "@out # @res\n";
 	}
 }
-
 
 #*************************************************************************
 #> CDRH3seq($pdb)
