@@ -43,8 +43,7 @@ while(my $line = <DATA>) {
 	#my $energy = extractenergy($pdbName, $loopName); #find energy
 	#print STDERR "$pdbName .. $energy\n"; 
 	my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
-	print "$pdbName $length\n";
-	#print STDERR "$pdbName .. $pdbSeq\n"; 
+	my $seqID = extractseqID($pdbSeq, $loopSeq, $pdbName);
 	
 
 	  
@@ -98,7 +97,7 @@ sub extractenergy
 	return $energy;
 }
 #*************************************************************************
-#> extractlength($pdb)
+#> extractlength($pdbSeq, $loopSeq, $pdbName)
 #  ----------------------------------------------
 #  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
 #					amino acid code.
@@ -140,26 +139,112 @@ sub extractlength
 }
 
 #*************************************************************************
-#> CDRH3seq($pdb)
+#> extractseqID($pdbSeq, $loopSeq, $pdbName)
 #  ----------------------------------------------
-#  Inputs:   \scalar  $pdbSeq	Scalar containing antibody pdbname in the standard
-#				PDB format
+#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
+#					amino acid code.
+#	     \scalar	$loopSeq	Scalar containing loop one letter 
+#					amino acid code. 
+#	     \scalar	$pdbName 	Scalar containing antibody pdbname 
+#					in the standard	PDB format.	
 # 						
 #
-#  returns array of amino acid one letter sequence including the 3 residue shoulder 
-#  sequence each side
+#  Returns basic sequence identity of two sequences. 
+#
+#  14.02.2018 by C.G.B.
+
+sub extractseqID
+{
+	my($pdbSeq, $loopSeq, $pdbName) = @_;	
+	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
+	my @entriesLoop = split(/\s/, $loopSeq);
+	@residuesPdb = grep /\S/, @residuesPdb; #remove empty strings in array
+	@entriesLoop = grep /\S/, @entriesLoop; #remove empty strings in array
+	my $noPdb = @residuesPdb;	#get numbers to double check they are the same 
+	my $noLoop = @entriesLoop;
+	#define various variables	
+	my $bool;	 
+	my @bools;
+	my @match;
+	#loop through the variables, checking whether they are the same 
+	if($noPdb == $noLoop){		
+		for(my $i=0; $i<$noPdb; $i++) {
+			if($residuesPdb[$i] eq $entriesLoop[$i]){
+				$bool = 1;
+				push @match, $bool; 
+			}
+			else {
+				$bool = 0; 
+			}
+			push @bools, $bool; 
+		}
+	}
+	#if the loop seq and the pdb seq are different then print a warning 
+	else {			
+		print STDERR "SeqID WARNING: Sequences do no match for $pdbName\n"
+	}
+	#calculate percentage and round. 
+	my $total = @bools;
+	my $matching = @match;
+	my $seqID = $matching/$total;
+	$seqID = $seqID*100; 
+	$seqID = util::round($seqID);
+	
+	return $seqID;
+
+}
+
+#*************************************************************************
+#> extracthydrophobicity($pdbSeq, $loopSeq)
+#  ----------------------------------------------
+#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
+#					amino acid code.
+#	     \scalar	$loopSeq	Scalar containing loop one letter 
+#					amino acid code. 
+# 						
+#
+#  returns the difference in average hydrophobicity index between the top 
+#  template (loop) and the model (pdb)
 #
 #  06.02.2018 by C.G.B.
 
 #*************************************************************************
-#> CDRH3seq($pdb)
+#> extractcharge($pdbSeq, $loopSeq)
 #  ----------------------------------------------
-#  Inputs:   \scalar  $pdb	Scalar containing antibody pdbname in the standard
-#				PDB format
+#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
+#					amino acid code.
+#	     \scalar	$loopSeq	Scalar containing loop one letter 
+#					amino acid code. 
 # 						
 #
-#  returns array of amino acid one letter sequence including the 3 residue shoulder 
-#  sequence each side
+#  returns the difference in average charge between the top template 
+#  (loop) and the actual sequence (pdb). 
+#
+#  06.02.2018 by C.G.B.
+
+#*************************************************************************
+#> checkforcysteine($pdbSeq, $loopSeq)
+#  ----------------------------------------------
+#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
+#					amino acid code.
+#	     \scalar	$loopSeq	Scalar containing loop one letter 
+#					amino acid code. 
+# 						
+#
+#  returns a statement checking whether the conserved H92 residue is the 
+#  between the template and the real sequence. 
+#
+#  06.02.2018 by C.G.B.
+
+#*************************************************************************
+#> belowthreshold($pdbName)
+#  ----------------------------------------------
+#  Inputs:   \scalar	$pdbName	Scalar containing antibody pdbname in 
+#					the standard PDB format.
+# 						
+#
+#  returns true or false depending on whether or not the RMSD of this protein
+#  is below the threshold set in ARGV. 
 #
 #  06.02.2018 by C.G.B.
 

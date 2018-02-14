@@ -79,6 +79,19 @@ sub uniq {
     grep !$seen{$_}++, @_;
 }
 
+#*************************************************************************
+#> round($number)
+#  ----------------------------------------------
+#  Inputs:   \scalar  $number 		Number to be rounded.
+#
+#  returns scalar with number rounded
+
+sub round 
+{
+    my($number) = shift;
+    return int($number + 0.5);
+}
+
 
 #*************************************************************************
 # 3- to 1-letter conversion
