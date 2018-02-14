@@ -108,6 +108,8 @@ foreach my $element (@redundant){
 	my @entries = split(/\s+/, $element);
 	my @out = CDRH3seq($entries[0]);
 	my @res = util::PdbToSeq($entries[1], "$config::loopdb");
+	@out = grep /\S/, @out; #remove empty strings in array
+	@res = grep /\S/, @res; #remove empty strings in array
 	my $noOut = @out;
 	my $noRes = @res;
 	if ($noOut == $noRes){
@@ -115,8 +117,8 @@ foreach my $element (@redundant){
 		print "@out # @res\n";
 	}
 	else {
-		print "$element # FALSE # ";
-		print "@out # @res\n";
+		#print "$element # FALSE # ";
+		#print "@out # @res\n";
 	}
 }
 

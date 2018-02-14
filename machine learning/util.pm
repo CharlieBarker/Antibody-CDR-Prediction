@@ -44,12 +44,10 @@ sub PdbToSeq
 	while(my $line = <DATA>){
 		my @entries = split(/\s+/, $line);
 		#add the residue name and the residue number
-		push @res, "$entries[3]" . " $entries[5]";
+		if ($entries[2] eq "CA"){
+			push @res, "$entries[3]" . " $entries[4]" . " $entries[5]";
+		}
 	}
-	#remove last value (terminator)
-	my $bin = pop @res;
-	#remove repeated values 
-	@res = uniq(@res);
 	my @residues;
 	#get rid of number 
 	foreach my $ele (@res){
@@ -105,3 +103,5 @@ sub uniq {
      'VAL' => 'V',
      'TRP' => 'W',
      'TYR' => 'Y');
+
+

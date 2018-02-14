@@ -14,6 +14,11 @@ package config;
 
 use strict;
 
+#Root directory for machinelearningprep
+
+$config::mlpRoute='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/machine learning'; 
+$config::templateName="toptemplates.txt";
+$config::templateFile="$config::mlpRoute/$config::templateName"; 
 
 #Root directory for the analyseabYmod - YOU NEED TO CHANGE THIS TO WHERE 
 $config::analyseabYmodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding'; 
