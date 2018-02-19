@@ -56,3 +56,6 @@ $config::spreadsheets="$config::results/spreadsheets";
 $config::redundancyFile="$config::rdFiles/0.98Redundant_LH_Combined_Chothia.txt"; #full redundancy file
 $config::chodat="$config::dataDir/canonical/chothia.dat.auto"; # Canonical definitions
 
+#Default program values 
+$config::threshold = 2; #default threshold value (in angstroms)
+

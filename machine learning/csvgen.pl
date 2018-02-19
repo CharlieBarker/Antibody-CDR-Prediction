@@ -42,13 +42,18 @@ while(my $line = <DATA>) {
 	my $loopSeq = $entries[3];	#top loop template sequence
 	#my $energy = extractenergy($pdbName, $loopName); #find energy
 	#print STDERR "$pdbName .. $energy\n"; 
-	my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
-	my $seqID = extractseqID($pdbSeq, $loopSeq, $pdbName);
+	#my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
+	#my $seqID = extractseqID($pdbSeq, $loopSeq, $pdbName);
 	
 
 	  
 }
-
+my $pdbSeq = "C A N W D G D Y W G Q";
+my $loopSeq = "C A R W E M D Y W G Q";
+my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
+my $charge = extractcharge($pdbSeq, $loopSeq);
+print "$hydro\n";
+print "$charge\n";
 #*************************************************************************
 #> extractenergy($pdbName, $loopName)
 #  ----------------------------------------------
@@ -206,7 +211,40 @@ sub extractseqID
 #  returns the difference in average hydrophobicity index between the top 
 #  template (loop) and the model (pdb)
 #
-#  06.02.2018 by C.G.B.
+#  19.02.2018 by C.G.B.
+
+sub extracthydrophobicity
+{
+	my ($pdbSeq, $loopSeq) = @_;
+	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
+	my @entriesLoop = split(/\s/, $loopSeq);
+	#set count for both pdb and loop to zero. 
+	my $pdbCount = 0;
+	my $loopCount = 0;
+	#get length 
+	my $lengthPdb = @residuesPdb;
+	#for each residue 
+	foreach my $resPdb (@residuesPdb){
+		#get hydrophobicity value from hash in util.pm
+		my $hydrophobicity = $util::hydrophobicscale{$resPdb};
+		#add this to the previous iteration 
+		$pdbCount = $pdbCount + $hydrophobicity;  
+	}
+	#divide by the total number of residues to get average 
+	my $averagePdb = $pdbCount/$lengthPdb;  
+	#repeat with loop template
+	my $lengthLoop = @entriesLoop;
+	foreach my $resLoop (@entriesLoop){
+		my $hydrophobicity = $util::hydrophobicscale{$resLoop};
+		$loopCount = $loopCount + $hydrophobicity;  
+	}
+	my $averageLoop = $loopCount/$lengthLoop;  
+	my $difference = $averagePdb - $averageLoop; 
+	#round numbers using subroutine in util. 
+	$difference = util::round($difference); 
+
+	return $difference; 
+}
 
 #*************************************************************************
 #> extractcharge($pdbSeq, $loopSeq)
@@ -220,7 +258,42 @@ sub extractseqID
 #  returns the difference in average charge between the top template 
 #  (loop) and the actual sequence (pdb). 
 #
-#  06.02.2018 by C.G.B.
+#  19.02.2018 by C.G.B.
+
+sub extractcharge
+{
+	my ($pdbSeq, $loopSeq) = @_;
+	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
+	my @entriesLoop = split(/\s/, $loopSeq);
+	#set count for both pdb and loop to zero. 
+	my $pdbCount = 0;
+	my $loopCount = 0;
+	#get length 
+	my $lengthPdb = @residuesPdb;
+	#for each residue 
+	foreach my $resPdb (@residuesPdb){
+		#get hydrophobicity value from hash in util.pm
+		my $chargePdb = $util::charge{$resPdb};
+		#add this to the previous iteration 
+		$pdbCount = $pdbCount + $chargePdb;  
+	}
+	#divide by the total number of residues to get average 
+	my $averagePdb = $pdbCount/$lengthPdb; 
+	print "charge pdb $averagePdb\n"; 
+	#repeat with loop template
+	my $lengthLoop = @entriesLoop;
+	foreach my $resLoop (@entriesLoop){
+		my $chargeLoop = $util::charge{$resLoop};
+		$loopCount = $loopCount + $chargeLoop;  
+	}
+	my $averageLoop = $loopCount/$lengthLoop;  
+	print "charge loop $averageLoop\n"; 
+	my $difference = $averagePdb - $averageLoop; 
+	#round numbers using subroutine in util. 
+	$difference = util::round($difference); 
+
+	return $difference; 
+}
 
 #*************************************************************************
 #> checkforcysteine($pdbSeq, $loopSeq)
@@ -236,11 +309,16 @@ sub extractseqID
 #
 #  06.02.2018 by C.G.B.
 
+
+
 #*************************************************************************
-#> belowthreshold($pdbName)
+#> belowthreshold($pdbName, $threshold)
 #  ----------------------------------------------
 #  Inputs:   \scalar	$pdbName	Scalar containing antibody pdbname in 
 #					the standard PDB format.
+#	     \scalar 	$threshold	Scalar containing the threshold value 
+#					of RMSD through which the model is 
+#					determined 'good' or 'bad.	
 # 						
 #
 #  returns true or false depending on whether or not the RMSD of this protein
