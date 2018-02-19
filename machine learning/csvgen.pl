@@ -50,10 +50,13 @@ while(my $line = <DATA>) {
 }
 my $pdbSeq = "C A N W D G D Y W G Q";
 my $loopSeq = "C A R W E M D Y W G Q";
-my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
-my $charge = extractcharge($pdbSeq, $loopSeq);
-print "$hydro\n";
-print "$charge\n";
+my $result = belowthreshold("4kph0.pdb", 6);
+print "$result\n"; 
+#my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
+#my $charge = extractcharge($pdbSeq, $loopSeq);
+#print "$hydro\n";
+#print "$charge\n";
+
 #*************************************************************************
 #> extractenergy($pdbName, $loopName)
 #  ----------------------------------------------
@@ -295,21 +298,6 @@ sub extractcharge
 	return $difference; 
 }
 
-#*************************************************************************
-#> checkforcysteine($pdbSeq, $loopSeq)
-#  ----------------------------------------------
-#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
-#					amino acid code.
-#	     \scalar	$loopSeq	Scalar containing loop one letter 
-#					amino acid code. 
-# 						
-#
-#  returns a statement checking whether the conserved H92 residue is the 
-#  between the template and the real sequence. 
-#
-#  06.02.2018 by C.G.B.
-
-
 
 #*************************************************************************
 #> belowthreshold($pdbName, $threshold)
@@ -325,4 +313,35 @@ sub extractcharge
 #  is below the threshold set in ARGV. 
 #
 #  06.02.2018 by C.G.B.
+sub belowthreshold
+{
+	my ($pdbName, $threshold) = @_;
+	my $spreadsheetsPath = "$config::nloops"; 
+	# the file name to be used 
+	my $file = "nLoops10.xls";
+	#open STDERR file 
+	my $spreadFile = "$spreadsheetsPath/$file";
+	open(FILE, "<$spreadFile"); 
+	if(!open(FILE, "<$spreadFile"))
+	{
+		print STDERR "Error: unable to open file $spreadFile\n";
+	       	exit 1;
+	}
+	my $rmsd;
+	while(my $line = <FILE>) {
+		my @lines = split(/\s+/, $line);
+		if ($lines[0] eq $pdbName) {
+			$rmsd = $lines[4];
+		}
+	}
+	my $result;
+	if ($rmsd <= $threshold){
+		$result = "GOOD";	
+	} 
+	else {
+		$result = "BAD";
+	}
+
+	return $result;
+}
 

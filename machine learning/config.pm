@@ -48,7 +48,7 @@ $config::abpdblibBSM="$config::dataDirBSM/abpdblib";
 $config::results="$config::analyseabYmodRoot/results";
 $config::abYmodSTDERR="$config::results/abyModSTDERR";
 $config::spreadsheets="$config::results/spreadsheets";
-
+$config::nloops="$config::spreadsheets/nloops1-3.20.12.17+";
 
 
 #Files 
