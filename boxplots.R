@@ -1,6 +1,6 @@
 #list files in directory path
 library(ggplot2)
-path <- getwd()
+path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/loopdborNot"
 fileList <- list.files(path, pattern=NULL, all.files=FALSE, full.names=FALSE)
 #set working directory 
 setwd(path)
@@ -16,7 +16,7 @@ for(i in dfList[,1]) {
   fileName <- dfList[i,2]
   #read the file
   df <- read.csv(fileName, header = TRUE, sep ="\t")
-  #if we're on the first iteraction, create the df we are going to add to each time
+  #if we're on the first iteration, create the df we are going to add to each time
   if(i == 1){
     dfOriginal <- data.frame(df[ ,1], df[ ,5])
     names(dfOriginal) = c("pdb", fileName)
@@ -30,26 +30,20 @@ for(i in dfList[,1]) {
 }
 #print result
 
-loopdb <- dfOriginal[,2]
-noLoopdb <- dfOriginal[,3]
-length <- length(noLoopdb)
-length <- c(1:length)
-for(i in length) {
-  if(i == 1){
-    dataBase <- "noLoopdb"
-  }
-  else{
-    dataBase <- c(dataBase, "noLoopdb")
-  }
+dfOriginal <- na.omit(dfOriginal)
+#print (dfOriginal)
+colnames <- colnames(dfOriginal)
+df <- data.frame()
+for (col in colnames) {
+	df1 <- data.frame(col, dfOriginal[,col])
+	df <- rbind(df1, df)
+	 
 }
-length <- length(loopdb)
-length <- c(1:length)
-for(i in length) {
-    dataBase <- c(dataBase, "loopdb")
-}
-numbers <- c(noLoopdb, loopdb)
-boxplot <- data.frame(dataBase, numbers)
-box <- ggplot(boxplot, aes(x=dataBase, y=numbers)) + 
-  geom_boxplot(fill="slateblue", alpha=0.2) + 
-  xlab("Data base")
-box
+df <- subset(df, df$col!="pdb")
+df
+col <- df$col
+numbers <- as.numeric(df[,2])
+print (numbers)
+p <- ggplot(df, aes(x=col, y=numbers)) + 
+  geom_boxplot()
+p
