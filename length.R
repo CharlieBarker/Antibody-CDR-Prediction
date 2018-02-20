@@ -1,3 +1,28 @@
+#*************************************************************************
+#
+#   File:       length.R
+#   
+#   Version:    V0.01
+#   Date:       10/01/2018
+#   Function:   Seperate proteins from database (in the format of .seq)
+#		into groups depending on the size of their CDR-H3:
+#			Very Short = < 6 residues 
+#			Short = 7 - 9 residues 
+#			medium = 10 - 11 residues 
+#			Long = 12 - 14 residues 
+#			Very Long = > 17 resiudes 
+#   
+#   Copyright:  (c) Dr. Andrew C. R. Martin, UCL, 2013-2017
+#   Author:     Dr. Andrew C. R. Martin
+#   Address:    Institute of Structural and Molecular Biology
+#               Division of Biosciences
+#               University College
+#               Gower Street
+#               London
+#               WC1E 6BT
+#   EMail:      andrew@bioinf.org.uk
+#               
+#*************************************************************************
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/abseqlib"
 #list files in path
 fileList <- list.files(path, pattern=NULL, all.files=FALSE, full.names=FALSE)
@@ -19,11 +44,13 @@ for (file in fileList) {
 	count <- 0
 	for (line in residueNo)
 	{
+		#if line is H95 set bool to 1 and start counting
 		if (line == "H95")
 		{
 			count <- count + 1 
 			bool <- 1 
 		}
+		#continue counting so long as bool is 1 until you hit H102 and then count and also set bool to 1
 		else if (bool == 1)
 		{
 			count <- count + 1
@@ -55,8 +82,9 @@ for (file in fileList) {
 	}
 	all <- c(all, file)
 	out <- paste(file, count) 	
-	print (out)
+	#print (out)
 }
+#get the lengths of all these different vectors. 
 nVeryShort <- length(veryShort)
 nShort <- length(short)
 nMedium <- length(medium)
@@ -64,12 +92,6 @@ nLong <- length(long)
 nVeryLong <- length(veryLong)
 nAll <- length(all)
 
-print (nVeryShort)
-print (nShort)
-print (nMedium)
-print (nLong)
-print (nVeryLong)
-print (nAll)
 
 
 
