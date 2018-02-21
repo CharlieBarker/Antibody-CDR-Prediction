@@ -1,3 +1,13 @@
+#R script for creating simple plots with error bars for nLoops. So far one can set whether the graph contains short, medium long or all loops according to these definitions
+
+#very short = below 6 
+#short = between 7 and 9 
+#medium = beteen 11 and 13
+#long = between 12 and 14
+#very long is over 15 
+
+# you need to set the variable for one of these in two laces ; one at the data.frame merging of dfOriginal at the end of the loop that creates it and the other at the calculation of SEM. 
+
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/abseqlib"
 #list files in path
 fileList <- list.files(path, pattern=NULL, all.files=FALSE, full.names=FALSE)
@@ -61,24 +71,54 @@ for (file in fileList) {
 }
 #get the lengths of all these different vectors. 
 nVeryShort <- length(veryShort)
+
 nShort <- length(short)
+
 nMedium <- length(medium)
+
 nLong <- length(long)
+
 nVeryLong <- length(veryLong)
+
 nAll <- length(all)
+
 #remove .seq and add pdb
 veryShort <- gsub('.{3}$', '', veryShort)
 veryShort <- paste(veryShort, "pdb", sep="")
+
 short <- gsub('.{3}$', '', short)
 short <- paste(short, "pdb", sep="")
+
 medium <- gsub('.{3}$', '', medium)
 medium <- paste(medium, "pdb", sep="")
+
 long <- gsub('.{3}$', '', long)
 long <- paste(long, "pdb", sep="")
-all <- gsub('.{3}$', '', veryShort)
+
+veryLong <- gsub('.{3}$', '', veryLong)
+veryLong <- paste(veryLong, "pdb", sep="")
+
+all <- gsub('.{3}$', '', all)
 all <- paste(all, "pdb", sep="")
+
+#DEFINE LENGTH DATA FRAMES  
 veryShort <- data.frame(veryShort)
 names(veryShort) <- "pdb"
+
+short <- data.frame(short)
+names(short) <- "pdb"
+
+medium <- data.frame(medium)
+names(medium) <- "pdb"
+
+long <- data.frame(long)
+names(long) <- "pdb"
+
+veryLong <- data.frame(veryLong)
+names(veryLong) <- "pdb"
+
+all <- data.frame(all)
+names(all) <- "pdb"
 ########PATH HERE#########
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/nloops1-3.20.12.17+"
 library(ggplot2)
@@ -110,21 +150,23 @@ for(i in dfList[,1]) {
 		dfOriginal <- merge(dfOriginal, dfAdd, by="pdb", all = T)
 	}
 }
-#dfOriginal <- merge(dfOriginal, veryShort, by="pdb", all = T)
+#CHANGE THIS LINE TO SHOW EITHER A LENGTH OR ALL LOOPS. you also need to change the figure for n in the calculation of SEM for the error bars below. 
+dfOriginal <- merge(dfOriginal, veryLong, by="pdb", all = T, all.x = FALSE)
 #do a loop to analyse them based on size 
 setwd("/acrm/bsmhome/zcbtark/Documents/work")
 #print result
 dfOriginal <- na.omit(dfOriginal) #OMIT nas
 
 dfOriginal <- dfOriginal[!duplicated(dfOriginal),] #get rid of duplicates 
-
+redundantLength <- length(dfOriginal[,1])
 meanOrig <- c()
-sdOrig <- c()
+SEM <- c()
 for (fileName in fileList)
 {
 	colOriginal <- (dfOriginal[[fileName]])
 	meanOrig <- c(meanOrig, mean(colOriginal))
-	sdOrig <- sd(colOriginal)
+	sem <- sd(colOriginal)/sqrt(redundantLength)
+	SEM <- c(SEM, sem)
 }
 
 names(dfOriginal) <- NULL
@@ -135,17 +177,16 @@ rawData <- (dfOriginal[5:n,])
 nLoops <- c(1:n)
 #meanOriginal and meanOrig depending on whether you want to discount NA or not. 
 #Look in word directory for results
-tableToBe <- data.frame(nLoops, meanOrig)
-#tableToBe
+tableToBe <- data.frame(nLoops, meanOrig, SEM)
+tableToBe
 pd <- position_dodge(0.1)
 
 line <- ggplot(tableToBe, aes(x=nLoops, y=meanOrig)) + 
-	#geom_errorbar(aes(ymin=meanOrig-0.1, ymax=meanOrig+0.1), colour="black", width=.1, position=pd) +
+	geom_errorbar(aes(ymin=meanOrig-SEM, ymax=meanOrig+SEM), colour="black", width=.1, position=pd) +
     geom_line(position=pd) +
     geom_point(position=pd)
-line
 
-
+#line
 
 
 
