@@ -7,6 +7,93 @@
 #very long is over 15 
 
 # you need to set the variable for one of these in two laces ; one at the data.frame merging of dfOriginal at the end of the loop that creates it and the other at the calculation of SEM. 
+########################################FUNCTIONS########################################
+#	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
+#					relevant readings from the 5th column of all 11 files (
+#					called dfOriginal in this script)
+#		
+#		/df	classdf		data.frame all pdbs of the length or class that you want
+#					to study (e.g. a certain length, kinked or extended.)	
+#
+#	OUTPUTS /df	df		data.frame that is now only contains data according to the 
+#					the classdf data.frame inputed 
+
+
+classselect <- function(df, classdf)	{
+	#limit the data.frame of results according to those proteins in classdf
+	df <- merge(df, classdf, by="pdb", all = T, all.x = FALSE)
+	#set working directory in work directory - this is where graphs go. 
+	setwd("/acrm/bsmhome/zcbtark/Documents/work")
+	df <- na.omit(df) #OMIT nas
+	df <- df[!duplicated(df),] #get rid of duplicates
+
+	return(df)
+}
+
+
+#	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
+#					relevant readings from the 5th column of all 11 files (
+#					called dfOriginal in this script)
+#		
+#		/df	classdf		data.frame all pdbs of the length or class that you want
+#					to study (e.g. a certain length, kinked or extended.)	
+#		/vector	fileList	Vector containing all the xls files data is being taken from.	
+
+extractmean <- function(df, fileList)	{
+
+	#get the length of the now non redundant length 
+	nonredundantLength <- length(df[,1])
+	#create necessary vectors before loop. mean is for the mean and sem is for the standard error of the mean.
+	meanVector <- c()
+	#for every nloop experiment (usually 1-100) calculate the total mean and standard error of the means and 
+	#put those in the right vectors 
+	for (fileName in fileList)
+	{	
+		colOriginal <- (df[[fileName]])
+		mean <- mean(colOriginal)
+		meanVector <- c(meanVector, mean)
+	}
+	#remove names?
+	
+	
+	return(meanVector)
+}
+
+
+
+#	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
+#					relevant readings from the 5th column of all 11 files (
+#					called dfOriginal in this script)
+#		
+#		/df	classdf		data.frame all pdbs of the length or class that you want
+#					to study (e.g. a certain length, kinked or extended.)	
+#		/vector	fileList	Vector containing all the xls files data is being taken from.	
+
+extractsem <- function(df, fileList)	{
+
+	#get the length of the now non redundant length 
+	nonredundantLength <- length(df[,1])
+	#create necessary vectors before loop. mean is for the mean and sem is for the standard error of the mean.
+	SEM <- c()
+	#for every nloop experiment (usually 1-100) calculate the total mean and standard error of the means and 
+	#put those in the right vectors 
+	for (fileName in fileList)
+	{	
+		colOriginal <- (df[[fileName]])
+		sem <- (sd(colOriginal)/sqrt(nonredundantLength))
+		SEM <- c(SEM, sem)
+	}
+	#remove names?
+	
+	
+	return(SEM)
+
+}
+
+
+
+
+
 
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/abseqlib"
 #list files in path
@@ -119,7 +206,9 @@ names(veryLong) <- "pdb"
 
 all <- data.frame(all)
 names(all) <- "pdb"
+
 ########PATH HERE#########
+
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/nloops1-3.20.12.17+"
 library(ggplot2)
 library(gtools)
@@ -150,43 +239,27 @@ for(i in dfList[,1]) {
 		dfOriginal <- merge(dfOriginal, dfAdd, by="pdb", all = T)
 	}
 }
-#CHANGE THIS LINE TO SHOW EITHER A LENGTH OR ALL LOOPS. you also need to change the figure for n in the calculation of SEM for the error bars below. 
-dfOriginal <- merge(dfOriginal, veryLong, by="pdb", all = T, all.x = FALSE)
-#do a loop to analyse them based on size 
-setwd("/acrm/bsmhome/zcbtark/Documents/work")
-#print result
-dfOriginal <- na.omit(dfOriginal) #OMIT nas
-
-dfOriginal <- dfOriginal[!duplicated(dfOriginal),] #get rid of duplicates 
-redundantLength <- length(dfOriginal[,1])
-meanOrig <- c()
-SEM <- c()
-for (fileName in fileList)
-{
-	colOriginal <- (dfOriginal[[fileName]])
-	meanOrig <- c(meanOrig, mean(colOriginal))
-	sem <- sd(colOriginal)/sqrt(redundantLength)
-	SEM <- c(SEM, sem)
-}
-
-names(dfOriginal) <- NULL
-
-
+#get number of nloops experiments. 
 n <- length(fileList)
-rawData <- (dfOriginal[5:n,])
+names(df) <- NULL
+rawData <- (df[5:n,])
 nLoops <- c(1:n)
-#meanOriginal and meanOrig depending on whether you want to discount NA or not. 
-#Look in word directory for results
-tableToBe <- data.frame(nLoops, meanOrig, SEM)
-tableToBe
+#subroutin narrowing down the df from all loops to only those set by the class
+df <- classselect(dfOriginal, veryShort)
+#extract means from df
+mean <- extractmean(df, fileList)
+#extract sem from df
+SEM <- extractsem(df, fileList)
+#put together data.frame to be modelled 
+tableToBe <- data.frame(nLoops, mean, SEM)
 pd <- position_dodge(0.1)
 
-line <- ggplot(tableToBe, aes(x=nLoops, y=meanOrig)) + 
-	geom_errorbar(aes(ymin=meanOrig-SEM, ymax=meanOrig+SEM), colour="black", width=.1, position=pd) +
+line <- ggplot(tableToBe, aes(x=nLoops, y=mean)) + 
+	geom_errorbar(aes(ymin=mean-SEM, ymax=mean+SEM), colour="black", width=.1, position=pd) +
     geom_line(position=pd) +
     geom_point(position=pd)
 
-#line
+line
 
 
 
