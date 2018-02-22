@@ -7,7 +7,11 @@
 #very long is over 15 
 
 # you need to set the variable for one of these in two laces ; one at the data.frame merging of dfOriginal at the end of the loop that creates it and the other at the calculation of SEM. 
+
 ########################################FUNCTIONS########################################
+
+
+#****************************************************************************************
 #	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
 #					relevant readings from the 5th column of all 11 files (
 #					called dfOriginal in this script)
@@ -22,15 +26,14 @@
 classselect <- function(df, classdf)	{
 	#limit the data.frame of results according to those proteins in classdf
 	df <- merge(df, classdf, by="pdb", all = T, all.x = FALSE)
-	#set working directory in work directory - this is where graphs go. 
-	setwd("/acrm/bsmhome/zcbtark/Documents/work")
+	#set working directory in work directory - this is where graphs 
 	df <- na.omit(df) #OMIT nas
 	df <- df[!duplicated(df),] #get rid of duplicates
 
 	return(df)
 }
 
-
+#****************************************************************************************
 #	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
 #					relevant readings from the 5th column of all 11 files (
 #					called dfOriginal in this script)
@@ -38,6 +41,8 @@ classselect <- function(df, classdf)	{
 #		/df	classdf		data.frame all pdbs of the length or class that you want
 #					to study (e.g. a certain length, kinked or extended.)	
 #		/vector	fileList	Vector containing all the xls files data is being taken from.	
+#
+#	OUTPUTS /df 	meanVector 	vector containg all the mean readings for all 100 nloops tests
 
 extractmean <- function(df, fileList)	{
 
@@ -60,14 +65,17 @@ extractmean <- function(df, fileList)	{
 }
 
 
-
+#****************************************************************************************
 #	INPUTS /df	df 		data.frame containing redundant pdb files and all the 
 #					relevant readings from the 5th column of all 11 files (
 #					called dfOriginal in this script)
 #		
 #		/df	classdf		data.frame all pdbs of the length or class that you want
 #					to study (e.g. a certain length, kinked or extended.)	
-#		/vector	fileList	Vector containing all the xls files data is being taken from.	
+#		/vector	fileList	Vector containing all the xls files data is being taken from.
+#
+#	OUTPUTS /df 	SEM 		vector containg all the standard error of the mean for all 100 
+#					nloops tests	
 
 extractsem <- function(df, fileList)	{
 
@@ -83,7 +91,7 @@ extractsem <- function(df, fileList)	{
 		sem <- (sd(colOriginal)/sqrt(nonredundantLength))
 		SEM <- c(SEM, sem)
 	}
-	#remove names?
+
 	
 	
 	return(SEM)
@@ -244,22 +252,85 @@ n <- length(fileList)
 names(df) <- NULL
 rawData <- (df[5:n,])
 nLoops <- c(1:n)
+setwd("/acrm/bsmhome/zcbtark/Documents/work")
+#veryshort
+
 #subroutin narrowing down the df from all loops to only those set by the class
-df <- classselect(dfOriginal, veryShort)
+dfvShort <- classselect(dfOriginal, veryShort)
 #extract means from df
-mean <- extractmean(df, fileList)
+meanVeryShort <- extractmean(dfvShort, fileList)
 #extract sem from df
-SEM <- extractsem(df, fileList)
-#put together data.frame to be modelled 
-tableToBe <- data.frame(nLoops, mean, SEM)
-pd <- position_dodge(0.1)
+SEMVeryShort <- extractsem(dfvShort, fileList)
+tableVeryShort <- data.frame(nLoops, meanVeryShort, SEMVeryShort, "Very Short")
+colnames(tableVeryShort) <- c("nLoops","Mean", "SEM", "Class")
 
-line <- ggplot(tableToBe, aes(x=nLoops, y=mean)) + 
-	geom_errorbar(aes(ymin=mean-SEM, ymax=mean+SEM), colour="black", width=.1, position=pd) +
-    geom_line(position=pd) +
-    geom_point(position=pd)
+#short
 
-line
+dfshort <- classselect(dfOriginal, short)
+#extract means from df
+meanShort <- extractmean(dfshort, fileList)
+#extract sem from df
+SEMShort <- extractsem(dfshort, fileList)
+tableShort <- data.frame(nLoops, meanShort, SEMShort, "Short")
+colnames(tableShort) <- c("nLoops","Mean", "SEM", "Class")
+
+#medium 
+
+dfmedium <- classselect(dfOriginal, medium)
+#extract means from df
+meanMedium <- extractmean(dfmedium, fileList)
+#extract sem from df
+SEMMedium <- extractsem(dfmedium, fileList)
+tableMedium <- data.frame(nLoops, meanMedium, SEMMedium, "Medium")
+colnames(tableMedium) <- c("nLoops","Mean", "SEM", "Class")
+
+#long 
+
+dflong <- classselect(dfOriginal, long)
+#extract means from df
+meanLong <- extractmean(dflong, fileList)
+#extract sem from df
+SEMLong <- extractsem(dflong, fileList)
+tableLong <- data.frame(nLoops, meanLong, SEMLong, "Long")
+colnames(tableLong) <- c("nLoops","Mean", "SEM", "Class")
+
+#very long
+
+dfveryLong <- classselect(dfOriginal, veryLong)
+#extract means from df
+meanVeryLong <- extractmean(dfveryLong, fileList)
+#extract sem from df
+SEMVeryLong <- extractsem(dfveryLong, fileList)
+tableVeryLong <- data.frame(nLoops, meanVeryLong, SEMVeryLong, "Very Long")
+colnames(tableVeryLong) <- c("nLoops","Mean", "SEM", "Class")
+
+#all
+
+dfall <- classselect(dfOriginal, all)
+#extract means from df
+meanAll <- extractmean(dfall, fileList)
+#extract sem from df
+SEMAll <- extractsem(dfall, fileList)
+tableAll <- data.frame(nLoops, meanAll, SEMAll, "All")
+colnames(tableAll) <- c("nLoops","Mean", "SEM", "Class")
+
+#put together data.frame to be modelled from all the above data frames 
+tableToBe <- rbind(tableVeryShort, tableShort, tableMedium, tableLong, tableVeryLong)
+tableToBe
+
+
+#set up graphs 
+limits <- aes(ymax = Mean + SEM, ymin = Mean - SEM)
+ggplot(tableToBe, aes(x = nLoops, y = Mean, colour = Class)) + geom_line(aes(group = Class)) + 
+    geom_point() + geom_errorbar(limits, width = 0.25)
+#pd <- position_dodge(0.1)
+#
+#line <- ggplot(tableAll, aes(x=nLoops, y=Mean)) + 
+#	geom_errorbar(aes(ymin=Mean-SEM, ymax=Mean+SEM), colour="black", width=.1, position=pd) +
+#    geom_line(position=pd) +
+#    geom_point(position=pd)
+#tableAll
+#line
 
 
 
