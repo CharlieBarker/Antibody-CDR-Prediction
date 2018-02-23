@@ -1,45 +1,42 @@
-#!/usr/bin/perl
-use strict;
-
-my $dist = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/kinkdistance/distances.txt";
-my $rdFile = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/rdfiles/Redundant_LH_Combined_Chothia.txt";
-open(DATA, "<$rdFile"); 
-if(!open(DATA, "<$rdFile"))
+#!/usr/bin/perl -s
+#*************************************************************************
+#
+#   Program:    readcluster
+#   File:       readcluster.pl
+#   Date:       22.02.18
+#   Function:   reads output from clustering analysis  
+#   Author:     Charlie Barker
+#   EMail:      zcbtark@ucl.ac.uk
+#   Usage:	add directory and what the file name begins with
+#               
+#*************************************************************************
+use strict; 
+my $path = '/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/kinkdistance'; 
+my $file = 'clusteranalysis.dat';
+open(DATA, "<$file");  #open
+if(!open(DATA, "<$file"))
 {
-    print STDERR "Error: unable to open file $rdFile\n";
-    exit 1;
+    	print STDERR "Error: unable to open file $file\n";
+    	exit 1;
 }
-my @finished;
-while(my $line = <DATA>) #cycle through lines of redundancy file
-
-{	
-	open(DIST, "<$dist"); 
-	if(!open(DIST, "<$dist"))
-	{
-	    print STDERR "Error: unable to open file $dist\n";
-	    exit 1;
+my @proteins0;
+my @proteins1;
+while(my $line = <DATA>) #go through lines
+{
+	if($line =~ /cluster1(.+)/) #look for lines starting with real
+       	{
+		@proteins0 = split(/\s/, $line)
 	}
-	my @entries = split(/\s+/, $line);
-
-	while(my $distance = <DIST>) #cycle through lines of DISTANCE FILE
-
-	{
-		my @element = split(/\s+/, $distance);
-		my $redun = "$entries[0]";
-		chomp $redun;
-    		$redun =~ s/\,//g;
-		my $rmsd = "$element[0]";
-		$redun = "" . $redun;
-		$rmsd = "" . $rmsd;
-		if ($redun eq $rmsd){
-			push @finished, $element[1];
-		}
+	if($line =~ /cluster1(.+)/) #look for lines starting with real
+       	{
+		@proteins1 = split(/\s/, $line)
 	}
 }
-foreach my $dista (@finished){
-	print "$dista\n";
+foreach my $element (@proteins0){
+	$element = ProcessLine($element);
+	print "$element\n"
 }
-
+##########SUBROUTINES##########
 sub ProcessLine
 {
     my($line) = @_;
@@ -59,7 +56,7 @@ sub ProcessLine
     $parts[1]--; # Decrement the instance number
     # Reassemble the parts without the underscore
     $seqfile = $parts[0] . $parts[1];
-    my $pdbfile = "\L$seqfile" . "PRED" . ".pdb"; # make pdb name by using seqfile name and add .pdb
+    my $pdbfile = "\L$seqfile" . ".pdb"; # make pdb name by using seqfile name and add .pdb
     $seqfile = "\L$seqfile" . ".seq"; # Change to lower case and add .seq
     
     # Now deal with getting the list of PDB files

@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use strict;
 
-
 my $dist = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/kinkdistance/distances.txt";
 my $rdFile = "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/rdfiles/Redundant_LH_Combined_Chothia.txt";
 open(DATA, "<$rdFile"); 
@@ -27,18 +26,20 @@ while(my $line = <DATA>) #cycle through lines of redundancy file
 	{
 		my @element = split(/\s+/, $distance);
 		my $redun = "$entries[0]";
+		chomp $redun;
+    		$redun =~ s/\,//g;
 		my $rmsd = "$element[0]";
 		$redun = "" . $redun;
 		$rmsd = "" . $rmsd;
 		if ($redun eq $rmsd){
-			push @finished, $distance;
+			push @finished, $element[1];
+			print "$element[1]\n";
 		}
 	}
 }
 foreach my $dista (@finished){
-	print $dista;
+	print "$dista\n";
 }
-
 
 sub ProcessLine
 {
