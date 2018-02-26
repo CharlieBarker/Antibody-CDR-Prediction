@@ -50,9 +50,10 @@ while(my $line = <DATA>) {
 }
 my $pdbSeq = "C A N W D G D Y W G Q";
 my $loopSeq = "C A R W E M D Y W G Q";
-my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
+my ($hydro, $hi) = extractseqID($pdbSeq, $loopSeq);
 #my $charge = extractcharge($pdbSeq, $loopSeq);
 print "$hydro\n";
+print "$hi\n";
 #print "$charge\n";
 
 #*************************************************************************
@@ -152,10 +153,10 @@ sub extractlength
 #	     \scalar	$loopSeq	Scalar containing loop one letter 
 #					amino acid code. 
 #	     \scalar	$pdbName 	Scalar containing antibody pdbname 
-#					in the standard	PDB format.	
+#					in the standard	PDB format. This is for the warning 
 # 						
 #
-#  Returns basic sequence identity of two sequences. 
+#  Returns basic sequence identity of two sequences split between framework and the loop itself. 
 #
 #  14.02.2018 by C.G.B.
 
@@ -168,6 +169,8 @@ sub extractseqID
 	@entriesLoop = grep /\S/, @entriesLoop; #remove empty strings in array
 	my $noPdb = @residuesPdb;	#get numbers to double check they are the same 
 	my $noLoop = @entriesLoop;
+	#find length of loop (minus 6 because of the included 3 residue of framework either side of the loop)
+	my $lengthOfLoop = $noLoop - 6;
 	#define various variables	
 	my $bool;	 
 	my @bools;
@@ -189,14 +192,23 @@ sub extractseqID
 	else {			
 		print STDERR "SeqID WARNING: Sequences do no match for $pdbName\n"
 	}
+	#get data for framework and loops seperately 
+	my @frameworkMatch = splice @match, 3, $lengthOfLoop;
+	my $frameMatchNo = @frameworkMatch;
 	#calculate percentage and round. 
 	my $total = @bools;
+	#account for framework
+	$total = $total - 6;
 	my $matching = @match;
-	my $seqID = $matching/$total;
-	$seqID = $seqID*100; 
-	$seqID = util::round($seqID);
+	my $seqIDLoop = $matching/$total;
+	my $seqIDFrame = $frameMatchNo/6;
+	#calculate percentage 
+	$seqIDLoop = $seqIDLoop*100; 
+	$seqIDLoop = util::round($seqIDLoop);
+	$seqIDFrame = $seqIDFrame*100; 
+	$seqIDFrame = util::round($seqIDFrame);
 	
-	return $seqID;
+	return ($seqIDLoop, $seqIDFrame);
 
 }
 
