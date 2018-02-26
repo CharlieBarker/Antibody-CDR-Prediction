@@ -92,6 +92,27 @@ sub round
     return int($number + 0.5);
 }
 
+#*************************************************************************
+#> modulus($number)
+#  ----------------------------------------------
+#  Inputs:   \scalar  $number 		Number.
+#
+#  returns scalar with modulus of number inputted 
+
+sub modulus
+{
+	my($number) = @_;
+	if ($number < 0){
+		#square number
+		my $square = $number*$number;
+		#square root number
+		$number = sqrt($square);
+		return ($number);	
+	}
+	else {
+		return ($number);
+	}
+}
 
 #*************************************************************************
 # 3- to 1-letter conversion

@@ -50,11 +50,9 @@ while(my $line = <DATA>) {
 }
 my $pdbSeq = "C A N W D G D Y W G Q";
 my $loopSeq = "C A R W E M D Y W G Q";
-my $result = belowthreshold("4kph0.pdb", 6);
-print "$result\n"; 
-#my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
+my $hydro = extracthydrophobicity($pdbSeq, $loopSeq);
 #my $charge = extractcharge($pdbSeq, $loopSeq);
-#print "$hydro\n";
+print "$hydro\n";
 #print "$charge\n";
 
 #*************************************************************************
@@ -220,31 +218,27 @@ sub extracthydrophobicity
 {
 	my ($pdbSeq, $loopSeq) = @_;
 	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
-	my @entriesLoop = split(/\s/, $loopSeq);
-	#set count for both pdb and loop to zero. 
-	my $pdbCount = 0;
-	my $loopCount = 0;
+	my @entriesLoop = split(/\s/, $loopSeq); 
+	#set count for difference totals to zero. 
+	my $diffCount = 0;
 	#get length 
-	my $lengthPdb = @residuesPdb;
+	my $length = @residuesPdb;
 	#for each residue 
-	foreach my $resPdb (@residuesPdb){
-		#get hydrophobicity value from hash in util.pm
-		my $hydrophobicity = $util::hydrophobicscale{$resPdb};
+	for(my $i=0; $i<$length; $i++) {
+		#get hydrophobicity for real loop value from hash in util.pm
+		my $hydrophobicityPdb = $util::hydrophobicscale{$residuesPdb[$i]};
+		#get hydrophobicity for template loop value from hash in util.pm
+		my $hydrophobicityLoop = $util::hydrophobicscale{$entriesLoop[$i]};
+		#get difference 
+		my $diffHydrophobicity = $hydrophobicityPdb - $hydrophobicityLoop; 
+		#get modulus of this 
+		my $diffHydrophobicity = util::modulus($diffHydrophobicity);
 		#add this to the previous iteration 
-		$pdbCount = $pdbCount + $hydrophobicity;  
+		$diffCount = $diffCount + $diffHydrophobicity;  
 	}
-	#divide by the total number of residues to get average 
-	my $averagePdb = $pdbCount/$lengthPdb;  
-	#repeat with loop template
-	my $lengthLoop = @entriesLoop;
-	foreach my $resLoop (@entriesLoop){
-		my $hydrophobicity = $util::hydrophobicscale{$resLoop};
-		$loopCount = $loopCount + $hydrophobicity;  
-	}
-	my $averageLoop = $loopCount/$lengthLoop;  
-	my $difference = $averagePdb - $averageLoop; 
+	my $averageLoop = $diffCount/$length;  
 	#round numbers using subroutine in util. 
-	$difference = util::round($difference); 
+	my $difference = util::round($averageLoop); 
 
 	return $difference; 
 }
