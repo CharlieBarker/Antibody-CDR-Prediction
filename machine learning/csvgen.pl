@@ -48,13 +48,16 @@ while(my $line = <DATA>) {
 
 	  
 }
-my $pdbSeq = "C A N W D G D Y W G Q";
-my $loopSeq = "C A R W E M D Y W G Q";
-my ($hydro, $hi) = extractseqID($pdbSeq, $loopSeq);
-#my $charge = extractcharge($pdbSeq, $loopSeq);
-print "$hydro\n";
-print "$hi\n";
-#print "$charge\n";
+my $pdbSeq = "C A M T Y P V S S A";
+my $loopSeq = "C V M T M T P L S A";
+#get blosum or dayhoff matrices for sequence similarity calculations. 
+my %mdm = util::ReadMDM($config::matrix);
+if(!defined($mdm{'A'}{'A'}))
+{
+    print STDERR "Error: Cannot read mutation matrix file\n   $config::MDMFile\n";
+    exit 1;
+}
+extractseqsim($pdbSeq, $loopSeq, my $pdbName, %mdm);
 
 #*************************************************************************
 #> extractenergy($pdbName, $loopName)
@@ -211,7 +214,50 @@ sub extractseqID
 	return ($seqIDLoop, $seqIDFrame);
 
 }
-
+#*************************************************************************
+#> extractseqsim($pdbSeq, $loopSeq, $pdbName, %mdm)
+#  ----------------------------------------------
+#  Inputs:   \scalar	$pdbSeq		Scalar containing antibody one letter 
+#					amino acid code.
+#	     \scalar	$loopSeq	Scalar containing loop one letter 
+#					amino acid code. 
+#	     \scalar	$pdbName 	Scalar containing antibody pdbname 
+#					in the standard	PDB format. This is for the warning 
+# 						
+#
+#  Returns basic sequence similarity of two sequences split between framework and the loop itself. 
+#
+#  14.02.2018 by C.G.B.
+sub extractseqsim
+{		
+	my($pdbSeq, $loopSeq, $pdbName,  %mdm) = @_;	
+	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
+	my @entriesLoop = split(/\s/, $loopSeq);
+	@residuesPdb = grep /\S/, @residuesPdb; #remove empty strings in array
+	@entriesLoop = grep /\S/, @entriesLoop; #remove empty strings in array
+	my $noPdb = @residuesPdb;	#get numbers to double check they are the same 
+	my $noLoop = @entriesLoop;
+	#find length of loop (minus 6 because of the included 3 residue of framework either side of the loop)
+	my $lengthOfLoop = $noLoop - 6;
+	# Initialize scores
+	my $targetTargetScore   = 0.0;
+	my $targetTemplateScore = 0.0;
+	if($noPdb == $noLoop){		
+		for(my $i=0; $i<$noPdb; $i++) {
+                	# Calculate similarity score
+			my $res = $residuesPdb[$i];
+			my $tplRes = $entriesLoop[$i]; 
+                	$targetTargetScore   += $mdm{$res}{$res};
+                	$targetTemplateScore += $mdm{$res}{$tplRes};			
+		}
+	}
+	#if the loop seq and the pdb seq are different then print a warning 
+	else {			
+		print STDERR "SeqSIM WARNING: Sequences do no match for $pdbName\n"
+	}
+	my $similarity = ($targetTemplateScore/$targetTargetScore);
+	print "$similarity\n";
+}
 #*************************************************************************
 #> extracthydrophobicity($pdbSeq, $loopSeq)
 #  ----------------------------------------------

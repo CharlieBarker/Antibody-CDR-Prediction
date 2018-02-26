@@ -58,4 +58,6 @@ $config::chodat="$config::dataDir/canonical/chothia.dat.auto"; # Canonical defin
 
 #Default program values 
 $config::threshold = 2; #default threshold value (in angstroms)
+$config::mdmFolder ="$config::mlpRoute/MDM";
+$config::matrix ="$config::mdmFolder/BLOSUM62.dat"; #CHANGE THIS IF YOU WANT TO EXPERIMENT WITH MATRICES   
 

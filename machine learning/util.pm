@@ -115,6 +115,62 @@ sub modulus
 }
 
 #*************************************************************************
+#> %mdm = ReadMDM($file)
+#  ---------------------
+#  Input:   string     $file    MDM file
+#  Return:  hash{}{}   %mdm     Hash containing MDM scores indexed by
+#                               1-letter codes
+#
+#  Reads a mutation similarity matrix from a file. (e.g. BLOSUM or
+#  Dayhoff matrix). Returns a hash indexed by the two amino acids
+#
+#  17.07.14  Original   By: ACRM
+
+sub ReadMDM
+{
+    my($file) = @_;
+
+    my %mdm = ();
+
+    if(open(my $fp, $file))
+    {
+        my @columns = ();
+        my $firstRow = 1;
+        while(<$fp>)
+        {
+            chomp;
+            s/\#.*//;           # Remove comments
+            s/^\s+//;           # Remove leading whitespace
+            s/\s+$//;           # Remove trailing whitespace
+            if(length)          # If there is something left
+            {
+                if($firstRow)
+                {
+                    @columns = split;
+                    $firstRow = 0;
+                }
+                else
+                {
+                    my @data = split;
+                    my $rowRes = shift @data;
+                    foreach my $colRes (@columns)
+                    {
+                        $mdm{$rowRes}{$colRes} = shift @data;
+                    }
+                }
+            }
+        }
+        close $fp;
+    }
+    else
+    {
+        return(undef);
+    }
+
+    return(%mdm);
+}
+
+#*************************************************************************
 # 3- to 1-letter conversion
 %util::throneData = 
     ('ALA' => 'A',
@@ -187,4 +243,5 @@ sub modulus
 	 'V' => 0, 
 	 'W' => 0, 
 	 'Y' => 0); 
+
 
