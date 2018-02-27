@@ -27,6 +27,13 @@ my $file = "nLoops10.txt";
 my $stderrFile = "$stderrPath/$file";
 #template file 
 my $templateFile = "$config::templateFile";
+#get blosum or dayhoff matrices for sequence similarity calculations. 
+my %mdm = util::ReadMDM($config::matrix);
+if(!defined($mdm{'A'}{'A'}))
+{
+    print STDERR "Error: Cannot read mutation matrix file\n   $config::MDMFile\n";
+    exit 1;
+}
 open(DATA, "<$templateFile"); 
 if(!open(DATA, "<$templateFile"))
 {
@@ -48,16 +55,13 @@ while(my $line = <DATA>) {
 
 	  
 }
-my $pdbSeq = "C A M T Y P V S S A";
-my $loopSeq = "C V M T M T P L S A";
-#get blosum or dayhoff matrices for sequence similarity calculations. 
-my %mdm = util::ReadMDM($config::matrix);
-if(!defined($mdm{'A'}{'A'}))
-{
-    print STDERR "Error: Cannot read mutation matrix file\n   $config::MDMFile\n";
-    exit 1;
-}
-extractseqsim($pdbSeq, $loopSeq, my $pdbName, %mdm);
+my $pdbSeq = "C A R R R P P R M L S T Y P";
+my $loopSeq = "C A L L L P P M L S T Y P Y";
+
+
+my ($framesimilariy, $loopsimilariy) = extractseqsim($pdbSeq, $loopSeq, my $pdbName, %mdm);
+print "$framesimilariy, $loopsimilariy\n";
+
 
 #*************************************************************************
 #> extractenergy($pdbName, $loopName)
@@ -183,7 +187,6 @@ sub extractseqID
 		for(my $i=0; $i<$noPdb; $i++) {
 			if($residuesPdb[$i] eq $entriesLoop[$i]){
 				$bool = 1;
-				push @match, $bool; 
 			}
 			else {
 				$bool = 0; 
@@ -196,23 +199,29 @@ sub extractseqID
 		print STDERR "SeqID WARNING: Sequences do no match for $pdbName\n"
 	}
 	#get data for framework and loops seperately 
-	my @frameworkMatch = splice @match, 3, $lengthOfLoop;
-	my $frameMatchNo = @frameworkMatch;
-	#calculate percentage and round. 
-	my $total = @bools;
-	#account for framework
-	$total = $total - 6;
-	my $matching = @match;
-	my $seqIDLoop = $matching/$total;
-	my $seqIDFrame = $frameMatchNo/6;
-	#calculate percentage 
-	$seqIDLoop = $seqIDLoop*100; 
-	$seqIDLoop = util::round($seqIDLoop);
-	$seqIDFrame = $seqIDFrame*100; 
-	$seqIDFrame = util::round($seqIDFrame);
+	my @loop = splice @bools, 3, $lengthOfLoop;
+	my @framework = @bools;
+	my $totalLoop;
+	my $countLoop; 
+	foreach my $ele (@loop){
+		if($ele == 1){
+			$countLoop++;
+		}
+		$totalLoop++; 
+	}
+	my $loopSID = $countLoop/$totalLoop;
+	my $totalFrame;
+	my $countFrame; 
+	foreach my $ele (@framework){
+		if($ele == 1){
+			$countFrame++;
+		}
+		$totalFrame++; 
+	}
+	my $frameSID = $countFrame/$totalFrame;
 	
-	return ($seqIDLoop, $seqIDFrame);
 
+	return ($loopSID, $frameSID);
 }
 #*************************************************************************
 #> extractseqsim($pdbSeq, $loopSeq, $pdbName, %mdm)
@@ -240,6 +249,8 @@ sub extractseqsim
 	#find length of loop (minus 6 because of the included 3 residue of framework either side of the loop)
 	my $lengthOfLoop = $noLoop - 6;
 	# Initialize scores
+	my @targetTarget;
+	my @targetTemplate;
 	my $targetTargetScore   = 0.0;
 	my $targetTemplateScore = 0.0;
 	if($noPdb == $noLoop){		
@@ -247,16 +258,27 @@ sub extractseqsim
                 	# Calculate similarity score
 			my $res = $residuesPdb[$i];
 			my $tplRes = $entriesLoop[$i]; 
-                	$targetTargetScore   += $mdm{$res}{$res};
-                	$targetTemplateScore += $mdm{$res}{$tplRes};			
+                	push @targetTarget, $mdm{$res}{$res};
+                	push @targetTemplate, $mdm{$res}{$tplRes};			
 		}
 	}
 	#if the loop seq and the pdb seq are different then print a warning 
 	else {			
 		print STDERR "SeqSIM WARNING: Sequences do no match for $pdbName\n"
 	}
-	my $similarity = ($targetTemplateScore/$targetTargetScore);
-	print "$similarity\n";
+	#split into sections of loop and framework
+	my @loopTrgtTrgt = splice @targetTarget, 3, $lengthOfLoop;
+	my @frameworkTrgtTrgt = @targetTarget;
+	my @loopTrgtTmpl = splice @targetTemplate, 3, $lengthOfLoop;
+	my @frameworkTrgtTmpl = @targetTemplate;
+	my $totalFrmwrkTrgtTmpl = util::addarray(@frameworkTrgtTmpl);
+	my $totalLoopTrgtTmpl = util::addarray(@loopTrgtTmpl);
+	my $totalFrmwrkTrgtTrgt = util::addarray(@frameworkTrgtTrgt);
+	my $totalLoopTrgtTrgt = util::addarray(@loopTrgtTrgt);
+	my $similarityFrame = $totalFrmwrkTrgtTmpl/$totalFrmwrkTrgtTrgt;
+	my $similarityLoop = $totalLoopTrgtTmpl/$totalLoopTrgtTrgt;
+
+	return ($similarityFrame, $similarityLoop)
 }
 #*************************************************************************
 #> extracthydrophobicity($pdbSeq, $loopSeq)
