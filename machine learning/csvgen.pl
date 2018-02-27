@@ -29,6 +29,8 @@ my $stderrFile = "$stderrPath/$file";
 my $templateFile = "$config::templateFile";
 #get blosum or dayhoff matrices for sequence similarity calculations. 
 my %mdm = util::ReadMDM($config::matrix);
+#set threshold through which you judge whether a model is good or not. 
+my $threshold = 2; 
 if(!defined($mdm{'A'}{'A'}))
 {
     print STDERR "Error: Cannot read mutation matrix file\n   $config::MDMFile\n";
@@ -47,20 +49,18 @@ while(my $line = <DATA>) {
 	my $loopName = $pdbLoop[1];	#top loop template name 
 	my $pdbSeq = $entries[2];	#antibody sequence 
 	my $loopSeq = $entries[3];	#top loop template sequence
-	#my $energy = extractenergy($pdbName, $loopName); #find energy
-	#print STDERR "$pdbName .. $energy\n"; 
-	#my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
-	#my $seqID = extractseqID($pdbSeq, $loopSeq, $pdbName);
+	my $energy = extractenergy($pdbName, $loopName);
+	my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
+	my($loopSID, $frameSID) = extractseqID($pdbSeq, $loopSeq, $pdbName);
+	my ($similarityFrame, $similarityLoop) = extractseqsim($pdbSeq, $loopSeq, $pdbName, %mdm); 
+	my $hydrophobicity = extracthydrophobicity($pdbSeq, $loopSeq); 
+	my $charge = extractcharge($pdbSeq, $loopSeq); 
+	my $threshBool = belowthreshold($pdbName, $threshold); 
 	
 
 	  
 }
-my $pdbSeq = "C A R R R P P R M L S T Y P";
-my $loopSeq = "C A L L L P P M L S T Y P Y";
 
-
-my ($framesimilariy, $loopsimilariy) = extractseqsim($pdbSeq, $loopSeq, my $pdbName, %mdm);
-print "$framesimilariy, $loopsimilariy\n";
 
 
 #*************************************************************************
@@ -239,7 +239,7 @@ sub extractseqID
 #  14.02.2018 by C.G.B.
 sub extractseqsim
 {		
-	my($pdbSeq, $loopSeq, $pdbName,  %mdm) = @_;	
+	my($pdbSeq, $loopSeq, $pdbName, %mdm) = @_;	
 	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
 	my @entriesLoop = split(/\s/, $loopSeq);
 	@residuesPdb = grep /\S/, @residuesPdb; #remove empty strings in array
@@ -278,7 +278,7 @@ sub extractseqsim
 	my $similarityFrame = $totalFrmwrkTrgtTmpl/$totalFrmwrkTrgtTrgt;
 	my $similarityLoop = $totalLoopTrgtTmpl/$totalLoopTrgtTrgt;
 
-	return ($similarityFrame, $similarityLoop)
+	return ($similarityFrame, $similarityLoop);
 }
 #*************************************************************************
 #> extracthydrophobicity($pdbSeq, $loopSeq)
