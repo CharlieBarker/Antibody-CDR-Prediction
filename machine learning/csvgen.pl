@@ -42,6 +42,7 @@ if(!open(DATA, "<$templateFile"))
 	print STDERR "Error: unable to open file $templateFile\n";
        	exit 1;
 }
+print "NAME\tENERGY\tLENGTH\tLOOP SeqID\tFRAMEWORK SeqID\tFRAMEWORK SeqSIMILARITY\tLOOP SeqSIMILARITY\tHYDROPHOBICITY INDEX DIFFERENCE\tCHARGE DIFFERENCE\tGOOD OR BAD?\n";
 while(my $line = <DATA>) {
 	my @entries = split(/#/, $line);
 	my @pdbLoop = split (/\s+/, $entries[0]);
@@ -49,18 +50,27 @@ while(my $line = <DATA>) {
 	my $loopName = $pdbLoop[1];	#top loop template name 
 	my $pdbSeq = $entries[2];	#antibody sequence 
 	my $loopSeq = $entries[3];	#top loop template sequence
+	print STDERR "extracting data for $pdbName\r";
+	#extract energy 
 	my $energy = extractenergy($pdbName, $loopName);
+	#get length
 	my $length = extractlength($pdbSeq, $loopSeq, $pdbName);
+	#get sequence identity for loop and framework seperatley 
 	my($loopSID, $frameSID) = extractseqID($pdbSeq, $loopSeq, $pdbName);
+	#get sequence similarity for loop and framework 
 	my ($similarityFrame, $similarityLoop) = extractseqsim($pdbSeq, $loopSeq, $pdbName, %mdm); 
+	#get the average difference in hydorpobicity index per residue 
 	my $hydrophobicity = extracthydrophobicity($pdbSeq, $loopSeq); 
+	#get the average charge difference per residue 
 	my $charge = extractcharge($pdbSeq, $loopSeq); 
+	#get whether the model is below the threshold in RMSD
 	my $threshBool = belowthreshold($pdbName, $threshold); 
+	print "$pdbName\t$energy\t$length\t$loopSID\t$frameSID\t$similarityFrame\t$similarityLoop\t$hydrophobicity\t$charge\t$threshBool\n";
 	
 
 	  
 }
-
+print STDERR "\n";
 
 
 #*************************************************************************
@@ -341,35 +351,26 @@ sub extractcharge
 {
 	my ($pdbSeq, $loopSeq) = @_;
 	my @residuesPdb = split(/\s/, $pdbSeq);	#split arrays by whitespace
-	my @entriesLoop = split(/\s/, $loopSeq);
-	#set count for both pdb and loop to zero. 
-	my $pdbCount = 0;
-	my $loopCount = 0;
+	my @entriesLoop = split(/\s/, $loopSeq); 
+	#set count for difference totals to zero. 
+	my $diffCount = 0;
 	#get length 
-	my $lengthPdb = @residuesPdb;
+	my $length = @residuesPdb;
 	#for each residue 
-	foreach my $resPdb (@residuesPdb){
-		#get hydrophobicity value from hash in util.pm
-		my $chargePdb = $util::charge{$resPdb};
+	for(my $i=0; $i<$length; $i++) {
+		#get charge from hash in utilities module 
+		my $chargePdb = $util::charge{$residuesPdb[$i]};
+		my $chargeLoop = $util::charge{$entriesLoop[$i]};
+		#get difference 
+		my $diffCharge= $chargePdb - $chargeLoop; 
+		#get modulus of this 
+		my $diffCharge = util::modulus($diffCharge);
 		#add this to the previous iteration 
-		$pdbCount = $pdbCount + $chargePdb;  
+		$diffCount = $diffCount + $diffCharge;  
 	}
-	#divide by the total number of residues to get average 
-	my $averagePdb = $pdbCount/$lengthPdb; 
-	print "charge pdb $averagePdb\n"; 
-	#repeat with loop template
-	my $lengthLoop = @entriesLoop;
-	foreach my $resLoop (@entriesLoop){
-		my $chargeLoop = $util::charge{$resLoop};
-		$loopCount = $loopCount + $chargeLoop;  
-	}
-	my $averageLoop = $loopCount/$lengthLoop;  
-	print "charge loop $averageLoop\n"; 
-	my $difference = $averagePdb - $averageLoop; 
-	#round numbers using subroutine in util. 
-	$difference = util::round($difference); 
+	my $averageLoop = $diffCount/$length;  
 
-	return $difference; 
+	return $averageLoop; 
 }
 
 
