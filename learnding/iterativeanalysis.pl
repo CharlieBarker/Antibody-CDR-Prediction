@@ -39,14 +39,15 @@ use strict;
 #Check you are always using the right version of abymod. 
 #check you are always using the right VERSION OF BUILDMODEL
 #check you are always using the right REDUNDANCY FILE 
+#COMMIT THIS TO GITHUB AFTER EVERY TEST
 		
 
 
 
 
-my $job1 = "perl analyseabYmod.pl 7arestraintloopdb -noopt -loopdb 2> results/abyModSTDERR/7arestraintloopdb.txt";  
-my $job2 = "perl analyseabYmod.pl 7arestraintnoloopdb -noopt -noloopdb 2> results/abyModSTDERR/7arestraintnoloopdb.txt"; 
-my $job3 = "perl analyseabYmod.pl 7arestraintdefault -noopt 2> results/abyModSTDERR/7arestraintdefault.txt"; 
+my $job1 = "perl analyseabYmod.pl 10arestraintloopdb -noopt -loopdb 2> results/abyModSTDERR/10arestraintloopdb.txt";  
+my $job2 = "perl analyseabYmod.pl 10arestraintnoloopdb -noopt -noloopdb 2> results/abyModSTDERR/10arestraintnoloopdb.txt"; 
+my $job3 = "perl analyseabYmod.pl 10arestraintdefault -noopt 2> results/abyModSTDERR/10arestraintdefault.txt"; 
 
 
 
