@@ -1,0 +1,53 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     CSV_data
+Instances:    826
+Attributes:   10
+              CHARGEDIFFERENCE
+              ENERGY
+              FRAMEWORKSeqID
+              FRAMEWORKSeqSIMILARITY
+              HYDROPHOBICITYINDEXDIFFERENCE
+              LENGTH
+              LOOPSeqID
+              LOOPSeqSIMILARITY
+              NAME
+              GOODORBAD
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         732               88.6199 %
+Incorrectly Classified Instances        94               11.3801 %
+Kappa statistic                          0.0185
+Mean absolute error                      0.1429
+Root mean squared error                  0.2387
+Relative absolute error                 69.9154 %
+Root relative squared error             74.8197 %
+Total Number of Instances              826     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.011    0.000    1.000      0.011    0.021      0.097    0.953     0.690     GOOD
+                 1.000    0.989    0.886      1.000    0.940      0.097    0.953     0.993     BAD
+Weighted Avg.    0.886    0.876    0.899      0.886    0.834      0.097    0.953     0.958     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   1  94 |   a = GOOD
+   0 731 |   b = BAD
+
