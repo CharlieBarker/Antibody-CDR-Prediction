@@ -115,7 +115,7 @@ foreach my $element (@redundant){
 	if ($noOut == $noRes){
 		print "$element # TRUE # ";
 		print "@out # @res\n";
-		print STDERR "@out\r@res\r";
+		print STDERR "@out\n@res\r";
 	}
 	else {
 		#print "$element # FALSE # ";

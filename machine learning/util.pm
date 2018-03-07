@@ -9,7 +9,10 @@ package util;
 #   Function:   General perl utilities
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
-#               
+#     
+#
+#   If subroutines aren't referenced with either Andrew Martin or a webpage 
+#   they are written by myself (Charlie)          
 #*************************************************************************
 
 use strict;
@@ -168,6 +171,23 @@ sub ReadMDM
     }
 
     return(%mdm);
+}
+
+#*************************************************************************
+#> addarray($number)
+#  ----------------------------------------------
+#  Inputs:   \array  @numericalArray 		Array full of numbers to be added.
+#
+#  returns scalar with total of numbers
+sub addarray
+{
+	my @numericalArray = @_;
+	#initialise values 
+	my $initial = 0.0; 
+	foreach my $number (@numericalArray){
+		$initial += $number; 
+	}
+	return $initial;
 }
 
 #*************************************************************************

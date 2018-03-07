@@ -93,7 +93,7 @@ sub extractenergy
 	#STDERR path
 	my $stderrPath = "$config::abYmodSTDERR"; 
 	# the file name to be used 
-	my $file = "$config::dataSource.txt";
+	my $file = "nLoops10.txt";
 	#open STDERR file 
 	my $stderrFile = "$stderrPath/$file";
 	open(FILE, "<$stderrFile"); 

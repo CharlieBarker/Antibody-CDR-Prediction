@@ -145,12 +145,11 @@ if(defined($::minus))
 
 # Get the output field from the command line
 my $output = shift(@ARGV);
-
 # Read the data
 my ($ndata, %data) = ReadCSV();
-
 # Identify redundant attributes (if -auto defined)
 %::redundantFields = FindRedundantFields($ndata, %data);
+
 # Normalize data (if -norm defined)
 NormalizeData($ndata, $output, $outMinVal, $outMaxVal, %data);
 # Limit the maximum count of any output class (if -limit defined)
@@ -508,10 +507,10 @@ sub FindRedundantFields
 sub WriteARFF
 {
     my ($output, $nData, $title, %data) = @_;
-
     my @attributes = ();
     my @isBoolean  = ();
-
+	#all things are going in here nicely
+    #print STDERR "$_\n" for keys %data; 	
     if(!inArray($output, (keys %data)))
     {
         print STDERR "Error (csv2arff): Specified output field ($output) does not exist\n";
@@ -827,7 +826,9 @@ sub ReadCSV
     $_ = <>;
     chomp;
     s/\r//g;                    # 19.11.13 Deal with DOS files 
-    my @fieldNames = split(/\s*\,\s*/);
+    print STDERR "$_\n";
+    my @fieldNames = split /\s*\,\s*/;
+    print STDERR "$fieldNames[0]\n";
     my $nFields = int(@fieldNames);
     
     # Remove whitespace from field names
@@ -888,6 +889,15 @@ sub ReadInputFields
         exit 1;
     }
     return(@fields);
+}
+
+#*************************************************************************
+#added by charlie for debugging 
+sub print_hash {
+    my $href = shift;
+    while( my( $key, $val ) = each %{$href} ) {
+        print "$key\t=>$val\n";
+    }
 }
 
 #*************************************************************************
