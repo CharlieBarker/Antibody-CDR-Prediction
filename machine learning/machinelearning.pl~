@@ -45,4 +45,4 @@ print STDERR "Compiling CSV.\n";
 print STDERR "Converting CSV to ARFF format.\n";
 `perl csv2arff -v -norm -inputs=NAME,ENERGY,LENGTH,LOOPSeqID,FRAMEWORKSeqID,FRAMEWORKSeqSIMILARITY,LOOPSeqSIMILARITY,HYDROPHOBICITYINDEXDIFFERENCE,CHARGEDIFFERENCE GOODORBAD $tmpdir/DATA.csv > $config::arrfresults/DATA$threshold.arff`;
 #remove tmpdirectory
-#`rm -rf $tmpdir`;
+`rm -rf $tmpdir`;

@@ -20,7 +20,7 @@ $config::mlpRoute='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/machin
 $config::templateName="toptemplates.txt";
 $config::templateFile="$config::mlpRoute/$config::templateName"; 
 $config::dataSource="loopdb"; #CHANGE THIS IF YOU WANT TO USE DATA FROM ANOTHER SOURCE (DEFAULT IS DEFAULT)
-$config::arrfresults="$config::mlpRoute/ARFF_DATA";
+$config::arrfresults="$config::mlpRoute/ARFFDATA";
 
 #Root directory for the analyseabYmod - YOU NEED TO CHANGE THIS TO WHERE 
 $config::analyseabYmodRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding'; 

@@ -43,6 +43,6 @@ print STDERR "Compiling CSV.\n";
 `./csvgen.pl $tmpdir $threshold > $tmpdir/DATA.csv`; 
 #RUN CSV2ARFF
 print STDERR "Converting CSV to ARFF format.\n";
-`perl csv2arff -v -norm -inputs=NAME,ENERGY,LENGTH,LOOPSeqID,FRAMEWORKSeqID,FRAMEWORKSeqSIMILARITY,LOOPSeqSIMILARITY,HYDROPHOBICITYINDEXDIFFERENCE,CHARGEDIFFERENCE GOODORBAD $tmpdir/DATA.csv > $config::arrfresults/DATA$threshold.arff`;
+`perl csv2arff -v -norm -inputs=NAME,ENERGY,LENGTH,LOOPSeqID,FRAMEWORKSeqID,FRAMEWORKSeqSIMILARITY,LOOPSeqSIMILARITY,HYDROPHOBICITYINDEXDIFFERENCE,CHARGEDIFFERENCE GOODORBAD $tmpdir/DATA.csv > DATA$threshold.arff`;
 #remove tmpdirectory
 `rm -rf $tmpdir`;
