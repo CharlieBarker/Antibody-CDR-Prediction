@@ -1,0 +1,329 @@
+Classifier ARFF MCC
+DecisionStump DATA0.5.arff ?
+DecisionStump DATA10.5.arff 0.321
+DecisionStump DATA10.arff ?
+DecisionStump DATA11.5.arff 0.506
+DecisionStump DATA11.arff 0.446
+DecisionStump DATA12.5.arff 0.546
+DecisionStump DATA12.arff 0.353
+DecisionStump DATA13.5.arff ?
+DecisionStump DATA13.arff 0.180
+DecisionStump DATA14.5.arff ?
+DecisionStump DATA14.arff ?
+DecisionStump DATA15.5.arff ?
+DecisionStump DATA1.5.arff 0.716
+DecisionStump DATA15.arff ?
+DecisionStump DATA16.5.arff ?
+DecisionStump DATA16.arff ?
+DecisionStump DATA17.5.arff ?
+DecisionStump DATA17.arff ?
+DecisionStump DATA18.5.arff ?
+DecisionStump DATA18.arff ?
+DecisionStump DATA19.5.arff ?
+DecisionStump DATA19.arff ?
+DecisionStump DATA1.arff ?
+DecisionStump DATA20.arff ?
+DecisionStump DATA2.5.arff 0.751
+DecisionStump DATA2.arff 0.747
+DecisionStump DATA3.5.arff 0.610
+DecisionStump DATA3.arff 0.672
+DecisionStump DATA4.5.arff 0.550
+DecisionStump DATA4.arff 0.554
+DecisionStump DATA5.5.arff 0.559
+DecisionStump DATA5.arff 0.563
+DecisionStump DATA6.5.arff 0.600
+DecisionStump DATA6.arff 0.594
+DecisionStump DATA7.5.arff 0.528
+DecisionStump DATA7.arff 0.556
+DecisionStump DATA8.5.arff 0.144
+DecisionStump DATA8.arff 0.501
+DecisionStump DATA9.5.arff ?
+DecisionStump DATA9.arff ?
+DecisionStump Indielearningset.arff 0.671
+HoeffdingTree DATA0.5.arff ?
+HoeffdingTree DATA10.5.arff ?
+HoeffdingTree DATA10.arff ?
+HoeffdingTree DATA11.5.arff ?
+HoeffdingTree DATA11.arff ?
+HoeffdingTree DATA12.5.arff ?
+HoeffdingTree DATA12.arff ?
+HoeffdingTree DATA13.5.arff ?
+HoeffdingTree DATA13.arff ?
+HoeffdingTree DATA14.5.arff ?
+HoeffdingTree DATA14.arff ?
+HoeffdingTree DATA15.5.arff ?
+HoeffdingTree DATA1.5.arff 0.716
+HoeffdingTree DATA15.arff ?
+HoeffdingTree DATA16.5.arff ?
+HoeffdingTree DATA16.arff ?
+HoeffdingTree DATA17.5.arff ?
+HoeffdingTree DATA17.arff ?
+HoeffdingTree DATA18.5.arff ?
+HoeffdingTree DATA18.arff ?
+HoeffdingTree DATA19.5.arff ?
+HoeffdingTree DATA19.arff ?
+HoeffdingTree DATA1.arff ?
+HoeffdingTree DATA20.arff ?
+HoeffdingTree DATA2.5.arff 0.645
+HoeffdingTree DATA2.arff 0.752
+HoeffdingTree DATA3.5.arff 0.460
+HoeffdingTree DATA3.arff 0.381
+HoeffdingTree DATA4.5.arff 0.560
+HoeffdingTree DATA4.arff 0.528
+HoeffdingTree DATA5.5.arff 0.586
+HoeffdingTree DATA5.arff 0.580
+HoeffdingTree DATA6.5.arff 0.615
+HoeffdingTree DATA6.arff 0.616
+HoeffdingTree DATA7.5.arff 0.598
+HoeffdingTree DATA7.arff 0.616
+HoeffdingTree DATA8.5.arff 0.614
+HoeffdingTree DATA8.arff 0.580
+HoeffdingTree DATA9.5.arff 0.187
+HoeffdingTree DATA9.arff 0.435
+HoeffdingTree Indielearningset.arff 0.548
+J48 DATA0.5.arff ?
+J48 DATA10.5.arff 0.718
+J48 DATA10.arff 0.698
+J48 DATA11.5.arff 0.678
+J48 DATA11.arff 0.649
+J48 DATA12.5.arff 0.645
+J48 DATA12.arff 0.701
+J48 DATA13.5.arff 0.587
+J48 DATA13.arff 0.639
+J48 DATA14.5.arff 0.613
+J48 DATA14.arff 0.600
+J48 DATA15.5.arff 0.485
+J48 DATA1.5.arff 0.676
+J48 DATA15.arff 0.479
+J48 DATA16.5.arff 0.534
+J48 DATA16.arff 0.517
+J48 DATA17.5.arff 0.528
+J48 DATA17.arff 0.501
+J48 DATA18.5.arff 0.263
+J48 DATA18.arff 0.459
+J48 DATA19.5.arff -0.007
+J48 DATA19.arff 0.133
+J48 DATA1.arff 0.273
+J48 DATA20.arff -0.007
+J48 DATA2.5.arff 0.715
+J48 DATA2.arff 0.772
+J48 DATA3.5.arff 0.614
+J48 DATA3.arff 0.693
+J48 DATA4.5.arff 0.604
+J48 DATA4.arff 0.559
+J48 DATA5.5.arff 0.605
+J48 DATA5.arff 0.564
+J48 DATA6.5.arff 0.619
+J48 DATA6.arff 0.629
+J48 DATA7.5.arff 0.700
+J48 DATA7.arff 0.685
+J48 DATA8.5.arff 0.673
+J48 DATA8.arff 0.628
+J48 DATA9.5.arff 0.710
+J48 DATA9.arff 0.697
+J48 Indielearningset.arff 0.514
+LMT DATA0.5.arff ?
+LMT DATA10.5.arff 0.640
+LMT DATA10.arff 0.702
+LMT DATA11.5.arff 0.690
+LMT DATA11.arff 0.641
+LMT DATA12.5.arff 0.674
+LMT DATA12.arff 0.638
+LMT DATA13.5.arff 0.571
+LMT DATA13.arff 0.658
+LMT DATA14.5.arff 0.565
+LMT DATA14.arff 0.558
+LMT DATA15.5.arff 0.511
+LMT DATA1.5.arff 0.701
+LMT DATA15.arff 0.647
+LMT DATA16.5.arff 0.432
+LMT DATA16.arff 0.594
+LMT DATA17.5.arff 0.467
+LMT DATA17.arff 0.443
+LMT DATA18.5.arff 0.293
+LMT DATA18.arff 0.555
+LMT DATA19.5.arff ?
+LMT DATA19.arff 0.147
+LMT DATA1.arff 0.246
+LMT DATA20.arff ?
+LMT DATA2.5.arff 0.768
+LMT DATA2.arff 0.744
+LMT DATA3.5.arff 0.656
+LMT DATA3.arff 0.701
+LMT DATA4.5.arff 0.642
+LMT DATA4.arff 0.610
+LMT DATA5.5.arff 0.575
+LMT DATA5.arff 0.605
+LMT DATA6.5.arff 0.613
+LMT DATA6.arff 0.596
+LMT DATA7.5.arff 0.673
+LMT DATA7.arff 0.679
+LMT DATA8.5.arff 0.648
+LMT DATA8.arff 0.611
+LMT DATA9.5.arff 0.708
+LMT DATA9.arff 0.699
+LMT Indielearningset.arff 0.631
+package-tree DATA0.5.arff 
+package-tree DATA10.5.arff 
+package-tree DATA10.arff 
+package-tree DATA11.5.arff 
+package-tree DATA11.arff 
+package-tree DATA12.5.arff 
+package-tree DATA12.arff 
+package-tree DATA13.5.arff 
+package-tree DATA13.arff 
+package-tree DATA14.5.arff 
+package-tree DATA14.arff 
+package-tree DATA15.5.arff 
+package-tree DATA1.5.arff 
+package-tree DATA15.arff 
+package-tree DATA16.5.arff 
+package-tree DATA16.arff 
+package-tree DATA17.5.arff 
+package-tree DATA17.arff 
+package-tree DATA18.5.arff 
+package-tree DATA18.arff 
+package-tree DATA19.5.arff 
+package-tree DATA19.arff 
+package-tree DATA1.arff 
+package-tree DATA20.arff 
+package-tree DATA2.5.arff 
+package-tree DATA2.arff 
+package-tree DATA3.5.arff 
+package-tree DATA3.arff 
+package-tree DATA4.5.arff 
+package-tree DATA4.arff 
+package-tree DATA5.5.arff 
+package-tree DATA5.arff 
+package-tree DATA6.5.arff 
+package-tree DATA6.arff 
+package-tree DATA7.5.arff 
+package-tree DATA7.arff 
+package-tree DATA8.5.arff 
+package-tree DATA8.arff 
+package-tree DATA9.5.arff 
+package-tree DATA9.arff 
+package-tree Indielearningset.arff 
+RandomForest DATA0.5.arff ?
+RandomForest DATA10.5.arff ?
+RandomForest DATA10.arff ?
+RandomForest DATA11.5.arff ?
+RandomForest DATA11.arff ?
+RandomForest DATA12.5.arff ?
+RandomForest DATA12.arff ?
+RandomForest DATA13.5.arff ?
+RandomForest DATA13.arff ?
+RandomForest DATA14.5.arff ?
+RandomForest DATA14.arff ?
+RandomForest DATA15.5.arff ?
+RandomForest DATA1.5.arff ?
+RandomForest DATA15.arff ?
+RandomForest DATA16.5.arff ?
+RandomForest DATA16.arff ?
+RandomForest DATA17.5.arff ?
+RandomForest DATA17.arff ?
+RandomForest DATA18.5.arff ?
+RandomForest DATA18.arff ?
+RandomForest DATA19.5.arff ?
+RandomForest DATA19.arff ?
+RandomForest DATA1.arff ?
+RandomForest DATA20.arff ?
+RandomForest DATA2.5.arff 0.447
+RandomForest DATA2.arff ?
+RandomForest DATA3.5.arff 0.640
+RandomForest DATA3.arff 0.667
+RandomForest DATA4.5.arff 0.524
+RandomForest DATA4.arff 0.562
+RandomForest DATA5.5.arff 0.596
+RandomForest DATA5.arff 0.610
+RandomForest DATA6.5.arff 0.576
+RandomForest DATA6.arff 0.601
+RandomForest DATA7.5.arff 0.598
+RandomForest DATA7.arff 0.610
+RandomForest DATA8.5.arff 0.261
+RandomForest DATA8.arff 0.447
+RandomForest DATA9.5.arff ?
+RandomForest DATA9.arff 0.181
+RandomForest Indielearningset.arff -0.051
+RandomTree DATA0.5.arff ?
+RandomTree DATA10.5.arff 0.312
+RandomTree DATA10.arff 0.319
+RandomTree DATA11.5.arff 0.294
+RandomTree DATA11.arff 0.257
+RandomTree DATA12.5.arff 0.414
+RandomTree DATA12.arff 0.380
+RandomTree DATA13.5.arff 0.423
+RandomTree DATA13.arff 0.382
+RandomTree DATA14.5.arff 0.084
+RandomTree DATA14.arff -0.014
+RandomTree DATA15.5.arff ?
+RandomTree DATA1.5.arff 0.420
+RandomTree DATA15.arff 0.226
+RandomTree DATA16.5.arff 0.289
+RandomTree DATA16.arff 0.215
+RandomTree DATA17.5.arff 0.228
+RandomTree DATA17.arff 0.297
+RandomTree DATA18.5.arff 0.105
+RandomTree DATA18.arff 0.194
+RandomTree DATA19.5.arff -0.005
+RandomTree DATA19.arff -0.010
+RandomTree DATA1.arff 0.199
+RandomTree DATA20.arff -0.005
+RandomTree DATA2.5.arff 0.392
+RandomTree DATA2.arff 0.604
+RandomTree DATA3.5.arff 0.288
+RandomTree DATA3.arff 0.270
+RandomTree DATA4.5.arff 0.460
+RandomTree DATA4.arff 0.369
+RandomTree DATA5.5.arff 0.261
+RandomTree DATA5.arff 0.283
+RandomTree DATA6.5.arff 0.297
+RandomTree DATA6.arff 0.417
+RandomTree DATA7.5.arff 0.370
+RandomTree DATA7.arff 0.581
+RandomTree DATA8.5.arff 0.420
+RandomTree DATA8.arff 0.290
+RandomTree DATA9.5.arff 0.267
+RandomTree DATA9.arff 0.377
+RandomTree Indielearningset.arff 0.485
+REPTree DATA0.5.arff ?
+REPTree DATA10.5.arff ?
+REPTree DATA10.arff ?
+REPTree DATA11.5.arff ?
+REPTree DATA11.arff ?
+REPTree DATA12.5.arff ?
+REPTree DATA12.arff ?
+REPTree DATA13.5.arff ?
+REPTree DATA13.arff ?
+REPTree DATA14.5.arff ?
+REPTree DATA14.arff ?
+REPTree DATA15.5.arff ?
+REPTree DATA1.5.arff ?
+REPTree DATA15.arff ?
+REPTree DATA16.5.arff ?
+REPTree DATA16.arff ?
+REPTree DATA17.5.arff ?
+REPTree DATA17.arff ?
+REPTree DATA18.5.arff ?
+REPTree DATA18.arff ?
+REPTree DATA19.5.arff ?
+REPTree DATA19.arff ?
+REPTree DATA1.arff ?
+REPTree DATA20.arff ?
+REPTree DATA2.5.arff ?
+REPTree DATA2.arff ?
+REPTree DATA3.5.arff ?
+REPTree DATA3.arff ?
+REPTree DATA4.5.arff ?
+REPTree DATA4.arff ?
+REPTree DATA5.5.arff ?
+REPTree DATA5.arff ?
+REPTree DATA6.5.arff ?
+REPTree DATA6.arff ?
+REPTree DATA7.5.arff ?
+REPTree DATA7.arff ?
+REPTree DATA8.5.arff ?
+REPTree DATA8.arff ?
+REPTree DATA9.5.arff ?
+REPTree DATA9.arff ?
+REPTree Indielearningset.arff ?
