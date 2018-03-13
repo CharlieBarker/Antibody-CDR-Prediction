@@ -19,15 +19,32 @@ use strict;
 use util;
 use config;
 #list all the classifiers to be tested.
-my @classifiers = ("DecisionStump", "HoeffdingTree", "J48", "LMT", "M5P",
-					"package-frame", "package-summary", "package-tree", 
-					"RandomForest", "RandomTree", "REPTree");
+my @classifiers = ("DecisionStump", "HoeffdingTree", "J48", "RandomTree",
+					"BayesNet", "NaiveBayes", "NaiveBayesMultinomialText",
+					"NaiveBayesUpdateable", "Logistic", "MultilayerPerceptron",
+					"SGD", "SGDText", "SimpleLogistic", "SMO", "VotedPerceptron",
+					"IBk", "KStar", "LWL", "DecisionTable", "JRip", "OneR", "PART",
+					"ZeroR");
+					
 #get a list of all the arffs excluding backups
 my @arffs = `ls $config::arrfresults -B`;
-print "$arffs[0]";
-my $classifier = "J48";
-my $arff = "DATA1.arff"; 
-TestModel($classifier, $arff);
+my @nArffs;
+foreach my $arf (@arffs){
+	chop($arf);
+	push @nArffs, $arf;
+}
+ 
+#start loop
+print "Classifier ARFF MCC\n"; 
+foreach my $classifier (@classifiers){
+	foreach my $arff (@nArffs){
+		#remove return
+		my $mcc = TestModel($classifier, $arff);
+		print "$classifier $arff $mcc\n"; 
+	}
+		
+}
+
 
 sub TestModel 
 
