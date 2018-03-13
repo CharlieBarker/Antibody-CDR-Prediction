@@ -18,6 +18,13 @@
 use strict; 
 use util;
 use config;
+#list all the classifiers to be tested.
+my @classifiers = ("DecisionStump", "HoeffdingTree", "J48", "LMT", "M5P",
+					"package-frame", "package-summary", "package-tree", 
+					"RandomForest", "RandomTree", "REPTree");
+#get a list of all the arffs excluding backups
+my @arffs = `ls $config::arrfresults -B`;
+print "$arffs[0]";
 my $classifier = "J48";
 my $arff = "DATA1.arff"; 
 TestModel($classifier, $arff);
