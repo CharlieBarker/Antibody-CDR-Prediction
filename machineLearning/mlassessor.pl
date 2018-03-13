@@ -20,8 +20,7 @@ use util;
 use config;
 #list all the classifiers to be tested.
 my @classifiers = ("trees.DecisionStump", "trees.HoeffdingTree", "trees.J48", "trees.RandomTree",
-					"bayes.BayesNet", "bayes.NaiveBayes", "bayes.NaiveBayesMultinomialText",
-					"bayes.NaiveBayesUpdateable", "functions.Logistic", "functions.MultilayerPerceptron",
+					"bayes.NaiveBayes", "bayes.NaiveBayesUpdateable", "functions.Logistic",
 					"functions.SGD", "functions.SGDText", "functions.SimpleLogistic", "functions.SMO", "functions.VotedPerceptron",
 					"lazy.IBk", "lazy.KStar", "lazy.LWL", "rules.DecisionTable", "rules.JRip", "rules.OneR", "rules.PART",
 					"rules.ZeroR");
