@@ -23,7 +23,7 @@ $config::templateName="toptemplates.txt";
 $config::templateFile="$config::mlpRoute/$config::templateName"; 
 $config::dataSource="loopdb"; #CHANGE THIS IF YOU WANT TO USE DATA FROM ANOTHER SOURCE (DEFAULT IS DEFAULT)
 $config::arrfresults="$config::mlpRoute/ARFFDATA";
-
+$config::MLalgorithms="$config::mlpRoute/MLalgorithms"; 
 #weka directory 
 $config::wekaRoute='/home/charlie/weka-3-8-2';
 
