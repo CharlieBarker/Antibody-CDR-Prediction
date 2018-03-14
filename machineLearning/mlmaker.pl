@@ -50,5 +50,6 @@ sub TestModel
 	my $bool = 0; 
 	#write command and store response 
 	`java weka.classifiers.$classifier -t $config::arrfresults/$arff -d config::MLalgorithms/$classifier$arff.model`;
+	print STDERR "java weka.classifiers.$classifier -t $config::arrfresults/$arff -d config::MLalgorithms/$classifier$arff.model\n";
 }
 	
