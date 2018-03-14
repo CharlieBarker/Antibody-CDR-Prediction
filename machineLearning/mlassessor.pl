@@ -21,9 +21,8 @@ use config;
 #list all the classifiers to be tested.
 my @classifiers = ("trees.DecisionStump", "trees.HoeffdingTree", "trees.J48", "trees.RandomTree",
 					"bayes.NaiveBayes", "bayes.NaiveBayesUpdateable", "functions.Logistic",
-					"functions.SGD", "functions.SGDText", "functions.SimpleLogistic", "functions.SMO", "functions.VotedPerceptron",
-					"lazy.IBk", "lazy.KStar", "lazy.LWL", "rules.DecisionTable", "rules.JRip", "rules.OneR", "rules.PART",
-					"rules.ZeroR");
+					"functions.SGD", "functions.SimpleLogistic", "functions.SMO", "functions.VotedPerceptron",
+					"lazy.IBk", "lazy.KStar", "lazy.LWL", "rules.JRip", "rules.OneR", "rules.PART");
 					
 #get a list of all the arffs excluding backups
 my @arffs = `ls $config::arrfresults -B`;
