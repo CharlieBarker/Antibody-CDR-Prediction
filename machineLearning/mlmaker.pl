@@ -19,6 +19,8 @@
 use strict; 
 use util;
 use config;
+#add weka.jar to classpath
+`export CLASSPATH=\$CLASSPATH:/home/charlie/weka-3-8-2/weka.jar`;
 #list all the classifiers to be tested.
 my @classifiers = ("trees.J48", "functions.Logistic", "rules.JRip");
 					
@@ -35,8 +37,9 @@ print "Classifier ARFF MCC\n";
 foreach my $classifier (@classifiers){
 	foreach my $arff (@nArffs){
 		#remove return
+		print STDERR ">>>>>>>>>>>>>>$classifier $arff <<<<<<<<<<<<<<<<<\n"; 
 		my $mcc = TestModel($classifier, $arff);
-		print ">>>>>>>>>>>>>>$classifier $arff $mcc\n"; 
+
 	}
 		
 }
@@ -49,7 +52,7 @@ sub TestModel
 	#set bool in order to determine that dat is stratified cross validation and not bog standard error
 	my $bool = 0; 
 	#write command and store response 
-	`java weka.classifiers.$classifier -t $config::arrfresults/$arff -d config::MLalgorithms/$classifier$arff.model`;
-	print STDERR "java weka.classifiers.$classifier -t $config::arrfresults/$arff -d config::MLalgorithms/$classifier$arff.model\n";
+	my $result = `java weka.classifiers.$classifier -t $config::arrfresults/$arff -d $config::MLalgorithms/$classifier$arff.model`;
+	print STDERR "$classifier $arff\n$result";
 }
 	
