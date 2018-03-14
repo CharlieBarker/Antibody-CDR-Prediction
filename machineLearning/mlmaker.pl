@@ -49,6 +49,6 @@ sub TestModel
 	#set bool in order to determine that dat is stratified cross validation and not bog standard error
 	my $bool = 0; 
 	#write command and store response 
-	`java weka.classifiers.$classifier -t $config::arrfresults/$arff -d $config::mlpRoute/$classifier.model`;
+	`java weka.classifiers.$classifier -t $config::arrfresults/$arff -d $config::MLalgorithms/$classifier.model`;
 }
 	
