@@ -12,7 +12,7 @@ use strict;
 #*************************************************************************
 
 #Root directory for QualityPredictor
-$config::qpRoot='/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/QualityPredictor'; 
+$config::qpRoot='/home/charlie/Documents/abymod-masters-project/QualityPredictor'; 
 
 #machine learning models 
 $config::mlModels="$config::qpRoot/models"; 
