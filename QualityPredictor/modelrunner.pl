@@ -41,5 +41,7 @@ foreach my $model (@models){
 }
 my $no = 40; 
 for(my $i=0; $i<$no; $i++) {
-	print "java weka.classifiers.$modelLocation[$i] -T $input -l $modelList[$i] -p 0\n";
+	my $result =`java weka.classifiers.$modelLocation[$i] -T $input -l $config::mlModels/$modelList[$i] -p 0\n`;
+	print "$modelList[$i]\n";
+	print "$result\n";
 }
