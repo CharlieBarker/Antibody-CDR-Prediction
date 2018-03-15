@@ -39,6 +39,7 @@ foreach my $classifier (@classifiers){
 		#remove return
 		print STDERR ">>>>>>>>>>>>>>$classifier $arff <<<<<<<<<<<<<<<<<\n"; 
 		my $mcc = TestModel($classifier, $arff);
+		print STDERR "......END......\n";
 
 	}
 		
@@ -53,6 +54,6 @@ sub TestModel
 	my $bool = 0; 
 	#write command and store response 
 	my $result = `java weka.classifiers.$classifier -t $config::arrfresults/$arff -d $config::MLalgorithms/$classifier$arff.model`;
-	print STDERR "$classifier $arff\n$result";
+	print STDERR "$result\n"; 
 }
 	
