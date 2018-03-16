@@ -1,0 +1,434 @@
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       1 
+        2        1:?      2:BAD       1 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       1 
+        2        1:?      2:BAD       1 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.984 
+        2        1:?     1:GOOD       0.984 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.954 
+        2        1:?     1:GOOD       0.954 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.969 
+        2        1:?     1:GOOD       0.969 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.942 
+        2        1:?     1:GOOD       0.942 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.972 
+        2        1:?     1:GOOD       0.972 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.972 
+        2        1:?     1:GOOD       0.972 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.992 
+        2        1:?     1:GOOD       0.992 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.99 
+        2        1:?     1:GOOD       0.99 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.986 
+        2        1:?     1:GOOD       0.986 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.99 
+        2        1:?     1:GOOD       0.99 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.994 
+        2        1:?     1:GOOD       0.994 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.997 
+        2        1:?      2:BAD       0.997 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.989 
+        2        1:?     1:GOOD       0.989 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.992 
+        2        1:?     1:GOOD       0.992 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.996 
+        2        1:?     1:GOOD       0.996 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.989 
+        2        1:?     1:GOOD       0.989 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.994 
+        2        1:?     1:GOOD       0.994 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.986 
+        2        1:?     1:GOOD       0.986 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.992 
+        2        1:?     1:GOOD       0.992 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.996 
+        2        1:?     1:GOOD       0.996 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.989 
+        2        1:?     1:GOOD       0.989 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.996 
+        2        1:?     1:GOOD       0.996 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.966 
+        2        1:?      2:BAD       0.966 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.989 
+        2        1:?      2:BAD       0.989 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.898 
+        2        1:?      2:BAD       0.898 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.931 
+        2        1:?      2:BAD       0.931 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.901 
+        2        1:?     1:GOOD       0.676 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.868 
+        2        1:?      2:BAD       0.868 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.831 
+        2        1:?     1:GOOD       0.897 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.856 
+        2        1:?     1:GOOD       0.779 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.849 
+        2        1:?     1:GOOD       0.849 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?      2:BAD       0.689 
+        2        1:?     1:GOOD       0.844 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.94 
+        2        1:?     1:GOOD       0.94 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.917 
+        2        1:?     1:GOOD       0.917 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.929 
+        2        1:?     1:GOOD       0.929 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.935 
+        2        1:?     1:GOOD       0.935 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.947 
+        2        1:?     1:GOOD       0.947 
+
+
+
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1        1:?     1:GOOD       0.943 
+        2        1:?     1:GOOD       0.943 
+
+
+(0.5)->(BAD)->(1)
+(1)->(BAD)->(1)
+(1.5)->(BAD)->(0.997)
+(2)->(BAD)->(0.989)
+(2.5)->(BAD)->(0.966)
+(3)->(BAD)->(0.931)
+(3.5)->(BAD)->(0.898)
+(4)->(BAD)->(0.868)
+(4.5)->(GOOD)->(0.676)
+(5)->(GOOD)->(0.779)
+(5.5)->(GOOD)->(0.897)
+(6)->(GOOD)->(0.844)
+(6.5)->(GOOD)->(0.849)
+(7)->(GOOD)->(0.917)
+(7.5)->(GOOD)->(0.94)
+(8)->(GOOD)->(0.935)
+(8.5)->(GOOD)->(0.929)
+(9)->(GOOD)->(0.943)
+(9.5)->(GOOD)->(0.947)
+(10)->(GOOD)->(0.954)
+(10.5)->(GOOD)->(0.984)
+(11)->(GOOD)->(0.942)
+(11.5)->(GOOD)->(0.969)
+(12)->(GOOD)->(0.972)
+(12.5)->(GOOD)->(0.972)
+(13)->(GOOD)->(0.99)
+(13.5)->(GOOD)->(0.992)
+(14)->(GOOD)->(0.99)
+(14.5)->(GOOD)->(0.986)
+(15)->(GOOD)->(0.989)
+(15.5)->(GOOD)->(0.994)
+(16)->(GOOD)->(0.996)
+(16.5)->(GOOD)->(0.992)
+(17)->(GOOD)->(0.994)
+(17.5)->(GOOD)->(0.989)
+(18)->(GOOD)->(0.992)
+(18.5)->(GOOD)->(0.986)
+(19)->(GOOD)->(0.989)
+(19.5)->(GOOD)->(0.996)
+(20)->(GOOD)->(0.996)
+(0.5)->(BAD)->(1)
+(1)->(BAD)->(1)
+(1.5)->(BAD)->(0.997)
+(2)->(BAD)->(0.989)
+(2.5)->(BAD)->(0.966)
+(3)->(BAD)->(0.931)
+(7)->(GOOD)->(0.917)
+(7.5)->(GOOD)->(0.94)
+(8)->(GOOD)->(0.935)
+(8.5)->(GOOD)->(0.929)
+(9)->(GOOD)->(0.943)
+(9.5)->(GOOD)->(0.947)
+(10)->(GOOD)->(0.954)
+(10.5)->(GOOD)->(0.984)
+(11)->(GOOD)->(0.942)
+(11.5)->(GOOD)->(0.969)
+(12)->(GOOD)->(0.972)
+(12.5)->(GOOD)->(0.972)
+(13)->(GOOD)->(0.99)
+(13.5)->(GOOD)->(0.992)
+(14)->(GOOD)->(0.99)
+(14.5)->(GOOD)->(0.986)
+(15)->(GOOD)->(0.989)
+(15.5)->(GOOD)->(0.994)
+(16)->(GOOD)->(0.996)
+(16.5)->(GOOD)->(0.992)
+(17)->(GOOD)->(0.994)
+(17.5)->(GOOD)->(0.989)
+(18)->(GOOD)->(0.992)
+(18.5)->(GOOD)->(0.986)
+(19)->(GOOD)->(0.989)
+(19.5)->(GOOD)->(0.996)
+(20)->(GOOD)->(0.996)
+RESULT IS (DRUMROLL..) model is <7 A, with a certainty of 0.917
