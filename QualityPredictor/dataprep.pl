@@ -31,7 +31,7 @@ use config;
 my $input = shift(@ARGV);
 #create temporary folder for seperated arff storage
 my $tmpdir = "/tmp/QualityPredictor_$$";
-#`mkdir $tmpdir`;
+`mkdir $tmpdir`;
 #open the input file
 open(DATA, "<$input"); 
 if(!open(DATA, "<$input"))
@@ -57,10 +57,23 @@ while(my $line = <DATA>) #cycle through lines in file
 	}	
 }
 my $instanceFile;
-#delete training spaces form @arffData
-#s/\s+$// for (@arffData);
+my $proteinPdb;
+#go through each seperated arff and write a file for each. 
 foreach my $instance (@arffData){
+	my @words = split /,/, $instance;
+	$proteinPdb = $words[8];
+	$proteinPdb  = substr $proteinPdb, 0, 5;
 	$instanceFile = "$arffIntro" . "\@data\n" . "$instance";
-	print $instanceFile; 
+	open(my $fh, '>', "$tmpdir/$proteinPdb.arff");
+	print $fh "$instanceFile";
+	close $fh;
 }
-
+#list and go through the seperated arrf files in the temporary directory. 
+my @arrfFiles = `ls $tmpdir -B`;
+foreach my $file (@arrfFiles){
+		my $result =`./modelrunner.pl $tmpdir/$file`; 
+		print $file;
+		print $result;
+}
+#delete temporary directory
+`rm -rf $tmpdir`;

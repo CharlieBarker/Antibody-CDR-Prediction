@@ -1,0 +1,156 @@
+1a0q0.arff
+instance is <8 A, with a certainty of 0.935
+1b2w0.arff
+instance is <0.5 A, with a certainty of 1
+1b4j0.arff
+instance is <0.5 A, with a certainty of 1
+1baf0.arff
+instance is <8 A, with a certainty of 0.935
+1bm30.arff
+instance is <7 A, with a certainty of 0.917
+1bvk0.arff
+instance is <0.5 A, with a certainty of 1
+1c5c0.arff
+instance is <3.5 A, with a certainty of 0.909
+1c5d0.arff
+instance is <5.5 A, with a certainty of 0.917
+1dl70.arff
+instance is <7 A, with a certainty of 0.917
+1emt0.arff
+instance is <7 A, with a certainty of 0.917
+1fe80.arff
+instance is <7 A, with a certainty of 0.917
+1fh50.arff
+instance is <3.5 A, with a certainty of 0.909
+1fj10.arff
+instance is <8 A, with a certainty of 0.935
+1gaf0.arff
+instance is <0.5 A, with a certainty of 1
+1hi60.arff
+instance is <7 A, with a certainty of 0.917
+1i3g0.arff
+instance is <3.5 A, with a certainty of 0.909
+1i8k0.arff
+instance is <0.5 A, with a certainty of 1
+1igy0.arff
+instance is <7 A, with a certainty of 0.917
+1ind0.arff
+instance is <7 A, with a certainty of 0.917
+1jhl0.arff
+instance is <7 A, with a certainty of 0.917
+1jnl0.arff
+instance is <7 A, with a certainty of 0.917
+1kcr0.arff
+instance is <1 A, with a certainty of 1
+1kcu0.arff
+instance is <1 A, with a certainty of 1
+1kcv0.arff
+instance is <4 A, with a certainty of 0.971
+1mex0.arff
+instance is <7 A, with a certainty of 0.917
+1mlb0.arff
+instance is <0.5 A, with a certainty of 1
+1ndm0.arff
+instance is <3.5 A, with a certainty of 0.909
+1ngy0.arff
+instance is <1 A, with a certainty of 1
+1ngz0.arff
+instance is <1 A, with a certainty of 1
+1nsn0.arff
+instance is <7 A, with a certainty of 0.917
+1t3f0.arff
+instance is <0.5 A, with a certainty of 1
+1uwg0.arff
+instance is <1 A, with a certainty of 1
+1wej0.arff
+instance is <7 A, with a certainty of 0.917
+1wt50.arff
+instance is <1 A, with a certainty of 1
+2d7t0.arff
+instance is <7 A, with a certainty of 0.917
+2e270.arff
+instance is <3.5 A, with a certainty of 0.909
+2fgw0.arff
+instance is <7 A, with a certainty of 0.917
+2jix0.arff
+instance is <7 A, with a certainty of 0.917
+2nr60.arff
+instance is <5.5 A, with a certainty of 1
+2oz40.arff
+instance is <7 A, with a certainty of 0.917
+2r4r0.arff
+instance is <7 A, with a certainty of 0.917
+2rcs0.arff
+instance is <7 A, with a certainty of 0.917
+2vxt0.arff
+instance is <7 A, with a certainty of 0.917
+2xkn0.arff
+instance is <7.5 A, with a certainty of 0.94
+2y6s0.arff
+instance is <3.5 A, with a certainty of 0.909
+2zpk0.arff
+instance is <5 A, with a certainty of 0.929
+3b9k0.arff
+instance is <7.5 A, with a certainty of 0.94
+3cxd0.arff
+instance is <7 A, with a certainty of 0.917
+3d850.arff
+instance is <1 A, with a certainty of 1
+3g5y0.arff
+instance is <1 A, with a certainty of 1
+3j700.arff
+instance is <7.5 A, with a certainty of 0.94
+3nzh0.arff
+instance is <5 A, with a certainty of 0.929
+3r060.arff
+instance is <7.5 A, with a certainty of 0.94
+3u0w0.arff
+instance is <7 A, with a certainty of 0.917
+3vfg0.arff
+instance is <7 A, with a certainty of 0.917
+3w140.arff
+instance is <7 A, with a certainty of 0.917
+4al80.arff
+instance is <7 A, with a certainty of 0.917
+4d9q0.arff
+instance is <8 A, with a certainty of 0.935
+4hwe0.arff
+instance is <7 A, with a certainty of 0.917
+4j6r0.arff
+instance is <7 A, with a certainty of 0.917
+4jr90.arff
+instance is <5 A, with a certainty of 0.929
+4k940.arff
+instance is <7 A, with a certainty of 0.917
+4kph0.arff
+instance is <7 A, with a certainty of 0.917
+4kq30.arff
+instance is <7 A, with a certainty of 0.917
+4l5f0.arff
+instance is <0.5 A, with a certainty of 1
+4nhh1.arff
+instance is <7 A, with a certainty of 0.917
+4o510.arff
+instance is <0.5 A, with a certainty of 1
+4oii0.arff
+instance is <5 A, with a certainty of 0.929
+4qhu0.arff
+instance is <7 A, with a certainty of 0.917
+4qt50.arff
+instance is <4.5 A, with a certainty of 0.981
+4qyo0.arff
+instance is <7 A, with a certainty of 0.917
+4rdq0.arff
+instance is <7.5 A, with a certainty of 0.94
+4uom0.arff
+instance is <7.5 A, with a certainty of 0.94
+4xmm0.arff
+instance is <7 A, with a certainty of 0.917
+4xxd0.arff
+instance is <4 A, with a certainty of 0.971
+5bo10.arff
+instance is <3.5 A, with a certainty of 0.909
+5d7s0.arff
+instance is <5.5 A, with a certainty of 0.917
+5do20.arff
+instance is <8 A, with a certainty of 0.935

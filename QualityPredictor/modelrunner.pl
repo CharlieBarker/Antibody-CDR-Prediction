@@ -69,7 +69,7 @@ for(my $i=0; $i<$no; $i++) {
 my @orderedKeys;
 for my $key (sort {$a<=>$b} keys %goodOrBad) {
 	push @orderedKeys, $key; 
-	print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
+	#print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
 }
 my $modelQuality;
 my $rmsdThreshold;
@@ -90,6 +90,6 @@ for my $orderedKey (@orderedKeys){
 	}
 }
 for my $key (sort {$a<=>$b} keys %goodOrBad) {
-	print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
+	#print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
 }
-print "RESULT IS (DRUMROLL..) model is <$rmsdThreshold A, with a certainty of $certainty\n";
+print "instance is <$rmsdThreshold A, with a certainty of $certainty\n";
