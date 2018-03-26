@@ -90,6 +90,6 @@ for my $orderedKey (@orderedKeys){
 	}
 }
 for my $key (sort {$a<=>$b} keys %goodOrBad) {
-	#print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
+	print "($key)->($goodOrBad{$key})->($errorPrediction{$key})\n";
 }
 print "instance is <$rmsdThreshold A, with a certainty of $certainty\n";
