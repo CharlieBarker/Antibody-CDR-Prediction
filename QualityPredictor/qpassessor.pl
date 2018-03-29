@@ -4,7 +4,7 @@ use strict;
 open(FILE, "<out.txt"); 
 if(!open(FILE, "<out.txt"))
 {
-	print STDERR "Error in csvgen.pl: unable to open file out.txt";
+	print STDERR "Error in qpassessor: unable to open file out.txt";
        	exit 1;
 }
 #declare arrays 
@@ -27,7 +27,7 @@ while(my $line = <FILE>) {
 open(FILE, "<loopdb.xls"); 
 if(!open(FILE, "<loopdb.xls"))
 {
-	print STDERR "Error in csvgen.pl: unable to open file loopdb.xls";
+	print STDERR "unable to open file loopdb.xls";
        	exit 1;
 }
 #decleare arrays 
@@ -39,10 +39,7 @@ while(my $line = <FILE>) {
 		my $pdbName = "$protein" . ".pdb"; 
 		if ($parts[0] eq $pdbName){
 			#part that finds the ideal threshold 
-			my $idealThresh = int($parts[3] + 0.49);
-			if ($idealThresh <= $parts[3]){
-				$idealThresh = $idealThresh + .5;
-			}
+			my $idealThresh = $parts[3];
 			push @idealThresher, $idealThresh;
 		}	
 	}
@@ -59,17 +56,34 @@ for(my $i=0; $i<$no; $i++) {
 #find relevant information
 my $count = 0; 
 my $totalCount = 0;
-foreach my $proteinName (@pdb){
-	print "$idealThreshold{$proteinName} $modelThreshold{$proteinName}\n";
-	if ($idealThreshold{$proteinName} == $modelThreshold{$proteinName}){
-		print "YAAS\n";
-		$count++;
+
+my @fudgeFactors = (0.5, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10);
+	print "T F1\n";
+foreach my $fudgeFactor (@fudgeFactors){
+	my $FN;
+	my $TP; 
+	my $FP;
+	foreach my $proteinName (@pdb){
+		if ($idealThreshold{$proteinName} <= $modelThreshold{$proteinName} - $fudgeFactor){
+			$FN++;
+		}
+		if ($modelThreshold{$proteinName} - $fudgeFactor <= $idealThreshold{$proteinName} & 
+		$modelThreshold{$proteinName} + $fudgeFactor >= $idealThreshold{$proteinName}){
+			$TP++;
+		}
+		if ($idealThreshold{$proteinName} >= $modelThreshold{$proteinName} + $fudgeFactor){
+			$FP++;
+		}
+		$totalCount++;
 	}
-	else{
-		print "no\n";
-		
-	}
-	$totalCount++;
+	my $TPR = $TP/($TP+$FN);
+	my $PPV = $TP/($TP+$FP);
+	my $FNR = $FN/($FN+$TP);
+	my $FDR = $FP/($FP+$TP);
+	my $F1a = (2*$PPV*$TPR) / ($PPV+$TPR);
+	my $F1b = 2*$TP/(2*$TP+$FP+$FN);
+
+	print "$fudgeFactor $F1a\n";
+
 }
-my $end = $count/$totalCount;
-print "$end\n";
+
