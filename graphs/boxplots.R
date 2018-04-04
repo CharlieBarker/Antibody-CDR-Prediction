@@ -1,7 +1,8 @@
 #list files in directory path
+
 library(ggplot2)
 
-path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/boxplot"
+path <- "/home/charlie/Documents/abymod-masters-project/learnding/results/spreadsheets/restraint"
 fileList <- list.files(path, pattern=NULL, all.files=FALSE, full.names=FALSE)
 #set working directory 
 setwd(path)
@@ -29,21 +30,39 @@ for(i in dfList[,1]) {
     dfOriginal <- merge(dfOriginal, dfAdd, by="pdb", all = T)
   }
 }
-setwd("/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/graphs")
+setwd("/home/charlie/Documents/abymod-masters-project/graphs")
 #print result
 
-dfOriginal <- na.omit(dfOriginal)
+
 #print (dfOriginal)
 colnames <- colnames(dfOriginal)
+#get colomns of kinked extended 
+kinkdistance <- "/home/charlie/Documents/abymod-masters-project/kinkdistance"
+kinkedFile <- paste(kinkdistance, "cluster1.txt", sep="/")
+extendedFile <- paste(kinkdistance, "cluster0.txt", sep="/")
+kinked <- read.csv(kinkedFile, header = FALSE, sep ="\t")
+kinked <- data.frame(kinked)
+extended <- read.csv(extendedFile, header = FALSE, sep ="\t")
+extended <- data.frame(extended)
+colnames(kinked) <- c("pdb")
+colnames(extended) <- c("pdb")
+dfOriginal <- na.omit(dfOriginal)
+#change this or hash it out to return to all
+dfOriginal <- merge(dfOriginal, kinked, by="pdb")
+dfOriginal <- na.omit(dfOriginal)
 df <- data.frame()
 for (col in colnames) {
 	df1 <- data.frame(col, dfOriginal[,col])
 	df <- rbind(df1, df)
 	 
 }
-df <- subset(df, df$col!="pdb")
 df
+df <- subset(df, df$col!="pdb")
+mean <- df[1:618,2]
+mean <- as.numeric(mean)
+mean <- median(mean)
 numbers <- as.numeric(df[,2])
-p <- ggplot(df, aes(x=col, y=numbers)) + 
-  geom_boxplot()
+p <- ggplot(df, aes(x=col, y=numbers, fill=col)) + 
+  geom_boxplot() +
+  geom_hline(yintercept=mean, linetype="dashed", color="red", size=1)
 p
