@@ -12,15 +12,6 @@
 #			Long = 12 - 14 residues 
 #			Very Long = > 17 resiudes 
 #   
-#   Copyright:  (c) Dr. Andrew C. R. Martin, UCL, 2013-2017
-#   Author:     Dr. Andrew C. R. Martin
-#   Address:    Institute of Structural and Molecular Biology
-#               Division of Biosciences
-#               University College
-#               Gower Street
-#               London
-#               WC1E 6BT
-#   EMail:      andrew@bioinf.org.uk
 #               
 #*************************************************************************
 path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/abymod/DATA/abseqlib"

@@ -1,3 +1,7 @@
+#R script for creating simple boxplots
+
+#you can segregate the data here by kinked/extended class  
+
 #list files in directory path
 
 library(ggplot2)
