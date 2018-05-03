@@ -5,7 +5,7 @@
 #   Program:    machinelearningprep
 #   File:       csvgen.pl  
 #   Date:       05.02.2018
-#   Function:   gets amino acid sequence of loops  
+#   Function:   gets amino acid sequence of loops and then extracts properties 
 #   Author:     Charlie Barker
 #   EMail:      zcbtark@ucl.ac.uk
 #   Usage:	perl loopproperties.pl
