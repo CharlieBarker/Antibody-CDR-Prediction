@@ -158,7 +158,7 @@ system($exe);
 
 # Run buildmodel.pl
 print STDERR "BUILDING MODEL...\n" if($::v >= 1);
-$exe = "$binDir/buildmodelrestraint.pl $optString $kString $vString $modellerString $loopdbString $cdrString $tplFile $seqFile";
+$exe = "$binDir/energybuildmodel.pl $optString $kString $vString $modellerString $loopdbString $cdrString $tplFile $seqFile";
 $exe .= " >$pdbFile" if($pdbFile ne "");
 print STDERR "Running: $exe\n" if($::v >= 5);
 system($exe);

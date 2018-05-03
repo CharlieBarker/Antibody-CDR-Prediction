@@ -176,7 +176,7 @@ nLong <- length(long)
 nVeryLong <- length(veryLong)
 
 nAll <- length(all)
-
+print (nVeryLong)
 #remove .seq and add pdb
 veryShort <- gsub('.{3}$', '', veryShort)
 veryShort <- paste(veryShort, "pdb", sep="")
@@ -355,15 +355,16 @@ colnames(tableExtended) <- c("nLoops","Mean", "SEM", "Class")
 
 #put together data.frame to be modelled from all the above data frames 
 #THIS IS WHERE YOU DECIDED WHICH CLASSES GO IN THE GRAPH
-tableToBe <- rbind(tableVeryShort, tableShort, tableMedium, tableLong, tableVeryLong)
+tableToBe <- rbind(tableVeryLong, tableLong, tableMedium, tableShort, tableVeryShort)
 tableToBe
 
 
 #set up graphs 
 limits <- aes(ymax = Mean + SEM, ymin = Mean - SEM)
 ggplot(tableToBe, aes(x = nLoops, y = Mean, colour = Class)) + geom_line(aes(group = Class)) + 
-    geom_point() + geom_errorbar(limits, width = 0.25) + geom_vline(xintercept=20, linetype="dotted", 
-                color = "red", size=1.5) + labs(x = "Number of loops retained between rankings", y = "RMSD (Angstroms)") + coord_fixed(ratio = 10) #change the ration here 
+    geom_point() + geom_errorbar(limits, width = 0.25) + 
+	labs(x = "Number of loops retained between rankings", y = "RMSD (Angstroms)") +
+  xlim(0,20) #change the ration here 
 #pd <- position_dodge(0.1)
 #
 #line <- ggplot(tableAll, aes(x=nLoops, y=Mean)) + 

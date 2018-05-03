@@ -45,9 +45,9 @@ use strict;
 
 
 
-my $job1 = "perl analyseabYmod.pl 10arestraintloopdb -noopt -loopdb 2> results/abyModSTDERR/10arestraintloopdb.txt";  
-my $job2 = "perl analyseabYmod.pl 10arestraintnoloopdb -noopt -noloopdb 2> results/abyModSTDERR/10arestraintnoloopdb.txt"; 
-my $job3 = "perl analyseabYmod.pl 10arestraintdefault -noopt 2> results/abyModSTDERR/10arestraintdefault.txt"; 
+my $job1 = "perl analyseabYmod.pl optimum -nloophits=5 2> results/abyModSTDERR/optimum.txt";  
+ 
+ 
 
 
 
@@ -58,7 +58,7 @@ my $job3 = "perl analyseabYmod.pl 10arestraintdefault -noopt 2> results/abyModST
 
 #####################################################################################################
 
-my @jobs = ($job1, $job2, $job3);		
+my @jobs = ($job1);		
 #go through jobs running them while the total number of abymods that are running is less than 4
 foreach my $job (@jobs)
 {

@@ -2,7 +2,7 @@
 
 library(ggplot2)
 
-path <- "/home/charlie/Documents/abymod-masters-project/learnding/results/spreadsheets/restraint"
+path <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/learnding/results/spreadsheets/loopdborNot"
 fileList <- list.files(path, pattern=NULL, all.files=FALSE, full.names=FALSE)
 #set working directory 
 setwd(path)
@@ -30,14 +30,14 @@ for(i in dfList[,1]) {
     dfOriginal <- merge(dfOriginal, dfAdd, by="pdb", all = T)
   }
 }
-setwd("/home/charlie/Documents/abymod-masters-project/graphs")
+setwd("/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/graphs")
 #print result
 
 
 #print (dfOriginal)
 colnames <- colnames(dfOriginal)
 #get colomns of kinked extended 
-kinkdistance <- "/home/charlie/Documents/abymod-masters-project/kinkdistance"
+kinkdistance <- "/acrm/bsmhome/zcbtark/Documents/abymod-masters-project/kinkdistance"
 kinkedFile <- paste(kinkdistance, "cluster1.txt", sep="/")
 extendedFile <- paste(kinkdistance, "cluster0.txt", sep="/")
 kinked <- read.csv(kinkedFile, header = FALSE, sep ="\t")
