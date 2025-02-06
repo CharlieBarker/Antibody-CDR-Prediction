@@ -9,3 +9,6 @@ Additionally, it is important to know how good the resultant structures might be
 ![alt text](https://github.com/CharlieBarker/abymod-masters-project/blob/master/masters_abstract.png)
 
 
+This was done using the Repeated Incremental Pruning to Produce Error Reduction (RIPPER) Algorithm
+
+RIPPER (Repeated Incremental Pruning to Produce Error Reduction) is a rule-based machine learning algorithm used for classification tasks. It is particularly useful for interpretable rule extraction and binary/multiclass classification problems.
